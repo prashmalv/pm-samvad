@@ -1,0 +1,81 @@
+/* Sign -> Speech page (builds on styles.css tokens) */
+.mode-switch { display: flex; padding: 4px; gap: 2px; border-radius: 13px; background: var(--bg-2); }
+.mode-switch a {
+  padding: 8px 14px; border-radius: 10px; font-size: 14px; font-weight: 600; color: var(--ink-2); text-decoration: none; white-space: nowrap;
+}
+.mode-switch a:hover { color: var(--ink); }
+.mode-switch a.on { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+
+.sign-layout { grid-template-columns: 1.35fr 1fr; }
+.cam-panel { display: flex; flex-direction: column; gap: 14px; }
+.cam-stage video, .cam-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.cam-stage.mirrored video, .cam-stage.mirrored canvas { transform: scaleX(-1); object-fit: cover; }
+.cam-stage canvas { pointer-events: none; }
+.cam-cta { width: auto; padding: 12px 22px; font-size: 15px; margin-top: 4px; }
+.sign-status {
+  position: absolute; top: 14px; left: 14px; display: flex; align-items: center; gap: 8px;
+  padding: 7px 14px 7px 11px; border-radius: 99px; background: rgba(10,8,22,.7); backdrop-filter: blur(8px);
+  color: #fff; font-weight: 700; font-size: 14px; border: 1px solid rgba(255,255,255,.12);
+}
+.sign-status .dot { width: 10px; height: 10px; border-radius: 50%; background: #8a87a3; }
+.sign-status.ready .dot { background: #34d399; }
+.sign-status.recording .dot { background: #ff4d6d; animation: pulse 1.2s infinite; }
+.sign-status.thinking .dot { background: #fbbf5a; }
+.rec-bar { position: absolute; left: 0; right: 0; bottom: 0; height: 5px; background: rgba(255,255,255,.12); }
+.rec-bar div { height: 100%; width: 0; background: linear-gradient(90deg, #ff4d6d, #d9468f); transition: width .1s linear; }
+
+.cam-controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.cam-controls .spacer { flex: 1; }
+.upload-btn { cursor: pointer; }
+.switch { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--ink-2); cursor: pointer; }
+.switch input { accent-color: var(--accent); width: 16px; height: 16px; }
+.tips { font-size: 13.5px; color: var(--ink-2); background: var(--surface-2); border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px; }
+.tips b { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.tips ul { margin: 6px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 3px; }
+
+.result-panel { display: flex; flex-direction: column; gap: 14px; position: sticky; top: 16px; }
+.card-actions { display: flex; gap: 14px; }
+.card-actions .link:disabled { opacity: .4; }
+.sign-chips { display: flex; flex-wrap: wrap; gap: 8px; min-height: 44px; align-items: flex-start; }
+.sign-chip {
+  position: relative; display: inline-flex; flex-direction: column; align-items: flex-start; gap: 3px;
+  padding: 8px 12px 9px; border-radius: 11px; border: 0; background: var(--ok-soft); color: var(--ok);
+  animation: pop .35s cubic-bezier(.2,1.4,.4,1) both; text-align: left;
+}
+.sign-chip b { font: 700 15px "JetBrains Mono", monospace; letter-spacing: .02em; }
+.sign-chip small { font: 600 11px "JetBrains Mono", monospace; opacity: .8; }
+.sign-chip .conf { position: absolute; left: 12px; right: 12px; bottom: 4px; height: 2px; border-radius: 2px; background: currentColor; opacity: .35; transform-origin: left; }
+.sign-chip.low { background: var(--spell-soft); color: var(--spell); }
+.sign-chip.pending { background: var(--accent-soft); color: var(--accent); }
+.sign-chip:hover { transform: translateY(-1px); }
+.chips-hint { margin: 10px 0 0; }
+
+.english-card { display: flex; flex-direction: column; gap: 12px; }
+.english { margin: 0; font-size: 22px; font-weight: 600; line-height: 1.4; min-height: 31px; }
+#speakBtn { align-self: flex-start; }
+.model-info { font-size: 13px; color: var(--muted); line-height: 1.55; }
+.model-info b { color: var(--ink-2); }
+.model-info.warn { color: var(--spell); background: var(--spell-soft); padding: 12px 14px; border-radius: 12px; }
+
+.alt-pop {
+  position: fixed; z-index: 30; min-width: 220px; padding: 6px; border-radius: 14px;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: 0 16px 40px rgba(0,0,0,.25);
+  display: flex; flex-direction: column; gap: 2px;
+}
+.alt-pop button {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; border: 0; background: transparent;
+  padding: 9px 10px; border-radius: 9px; font: 700 13.5px "JetBrains Mono", monospace; color: var(--ink); text-align: left;
+}
+.alt-pop button:hover { background: var(--accent-soft); color: var(--accent); }
+.alt-pop button span { font-weight: 500; color: var(--muted); font-size: 12px; }
+.alt-pop button.remove { color: var(--err); font-family: inherit; font-weight: 600; border-top: 1px solid var(--line); border-radius: 0 0 9px 9px; margin-top: 2px; }
+
+.known-grid button { cursor: default; }
+
+@media (max-width: 960px) {
+  .sign-layout { grid-template-columns: 1fr; }
+  .result-panel { position: static; }
+  .topbar { flex-wrap: wrap; }
+  .mode-switch { order: 3; width: 100%; }
+  .mode-switch a { flex: 1; text-align: center; }
+}

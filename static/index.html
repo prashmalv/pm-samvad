@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Speak to Sign</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="sign.css">
+</head>
+<body data-page="speech">
+<div class="bg-art" aria-hidden="true"></div>
+<div class="glow" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg>
+    </div>
+    <div>
+      <h1>Speak to Sign</h1>
+      <p>Indian Sign Language ↔ English</p>
+    </div>
+  </div>
+  <nav class="mode-switch" aria-label="Direction">
+    <a href="/" class="on" aria-current="page">Speech → Sign</a>
+    <a href="/sign.html">Sign → Speech</a>
+  </nav>
+  <div class="top-actions">
+    <button class="ghost topic-btn" id="topicBtn" title="Change conversation topic">
+      <span class="topic-ico" id="topicBtnIcon" aria-hidden="true"></span>
+      <span class="label-text">Topic:</span> <b id="topicBtnLabel">–</b>
+    </button>
+    <button class="ghost" id="libraryBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+      <span class="label-text">Sign library</span> <span class="badge" id="vocabCount">–</span>
+    </button>
+    <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="hero" aria-label="About this page">
+  <div class="hero-text">
+    <span class="hero-kicker">Speech → Indian Sign Language</span>
+    <h2>Speak. <span class="grad">See it signed.</span></h2>
+    <p>Say or type a sentence in English and watch it in ISL, performed by real signers or a 3D avatar.</p>
+    <div class="hero-chips"><span>2,848 signs</span><span>Human or 3D avatar</span><span>Fingerspelling ready</span></div>
+  </div>
+</section>
+
+<main class="layout">
+  <!-- ============ INPUT ============ -->
+  <section class="panel input-panel">
+    <div class="tabs" role="tablist">
+      <button role="tab" class="tab active" data-tab="record">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg>Record
+      </button>
+      <button role="tab" class="tab" data-tab="upload">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>Upload
+      </button>
+      <button role="tab" class="tab" data-tab="type">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7V4h16v3M9 20h6M12 4v16"/></svg>Type
+      </button>
+    </div>
+
+    <!-- Record -->
+    <div class="tab-body" data-body="record">
+      <div class="recorder">
+        <button class="mic" id="micBtn" aria-label="Start recording">
+          <span class="ring"></span><span class="ring r2"></span>
+          <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/></svg>
+          <svg class="stop-icon" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2.5"/></svg>
+        </button>
+        <canvas id="wave" width="560" height="72" aria-hidden="true"></canvas>
+        <div class="rec-meta"><span id="recTimer">00:00</span><span id="recHint">Tap the mic and speak in English</span></div>
+      </div>
+    </div>
+
+    <!-- Upload -->
+    <div class="tab-body hidden" data-body="upload">
+      <label class="dropzone" id="dropzone">
+        <input type="file" id="fileInput" accept="audio/*,video/webm" hidden>
+        <div class="dz-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <strong>Drop an audio file here</strong>
+        <span>or click to browse · wav, mp3, m4a, ogg, webm</span>
+      </label>
+    </div>
+
+    <!-- Type -->
+    <div class="tab-body hidden" data-body="type">
+      <textarea id="typeInput" rows="3" placeholder="Type an English sentence…"></textarea>
+      <div class="examples-head muted" id="examplesHead">Try a phrase</div>
+      <div class="examples" id="examples"></div>
+    </div>
+
+    <!-- Selected audio -->
+    <div class="clip-ready hidden" id="clipReady">
+      <div class="clip-ready-head">
+        <span class="dot"></span><span id="clipName">recording.webm</span>
+        <button class="link" id="clearAudio">Remove</button>
+      </div>
+      <audio id="audioPreview" controls></audio>
+    </div>
+
+    <button class="cta" id="translateBtn" disabled>
+      <span>Translate to ISL</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+
+    <ol class="stepper" id="stepper">
+      <li data-step="listen"><span class="s-dot"></span><div><b>Listen</b><small>Whisper speech-to-text</small></div><time></time></li>
+      <li data-step="gloss"><span class="s-dot"></span><div><b>Translate</b><small>English → ISL gloss (GPT-4.1)</small></div><time></time></li>
+      <li data-step="sign"><span class="s-dot"></span><div><b>Sign</b><small>Match & stitch sign clips</small></div><time></time></li>
+    </ol>
+
+    <div class="toast hidden" id="toast" role="alert"></div>
+  </section>
+
+  <!-- ============ OUTPUT ============ -->
+  <section class="panel output-panel">
+    <div class="signer-row">
+      <div class="signer-switch" role="radiogroup" aria-label="Signer">
+        <button role="radio" data-signer="human" class="on" aria-checked="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>Human
+        </button>
+        <button role="radio" data-signer="avatar" aria-checked="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="6" r="3.2"/><path d="M5 21v-3a7 7 0 0 1 14 0v3"/><path d="M9 13.5 7 10M15 13.5l2-3.5"/></svg>3D Avatar
+        </button>
+      </div>
+      <span class="signer-hint" id="signerHint">Real signer videos, joined in order</span>
+      <button class="link" id="resetView" hidden>Reset view</button>
+    </div>
+    <div class="stage" id="stage">
+      <video id="video" playsinline preload="auto"></video>
+      <canvas id="avatarCanvas" hidden></canvas>
+      <div class="empty" id="emptyState">
+        <div class="empty-art" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg>
+        </div>
+        <p>Your sign language video will appear here</p>
+      </div>
+      <div class="loading hidden" id="loading"><div class="spinner"></div><span id="loadingText">Working…</span></div>
+      <div class="now-signing hidden" id="nowSigning"><span class="pulse"></span><span id="nowWord"></span></div>
+      <button class="big-play hidden" id="bigPlay" aria-label="Play">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>
+      </button>
+    </div>
+
+    <div class="timeline" id="timeline"><div class="tl-empty">Word timeline</div></div>
+
+    <div class="controls" id="controls">
+      <button class="icon-btn" id="playBtn" disabled aria-label="Play or pause">
+        <svg class="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>
+        <svg class="i-pause" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1.2"/><rect x="14" y="5" width="4" height="14" rx="1.2"/></svg>
+      </button>
+      <div class="speed" role="group" aria-label="Playback speed">
+        <button data-speed="0.5">0.5×</button><button data-speed="0.75">0.75×</button><button data-speed="1" class="on">1×</button>
+      </div>
+      <button class="toggle" id="loopBtn" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg>Loop
+      </button>
+      <span class="spacer"></span>
+      <a class="ghost small disabled" id="downloadBtn" download="isl-sign.mp4">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>Download
+      </a>
+    </div>
+
+    <div class="result-grid">
+      <div class="card">
+        <div class="card-head"><h2>You said</h2><span class="muted" id="transcriptMeta"></span></div>
+        <p class="transcript" id="transcript"><span class="placeholder">—</span></p>
+      </div>
+      <div class="card">
+        <div class="card-head"><h2>ISL gloss</h2><span class="legend"><i class="ok"></i>signed <i class="spell"></i>spelled <i class="miss"></i>skipped</span></div>
+        <div class="chips" id="chips"><span class="placeholder">—</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  Sign videos: <a href="https://huggingface.co/datasets/bridgeconn/sign-dictionary-isl" target="_blank" rel="noopener">ISLV Sign Dictionary</a>
+  © Bridge Connectivity Solutions, CC BY-SA 4.0 ·
+  <a href="https://zenodo.org/records/4010759" target="_blank" rel="noopener">INCLUDE</a> © AI4Bharat, CC BY 4.0 ·
+  <a href="https://islrtc.nic.in/" target="_blank" rel="noopener">ISL Dictionary</a> © Indian Sign Language Research and Training Centre,
+  DEPwD, Ministry of Social Justice and Empowerment, Govt. of India (non-commercial use) ·
+  Speech: faster-whisper · Gloss: Azure OpenAI
+</footer>
+
+<!-- ============ TOPIC PICKER ============ -->
+<div class="topic-modal hidden" id="topicModal" role="dialog" aria-modal="true" aria-labelledby="topicTitle">
+  <div class="topic-sheet">
+    <h2 id="topicTitle">What would you like to talk about?</h2>
+    <p class="muted">Pick a topic. Translations, example phrases and the sign library adapt to it. You can change it any time from the top bar.</p>
+    <div class="topic-cards" id="topicCards"><span class="muted">Loading topics…</span></div>
+  </div>
+</div>
+
+<!-- ============ LIBRARY DRAWER ============ -->
+<div class="scrim hidden" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <div><h2>Sign library</h2><p class="muted"><span id="libCount">0</span> signs available · click to preview</p></div>
+    <button class="icon-btn" id="closeDrawer" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="preview">
+    <video id="previewVideo" muted playsinline loop></video>
+    <div class="preview-label" id="previewLabel">Pick a sign</div>
+  </div>
+  <div class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="libSearch" type="search" placeholder="Search signs…">
+  </div>
+  <div class="lib-grid" id="libGrid"></div>
+</aside>
+
+<script type="importmap">{ "imports": { "three": "./vendor/three/three.module.js" } }</script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

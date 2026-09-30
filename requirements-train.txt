@@ -1,0 +1,7 @@
+# Phase 2 (sign -> text) training extras. Only needed to extract INCLUDE landmarks and
+# train the recogniser - the running app needs just requirements.txt.
+#   pip install -r requirements-train.txt
+#   pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cpu
+-r requirements.txt
+pyarrow==25.0.1
+onnx==1.23.0

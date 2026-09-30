@@ -1,0 +1,20 @@
+# secrets and local environment
+.env
+venv/
+__pycache__/
+
+# large media, shared separately as a zip (README: "Setup on a new machine")
+clips/
+outputs/
+Downloads/
+tools/
+
+# bulky or regenerable data
+data/include_raw/
+data/*.log
+models/mediapipe/
+models/sign_interim_49/
+static/models/variants/
+
+# the sign database (data/isl_clips.db) and the avatar motion cache (data/avatar_motion/) ARE committed:
+# small, and a fresh copy needs them to know every imported sign

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "isl",
+      "runtimeExecutable": "venv/Scripts/python.exe",
+      "runtimeArgs": ["run.py"],
+      "port": 8000
+    },
+    {
+      "name": "isl-test",
+      "runtimeExecutable": "venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--port", "8010"],
+      "port": 8010
+    }
+  ]
+}

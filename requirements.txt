@@ -1,0 +1,29 @@
+# Python 3.12 — versions verified together on 2026-09-24
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+python-dotenv==1.2.3
+
+# Speech-to-text (local, CPU)
+faster-whisper==1.2.1
+ctranslate2==4.8.2
+av==18.1.0
+
+# LLM: Azure OpenAI via LangChain + LangGraph
+openai==3.19.2
+langchain-core==1.6.4
+langchain-openai==1.6.5
+langgraph==1.2.12
+
+# Video stitching
+moviepy==2.2.1
+imageio-ffmpeg==0.6.0
+numpy==2.5.3
+pillow==11.3.0
+
+# Phase 2: sign recogniser inference (browser does the hand tracking)
+onnxruntime==1.30.0
+
+# 3D Avatar mode: extracts sign motion from clips (cached in data/avatar_motion/)
+mediapipe==1.0.1
+opencv-contrib-python==5.0.0.93
