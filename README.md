@@ -63,7 +63,8 @@ The repo holds the code, the trained sign model, the 3D signer, the sign databas
    ```bash
    pip install -r requirements.txt
    ```
-2. **Add the sign videos:** unzip `SignLang-clips.zip` into the project folder, so that you get `SignLang\clips\HELLO.mp4` and so on.
+2. **Add the sign videos:** unzip `SignLang-clips.zip` into the project folder, so that you get `SignLang\clips\HELLO.mp4` and so on. Then unzip any `SignLang-clips-update-N.zip` parts into the same folder, in order. Each part only adds the clips that are new since the last one.
+   - To make these zips (for whoever shares the videos): `python scripts/make_clips_zip.py` writes the first zip, and later an update zip with just the new clips, to `Downloads\share\`.
 3. **Add your Azure settings:** copy `.env.example` to `.env` and fill in your own Azure OpenAI values. `.env` is never committed.
 4. **Run it:**
    ```bash
@@ -168,6 +169,13 @@ python scripts/import_islrtc.py
   - everything outside the signer's area (body and wherever the hands move) is painted the video's own background grey, along with graphics left inside it;
   - the signer is never touched.
 - Videos longer than 15 s are explanations, not word signs. They're skipped and listed in `data/islrtc_skipped.json`.
+- **Signs from long videos (reviewed):** most long videos show the word sign, sometimes after fingerspelling it, then explain its meaning. Where the signer clearly pauses, a second script cuts up to two candidate clips from the start of the video:
+
+  ```bash
+  python scripts/islrtc_cut.py --from Downloads/islrtc
+  ```
+
+  Nothing reaches the library automatically. Open http://127.0.0.1:8000/review.html and, for each word, approve the clip that shows only the sign (keys `1` / `2`), reject both (`X`) or skip (`S`). The reviewer needs to know ISL. Candidates wait in `clips/_review/`, decisions are saved in `data/islrtc_review.json`, and videos without a clear pause are marked `no-cut` and left out.
 - The Drive's other folders (New 2500, MHSL, NCERT) are 12–60 s explainer videos with changing layouts, so they're not imported.
 - **Terms** ([ISLRTC FAQ](https://islrtc.nic.in/faq/)): free for research, teaching and ISL technology. It must not be resold or used for profit. Credit *Indian Sign Language Research and Training Centre, DEPwD, Ministry of Social Justice and Empowerment, Govt. of India*. The credit is in the page footer.
 
@@ -243,7 +251,11 @@ pre-computes the demo signs (about 5 s per sign on CPU; `--all` does every clip)
 
 ### Realistic human signer (MPFB2)
 
-When `static/models/signer.glb` exists, 3D Avatar mode shows a realistic person instead of the simple figure. It's a young Indian woman with a ponytail and a dark top, and the simple figure remains the fallback. She was made with **MPFB2** (the MakeHuman add-on for Blender), and the character and its assets are **CC0**.
+3D Avatar mode shows a realistic person instead of the simple figure, and the user picks the character with the **Woman | Man** switch next to *Human | 3D Avatar*:
+- **Woman** (`static/models/signer.glb`): a young Indian woman in a brown top.
+- **Man** (`static/models/signer-male.glb`): a young man with short hair in a blue-grey polo shirt, about 1.78 m tall.
+
+Both were made with **MPFB2** (the MakeHuman add-on for Blender) on the same rig, so they sign identically. The character and its assets are **CC0**. Switching keeps the current sentence and playback time, the camera is framed to each character's height, and the choice is remembered in the browser. If a character's file is missing, that choice falls back to the simple figure.
 
 [static/avatar-human.js](static/avatar-human.js) turns the same joint motion into bone rotations:
 - **Arms:** each bone is turned to point where the video's joints point.
@@ -265,15 +277,19 @@ When `static/models/signer.glb` exists, 3D Avatar mode shows a realistic person 
    ```bash
    tools/blender-5.2.2-windows-x64/blender.exe --background --python scripts/avatar/install_mpfb_assets.py
    ```
-3. Build the character:
+3. Build the woman:
    ```bash
    tools/blender-5.2.2-windows-x64/blender.exe --background --python scripts/avatar/build_signer.py
    ```
    This takes about 20 seconds and writes `static/models/signer.glb` (about 5 MB) and the editable `data/avatar/signer.blend`.
+4. Build the man: set `SIGNER_PRESET=man` and run the same command. It writes `static/models/signer-male.glb` (about 3.5 MB) and `data/avatar/signer-male.blend`. In Git Bash:
+   ```bash
+   SIGNER_PRESET=man tools/blender-5.2.2-windows-x64/blender.exe --background --python scripts/avatar/build_signer.py
+   ```
 
-To change the look (gender, body, skin, hair, clothes), edit the settings at the top of [scripts/avatar/build_signer.py](scripts/avatar/build_signer.py) and rebuild. Colour tweaks such as the dark top live in `LOOK` in `avatar-human.js`.
+To change a character's look (body, skin, hair, clothes), edit its entry in `PRESETS` at the top of [scripts/avatar/build_signer.py](scripts/avatar/build_signer.py) and rebuild. To try another hairstyle without editing, set `SIGNER_HAIR`; `SIGNER_OUT` writes the result elsewhere. Shared colour tweaks live in `LOOK` in `avatar-human.js`, and per-character colours (such as the man's shirt) in `CHARACTERS` in `avatar.js`.
 
-To check the character, open `/dev/avatar-test.html?words=HELLO,NAME` and call `show(<seconds>)` in the browser console.
+To check a character, open `/dev/avatar-test.html?words=HELLO,NAME` (add `&char=man` for the man) and call `show(<seconds>)` in the browser console.
 
 ## Phase 2: Sign → Speech (http://127.0.0.1:8000/sign.html)
 

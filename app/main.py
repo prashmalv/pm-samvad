@@ -12,7 +12,7 @@ from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from app import db, fingerspell, pipeline, sign_recognizer, topics
+from app import db, fingerspell, pipeline, review, sign_recognizer, topics
 from app.english_graph import gloss_to_english
 from app.config import ALPHABET_DIR, CLIPS_DIR, STATIC_DIR
 from app.transcriber import transcribe
@@ -255,6 +255,27 @@ def to_english_endpoint(req: EnglishRequest):
 def sign_model_info():
     """Which signs the recogniser knows, and how well it scored on the INCLUDE test set."""
     return {"available": sign_recognizer.available(), "signs": sign_recognizer.labels(), "report": sign_recognizer.report()}
+
+
+# ------------------------------------------------------------------ review of auto-cut ISLRTC clips
+class ReviewDecision(BaseModel):
+    choice: int | None = None  # 1-based candidate clip to approve; null rejects all
+
+
+@app.get("/review/items")
+def review_items():
+    """Words cut from long ISLRTC videos that wait for a reviewer (scripts/islrtc_cut.py)."""
+    return review.items()
+
+
+@app.post("/review/{gloss}")
+def review_decide(gloss: str, req: ReviewDecision):
+    try:
+        return review.decide(gloss.upper(), req.choice)
+    except KeyError as exc:
+        raise HTTPException(404, f"No pending review for {gloss}.") from exc
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
 
 
 @app.get("/health")

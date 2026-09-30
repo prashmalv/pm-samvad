@@ -1,14 +1,19 @@
 // Browser 3D signing avatar (three.js, MIT). Driven by joint positions from POST /avatar-motion
 // (layout documented in app/avatar_motion.py). AvatarPlayer mimics the <video> element API
 // (play, pause, currentTime, duration, playbackRate, loop, events) so the page's controls work as-is.
-// It shows the realistic MPFB2 character (models/signer.glb, see avatar-human.js) when available,
-// and falls back to a simple figure built from primitives in code.
+// It shows a realistic MPFB2 character (models/signer.glb or signer-male.glb, see avatar-human.js)
+// when available, and falls back to a simple figure built from primitives in code.
 import * as THREE from "three";
 import { OrbitControls } from "./vendor/three/OrbitControls.js";
 import { GLTFLoader } from "./vendor/three/loaders/GLTFLoader.js";
 import { HumanSigner } from "./avatar-human.js";
 
-const SIGNER_URL = new URL("./models/signer.glb", import.meta.url).href;  // relative to this script, not the page
+// The selectable characters: same rig and motion, different body and colours. URLs are relative to this
+// script, not the page.
+export const CHARACTERS = {
+  woman: { url: new URL("./models/signer.glb", import.meta.url).href, colors: {} },
+  man: { url: new URL("./models/signer-male.glb", import.meta.url).href, colors: { shirt: 0x3f5f7a, hair: 0x1e1a18 } },
+};
 
 const N = 52;
 const J = { pelvis: 0, neck: 1, head: 2, face: 3, lSh: 4, rSh: 5, lEl: 6, rEl: 7, lWr: 8, rWr: 9, lHand: 10, rHand: 31 };
@@ -21,23 +26,39 @@ const COLORS = {
 };
 
 export class AvatarPlayer extends EventTarget {
-  constructor(canvas, { signerUrl = SIGNER_URL } = {}) {
+  /** @param {{character?: string, signerUrl?: string}} opts signerUrl loads a specific .glb instead (dev) */
+  constructor(canvas, { character = "woman", signerUrl = null } = {}) {
     super();
     this.canvas = canvas;
-    this.signerUrl = signerUrl;
+    this.character = CHARACTERS[character] ? character : "woman";
+    this._humans = new Map();  // url -> HumanSigner already built, so switching back is instant
     this.frames = null; this.fps = 25; this.T = 0;
     this._t = 0; this.paused = true; this.loop = false; this.playbackRate = 1; this.ended = false;
     this._last = 0;
     this.human = null;       // HumanSigner once signer.glb has loaded
     this._initScene();
-    this.ready = this._loadHuman();
+    this.ready = this._loadHuman(signerUrl || CHARACTERS[this.character].url, signerUrl ? {} : CHARACTERS[this.character].colors);
     this._raf = requestAnimationFrame((ts) => this._tick(ts));
   }
 
-  async _loadHuman() {
+  /** Switch to another character ("woman" | "man"), keeping the current signing and time. */
+  async setCharacter(id) {
+    if (!CHARACTERS[id] || id === this.character) return;
+    this.character = id;
+    await this.ready;
+    this.ready = this._loadHuman(CHARACTERS[id].url, CHARACTERS[id].colors);
+    return this.ready;
+  }
+
+  async _loadHuman(url, colors) {
     try {
-      const gltf = await new GLTFLoader().loadAsync(this.signerUrl);
-      this.human = new HumanSigner(gltf);
+      let human = this._humans.get(url);
+      if (!human) {  // built once: HumanSigner reads the rest pose from the bones, so never rebuild a posed one
+        human = new HumanSigner(await new GLTFLoader().loadAsync(url), colors);
+        this._humans.set(url, human);
+      }
+      if (this.human) this.scene.remove(this.human.root);
+      this.human = human;
       this.scene.add(this.human.root);
       this.prims.visible = false;
       // neutral studio light for real skin (the coloured lights suit the simple figure only)
@@ -74,7 +95,10 @@ export class AvatarPlayer extends EventTarget {
     this.camera.aspect = r.width / r.height; this.camera.updateProjectionMatrix();
   }
   resetView() {
-    if (this.human) { this.camera.position.set(0, 1.24, 1.95); this.controls.target.set(0, 1.16, 0); }  // 1.58 m character
+    if (this.human) {  // framed for a 1.58 m character, scaled to this one's height
+      const k = (this.human.height || 1.58) / 1.58;
+      this.camera.position.set(0, 1.24 * k, 1.95 * k); this.controls.target.set(0, 1.16 * k, 0);
+    }
     else { this.camera.position.set(0, 1.34, 2.15); this.controls.target.set(0, 1.26, 0); }
     this.controls.update();
   }

@@ -1,6 +1,7 @@
 """Run inside Blender: build the realistic 3D signer with MPFB2 and export static/models/signer.glb.
 
     tools/blender-5.2.2-windows-x64/blender.exe --background --python scripts/avatar/build_signer.py
+    (set SIGNER_PRESET=man first for the male signer -> static/models/signer-male.glb)
 
 Needs MPFB2 and its asset packs installed (scripts/avatar/install_mpfb_assets.py). Every choice below
 (body, skin, hair, clothes) is plain data at the top - edit and re-run to change the look.
@@ -22,33 +23,63 @@ from bl_ext.user_default.mpfb.services.objectservice import ObjectService
 from bl_ext.user_default.mpfb.services.targetservice import TargetService
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT_GLB = Path(os.getenv("SIGNER_OUT", ROOT / "static" / "models" / "signer.glb"))  # SIGNER_OUT: try a variant elsewhere
-OUT_BLEND = ROOT / "data" / "avatar" / "signer.blend"   # editable source, open it in Blender to tweak by hand
 
 # ------------------------------------------------------------------ the look (edit these)
-MACRO = {  # 0..1 sliders, as in MPFB's Model > Phenotype panel
-    "gender": 0.0,        # 0 = female, 1 = male
-    "age": 0.5,           # 0.5 = about 25 years
-    "muscle": 0.5,
-    "weight": 0.48,
-    "height": 0.45,
-    "proportions": 0.6,
-    "race": {"asian": 0.3, "caucasian": 0.45, "african": 0.25},  # a South Asian mix
+# SIGNER_PRESET picks the character: "woman" (default) -> signer.glb, "man" -> signer-male.glb.
+PRESETS = {
+    "woman": {
+        "file": "signer",
+        "macro": {  # 0..1 sliders, as in MPFB's Model > Phenotype panel
+            "gender": 0.0,        # 0 = female, 1 = male
+            "age": 0.5,           # 0.5 = about 25 years
+            "muscle": 0.5,
+            "weight": 0.48,
+            "height": 0.45,
+            "proportions": 0.6,
+            "race": {"asian": 0.3, "caucasian": 0.45, "african": 0.25},  # a South Asian mix
+        },
+        "skin": "cutoff3d_indian_female_skin",
+        "hair": "faydaen_hair_1",   # long, open and wavy (tied back, e.g. "ponytail01", keeps the signing space clearer)
+        "earrings": True,           # small gold hoops, attached to the head bone
+        "eyebrows": "eyebrow001",
+        "eyelashes": "eyelashes01",
+        "clothes": ["toigo_basic_tucked_t-shirt", "toigo_wool_pants", "shoes02"],  # plain top, as signers wear
+    },
+    "man": {
+        "file": "signer-male",
+        "macro": {
+            "gender": 1.0,
+            "age": 0.55,          # late twenties
+            "muscle": 0.55,
+            "weight": 0.5,
+            "height": 0.55,
+            "proportions": 0.6,
+            "race": {"asian": 0.3, "caucasian": 0.45, "african": 0.25},
+        },
+        "skin": "young_asian_male",  # no Indian male skin in the CC0 packs; the browser warms the tone (LOOK)
+        "hair": "short01",           # short and neat, keeps the face and signing space clear
+        "earrings": False,
+        "eyebrows": "eyebrow002",
+        "eyelashes": "eyelashes02",
+        "clothes": ["namuhekam_male_polo_shirt", "toigo_wool_pants", "shoes02"],
+    },
 }
-SKIN = "cutoff3d_indian_female_skin"
-HAIR = "faydaen_hair_1"   # long, open and wavy, strands in front of the shoulders and down the back
-                          # (tied back, e.g. "ponytail01", keeps the signing space clearer)
-EARRINGS = True           # small gold hoops, attached to the head bone
+PRESET = PRESETS[os.getenv("SIGNER_PRESET", "woman")]
+OUT_GLB = Path(os.getenv("SIGNER_OUT", ROOT / "static" / "models" / f"{PRESET['file']}.glb"))  # SIGNER_OUT: try a variant elsewhere
+OUT_BLEND = ROOT / "data" / "avatar" / f"{PRESET['file']}.blend"   # editable source, open it in Blender to tweak by hand
+
+MACRO = PRESET["macro"]
+SKIN = PRESET["skin"]
+HAIR = os.getenv("SIGNER_HAIR", PRESET["hair"])
+EARRINGS = PRESET["earrings"]
 BODY_PARTS = [  # (asset folder, asset name, MPFB asset type)
     ("eyes", "low-poly", "Eyes"),
-    ("eyebrows", "eyebrow001", "Eyebrows"),
-    ("eyelashes", "eyelashes01", "Eyelashes"),
+    ("eyebrows", PRESET["eyebrows"], "Eyebrows"),
+    ("eyelashes", PRESET["eyelashes"], "Eyelashes"),
     ("teeth", "teeth_base", "Teeth"),
     ("tongue", "tongue01", "Tongue"),
-    ("hair", os.getenv("SIGNER_HAIR", HAIR), "Hair"),
-    ("clothes", "toigo_basic_tucked_t-shirt", "Clothes"),    # plain top, as signers wear
-    ("clothes", "toigo_wool_pants", "Clothes"),
-    ("clothes", "shoes02", "Clothes"),
+    ("hair", HAIR, "Hair"),
+    *[("clothes", c, "Clothes") for c in PRESET["clothes"]],
 ]
 RIG = "game_engine"
 MAX_TEXTURE = {"skin": 2048, "other": 1024}  # px; keeps the .glb small enough for the browser
@@ -66,7 +97,8 @@ def shrink_textures() -> None:
     for img in bpy.data.images:
         if not img.size[0]:
             continue
-        limit = MAX_TEXTURE["skin"] if "skin" in img.name.lower() or "cutoff3d" in img.name.lower() else MAX_TEXTURE["other"]
+        is_skin = any(k in img.name.lower() for k in ("skin", "cutoff3d", SKIN.lower()))
+        limit = MAX_TEXTURE["skin"] if is_skin else MAX_TEXTURE["other"]
         w, h = img.size
         if max(w, h) > limit:
             s = limit / max(w, h)

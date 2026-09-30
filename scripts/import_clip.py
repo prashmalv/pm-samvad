@@ -77,7 +77,8 @@ def import_clip(src: Path, gloss: str, trim: bool, remove_overlays: bool, quiet:
                 letter: bool = False, span: tuple[float, float] | None = None,
                 crop: tuple[int, int, int, int] | None = None,
                 overlays: list[tuple[int, int, int, int]] = ISLRTC_OVERLAYS,
-                pre_filters: list[str] | None = None, paint: Path | None = None) -> Path:
+                pre_filters: list[str] | None = None, paint: Path | None = None,
+                out_path: Path | None = None) -> Path:
     """letter=True saves to the fingerspelling alphabet folder instead of registering a gloss.
 
     span: (start, end) seconds to keep, overriding motion-based trimming.
@@ -86,6 +87,7 @@ def import_clip(src: Path, gloss: str, trim: bool, remove_overlays: bool, quiet:
     pre_filters: extra ffmpeg filters applied to the source frame first (e.g. painting out overlays).
     paint: an RGBA image the size of the source frame, laid over every frame before anything else
         (opaque where overlays should be painted out, transparent elsewhere).
+    out_path: write the clip here instead, without registering it (e.g. a candidate awaiting review).
     """
     width, height, duration = probe(src)
     if span:
@@ -106,7 +108,7 @@ def import_clip(src: Path, gloss: str, trim: bool, remove_overlays: bool, quiet:
         f"pad={OUTPUT_WIDTH}:{OUTPUT_HEIGHT}:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,fps={OUTPUT_FPS},format=yuv420p"
     )
 
-    out = (ALPHABET_DIR if letter else CLIPS_DIR) / f"{gloss}.mp4"
+    out = out_path or (ALPHABET_DIR if letter else CLIPS_DIR) / f"{gloss}.mp4"
     inputs = ["-ss", f"{start:.2f}", "-to", f"{end:.2f}", "-i", str(src)]
     if paint:
         inputs += ["-i", str(paint)]
@@ -121,6 +123,8 @@ def import_clip(src: Path, gloss: str, trim: bool, remove_overlays: bool, quiet:
     if result.returncode != 0:
         raise RuntimeError(result.stderr.strip()[-600:])
 
+    if out_path:
+        return out
     if letter:
         print(f"  {src.name} -> {out.relative_to(CLIPS_DIR.parent).as_posix()}  [letter {gloss}]  ({end - start:.1f}s)")
         return out

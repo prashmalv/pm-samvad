@@ -28,12 +28,14 @@ const state = {
   alphabet: [],
   fingerspelling: false,
   signer: "human",      // "human" (stitched real clips) | "avatar" (3D, rendered in the browser)
+  character: "woman",   // 3D avatar character: "woman" | "man"
   last: null,           // { tokens, text } of the most recent translation, for switching signer
   topics: [],           // from GET /topics
   topic: null,          // chosen topic id: casual | hotel | hospital
 };
 try { if (localStorage.getItem("signer") === "avatar") state.signer = "avatar"; } catch {}
 try { state.topic = localStorage.getItem("topic"); } catch {}
+try { if (localStorage.getItem("character") === "man") state.character = "man"; } catch {}
 
 /* ---------------- theme ---------------- */
 const root = document.documentElement;
@@ -347,7 +349,7 @@ let media = video;      // whichever is on stage
 
 function getAvatar() {
   if (!avatar) {
-    avatar = new AvatarPlayer($("#avatarCanvas")); wireMedia(avatar);
+    avatar = new AvatarPlayer($("#avatarCanvas"), { character: state.character }); wireMedia(avatar);
     if (new URLSearchParams(location.search).has("debug")) window.__avatar = avatar; // for testing only
   }
   return avatar;
@@ -487,13 +489,18 @@ const SIGNER_HINTS = {
   avatar: "3D avatar animated from the same videos. Drag to rotate",
 };
 function renderSignerSwitch() {
-  $$(".signer-switch button").forEach((b) => {
+  $$("[data-signer]").forEach((b) => {
     const on = b.dataset.signer === state.signer;
     b.classList.toggle("on", on); b.setAttribute("aria-checked", String(on));
   });
   $("#signerHint").textContent = SIGNER_HINTS[state.signer];
+  $(".character-switch").hidden = state.signer !== "avatar";
+  $$(".character-switch button").forEach((b) => {
+    const on = b.dataset.character === state.character;
+    b.classList.toggle("on", on); b.setAttribute("aria-checked", String(on));
+  });
 }
-$$(".signer-switch button").forEach((b) => b.addEventListener("click", async () => {
+$$("[data-signer]").forEach((b) => b.addEventListener("click", async () => {
   if (state.signer === b.dataset.signer || state.busy) return;
   state.signer = b.dataset.signer;
   try { localStorage.setItem("signer", state.signer); } catch {}
@@ -503,6 +510,18 @@ $$(".signer-switch button").forEach((b) => b.addEventListener("click", async () 
   try { await signTokens(state.last.tokens, state.last.text); }
   catch (err) { showToast(err.message); }
   finally { loading(false); state.busy = false; refreshCta(); }
+}));
+// Woman | Man: the same signing on another character; switching keeps the current sentence and time.
+$$(".character-switch button").forEach((b) => b.addEventListener("click", async () => {
+  if (state.character === b.dataset.character) return;
+  state.character = b.dataset.character;
+  try { localStorage.setItem("character", state.character); } catch {}
+  renderSignerSwitch();
+  if (avatar) {
+    $$(".character-switch button").forEach((x) => (x.disabled = true));
+    try { await avatar.setCharacter(state.character); }
+    finally { $$(".character-switch button").forEach((x) => (x.disabled = false)); }
+  }
 }));
 renderSignerSwitch();
 

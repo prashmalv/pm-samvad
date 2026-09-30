@@ -28,9 +28,11 @@ const LOOK = {
 };
 
 export class HumanSigner {
-  /** @param {object} gltf result of GLTFLoader */
-  constructor(gltf) {
+  /** @param {object} gltf result of GLTFLoader
+   *  @param {object} colors per-character colour overrides, e.g. { shirt: 0x3f5f7a } (defaults: LOOK) */
+  constructor(gltf, colors = {}) {
     this.root = gltf.scene;
+    this.colors = { ...Object.fromEntries(["shirt", "pants", "skin", "hair"].map((k) => [k, LOOK[k].color])), ...colors };
     this.bones = {};
     this.faceMeshes = [];
     this.root.traverse((o) => {
@@ -45,6 +47,7 @@ export class HumanSigner {
     if (missing.length) throw new Error(`signer.glb is missing bones: ${missing.join(", ")} (needs MPFB's game_engine rig)`);
     this.rest = new Map(Object.values(this.bones).map((b) => [b, b.quaternion.clone()]));
     this.root.updateMatrixWorld(true);
+    this.height = new THREE.Box3().setFromObject(this.root, true).max.y;  // metres, for framing the camera
     // head: which local direction is "forward" (+z in the world at rest)
     this.headFwd = new THREE.Vector3(0, 0, 1).applyQuaternion(this.bones.head.getWorldQuaternion(new THREE.Quaternion()).invert());
     this.hands = {};
@@ -62,7 +65,7 @@ export class HumanSigner {
       if (m.transparent) { m.transparent = false; m.alphaTest = 0.5; m.depthWrite = true; }  // hair, brows, lashes
       const name = `${m.name} ${mesh.name}`;
       if (LOOK.clothes.test(name)) { m.polygonOffset = true; m.polygonOffsetFactor = -1; m.polygonOffsetUnits = -2; } // skin never pokes through
-      for (const k of ["shirt", "pants", "skin", "hair"]) if (LOOK[k].match.test(name)) m.color.set(LOOK[k].color);
+      for (const k of ["shirt", "pants", "skin", "hair"]) if (LOOK[k].match.test(name)) m.color.set(this.colors[k]);
     }
   }
 

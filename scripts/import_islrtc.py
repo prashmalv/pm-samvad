@@ -190,7 +190,8 @@ def signer_mask(raw: np.ndarray, sw: float, w: int, h: int) -> np.ndarray:
     return mask.astype(bool)
 
 
-def clean_signer(src: Path, width: int, height: int, paint_path: Path) -> tuple[float, float] | None:
+def clean_signer(src: Path, width: int, height: int, paint_path: Path,
+                 lm: tuple[np.ndarray, float] | None = None) -> tuple[float, float] | None:
     """Find the signer with MediaPipe, write an RGBA paint layer to `paint_path` and return the signing
     span in seconds (None if no raised hands were found).
 
@@ -198,10 +199,11 @@ def clean_signer(src: Path, width: int, height: int, paint_path: Path) -> tuple[
     ever touching the signer: it is opaque background grey
       1. everywhere outside the signer's column (body + wherever the hands and elbows go), and
       2. inside the column, on graphics (pixels that differ from the background in most frames and lie
-         outside the signer mask)."""
+         outside the signer mask).
+    lm: landmarks already extracted from `src` (raw, fps), to avoid a second pass."""
     import cv2
 
-    raw, fps = landmarks_from_video(str(src))
+    raw, fps = lm or landmarks_from_video(str(src))
     sh = raw[:, [L_SH, R_SH], 0] * width
     if np.isnan(sh).all():
         raise RuntimeError("no signer found")

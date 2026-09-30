@@ -171,9 +171,13 @@ def check_avatar(r: Report) -> None:
         r.add(WARN, "3D avatar", f"unavailable, missing: {', '.join(missing)}")
     else:
         r.add(OK, "3D avatar", f"ready ({cached} signs pre-computed, others extracted on first use)")
-    model = config.STATIC_DIR / "models" / "signer.glb"
-    if model.is_file():
-        r.add(OK, "Avatar character", f"signer.glb ({model.stat().st_size / 1e6:.0f} MB)")
+    chars = {"woman": "signer.glb", "man": "signer-male.glb"}
+    have = {c: config.STATIC_DIR / "models" / f for c, f in chars.items() if (config.STATIC_DIR / "models" / f).is_file()}
+    if have:
+        sizes = ", ".join(f"{c} {p.stat().st_size / 1e6:.0f} MB" for c, p in have.items())
+        missing_chars = [f for c, f in chars.items() if c not in have]
+        r.add(OK if not missing_chars else WARN, "Avatar characters",
+              sizes + (f" (missing {', '.join(missing_chars)}: that choice uses the simple avatar)" if missing_chars else ""))
 
 
 def check_sign_to_speech(r: Report) -> None:

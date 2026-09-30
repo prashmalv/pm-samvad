@@ -4,11 +4,12 @@
 </head><body><div id="info">loading…</div><canvas id="c"></canvas>
 <script type="importmap">{ "imports": { "three": "../vendor/three/three.module.js" } }</script>
 <script type="module">
-// Dev-only: full-window avatar driven by /avatar-motion.  ?words=HELLO,NAME[&model=variants/x.glb]  then window.show(t) seeks.
+// Dev-only: full-window avatar driven by /avatar-motion.  ?words=HELLO,NAME[&char=man][&model=variants/x.glb]  then window.show(t) seeks.
 import { AvatarPlayer } from "../avatar.js";
 const words = (new URLSearchParams(location.search).get("words") || "HELLO,YOUR,NAME,WHAT").split(",");
 const model = new URLSearchParams(location.search).get("model");
-const a = new AvatarPlayer(document.getElementById("c"), model ? { signerUrl: `../models/${model}` } : {});
+const char = new URLSearchParams(location.search).get("char") || "woman";
+const a = new AvatarPlayer(document.getElementById("c"), model ? { signerUrl: `../models/${model}` } : { character: char });
 await a.ready;
 const seq = await (await fetch("/avatar-motion", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ tokens: words }) })).json();
 a.load(seq);
