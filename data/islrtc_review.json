@@ -81,7 +81,8 @@
 ]
 }
 ],
-"status": "pending"
+"status": "approved",
+"choice": 1
 },
 "ABOLITION": {
 "source": "A/Abolition.mp4",
@@ -107,7 +108,8 @@
 ]
 }
 ],
-"status": "pending"
+"status": "approved",
+"choice": 1
 },
 "ABANDONMENT": {
 "source": "A/Abandonment.mp4",
@@ -121,7 +123,8 @@
 ]
 }
 ],
-"status": "pending"
+"status": "approved",
+"choice": 1
 },
 "ABSTINENCE": {
 "source": "A/Abstinence.mp4",
@@ -2067,6 +2070,11637 @@
 "BORDER": {
 "source": "B/Border.mp4",
 "duration": 20.7,
+"status": "no-cut"
+},
+"BOOT": {
+"source": "B/Boot.mp4",
+"duration": 34.2,
+"clips": [
+{
+"file": "clips/_review/BOOT_1.mp4",
+"span": [
+10.07,
+12.57
+]
+}
+],
+"status": "pending"
+},
+"BRIDE": {
+"source": "B/Bride.mp4",
+"duration": 14.8,
+"status": "no-cut"
+},
+"BORROWER": {
+"source": "B/Borrower.mp4",
+"duration": 20.0,
+"clips": [
+{
+"file": "clips/_review/BORROWER_1.mp4",
+"span": [
+1.42,
+3.98
+]
+}
+],
+"status": "pending"
+},
+"BOYCOTT": {
+"source": "B/Boycott.mp4",
+"duration": 39.0,
+"status": "no-cut"
+},
+"BROADCAST": {
+"source": "B/Broadcast.mp4",
+"duration": 15.4,
+"status": "no-cut"
+},
+"BREEDS": {
+"source": "B/Breeds.mp4",
+"duration": 47.5,
+"status": "no-cut"
+},
+"BROILER": {
+"source": "B/Broiler.mp4",
+"duration": 16.3,
+"status": "no-cut"
+},
+"BROADBAND": {
+"source": "B/Broadband.mp4",
+"duration": 41.4,
+"clips": [
+{
+"file": "clips/_review/BROADBAND_1.mp4",
+"span": [
+5.67,
+7.53
+]
+}
+],
+"status": "pending"
+},
+"BROWNFIELD": {
+"source": "B/Brownfield.mp4",
+"duration": 28.3,
+"clips": [
+{
+"file": "clips/_review/BROWNFIELD_1.mp4",
+"span": [
+0.75,
+2.5
+]
+}
+],
+"status": "pending"
+},
+"BROKERAGE": {
+"source": "B/Brokerage.mp4",
+"duration": 35.7,
+"clips": [
+{
+"file": "clips/_review/BROKERAGE_1.mp4",
+"span": [
+1.22,
+3.85
+]
+}
+],
+"status": "pending"
+},
+"BUDGET": {
+"source": "B/Budget.mp4",
+"duration": 21.5,
+"clips": [
+{
+"file": "clips/_review/BUDGET_1.mp4",
+"span": [
+1.88,
+3.38
+]
+},
+{
+"file": "clips/_review/BUDGET_2.mp4",
+"span": [
+1.88,
+4.12
+]
+}
+],
+"status": "pending"
+},
+"BROKERS": {
+"source": "B/Brokers.mp4",
+"duration": 41.7,
+"clips": [
+{
+"file": "clips/_review/BROKERS_1.mp4",
+"span": [
+0.82,
+2.58
+]
+}
+],
+"status": "pending"
+},
+"BURNER": {
+"source": "B/Burner.mp4",
+"duration": 11.9,
+"status": "no-cut"
+},
+"BULLET": {
+"source": "B/Bullet.mp4",
+"duration": 22.6,
+"clips": [
+{
+"file": "clips/_review/BULLET_1.mp4",
+"span": [
+3.42,
+6.42
+]
+}
+],
+"status": "pending"
+},
+"BUND": {
+"source": "B/Bund.mp4",
+"duration": 28.8,
+"status": "no-cut"
+},
+"CABIN": {
+"source": "C/Cabin.mp4",
+"duration": 14.7,
+"clips": [
+{
+"file": "clips/_review/CABIN_1.mp4",
+"span": [
+5.75,
+9.08
+]
+}
+],
+"status": "pending"
+},
+"BYTE": {
+"source": "B/Byte.mp4",
+"duration": 30.6,
+"status": "no-cut"
+},
+"CABINET": {
+"source": "C/Cabinet.mp4",
+"duration": 22.1,
+"clips": [
+{
+"file": "clips/_review/CABINET_1.mp4",
+"span": [
+2.71,
+4.65
+]
+}
+],
+"status": "pending"
+},
+"C": {
+"source": "C/C++.mp4",
+"duration": 33.6,
+"clips": [
+{
+"file": "clips/_review/C_1.mp4",
+"span": [
+2.15,
+4.17
+]
+},
+{
+"file": "clips/_review/C_2.mp4",
+"span": [
+2.15,
+4.89
+]
+}
+],
+"status": "pending"
+},
+"CALIPER": {
+"source": "C/Caliper.mp4",
+"duration": 20.4,
+"clips": [
+{
+"file": "clips/_review/CALIPER_1.mp4",
+"span": [
+1.27,
+4.73
+]
+}
+],
+"status": "pending"
+},
+"CALIPERS": {
+"source": "C/Calipers.mp4",
+"duration": 14.8,
+"clips": [
+{
+"file": "clips/_review/CALIPERS_1.mp4",
+"span": [
+5.43,
+6.97
+]
+}
+],
+"status": "pending"
+},
+"CALORIMETER": {
+"source": "C/Calorimeter.mp4",
+"duration": 11.5,
+"clips": [
+{
+"file": "clips/_review/CALORIMETER_1.mp4",
+"span": [
+1.59,
+5.13
+]
+}
+],
+"status": "pending"
+},
+"CANNULA": {
+"source": "C/Cannula.mp4",
+"duration": 16.0,
+"clips": [
+{
+"file": "clips/_review/CANNULA_1.mp4",
+"span": [
+0.71,
+3.53
+]
+}
+],
+"status": "pending"
+},
+"CAMPUS": {
+"source": "C/Campus.mp4",
+"duration": 35.0,
+"status": "no-cut"
+},
+"CANOPY": {
+"source": "C/Canopy.mp4",
+"duration": 24.6,
+"status": "no-cut"
+},
+"CANDY": {
+"source": "C/Candy.mp4",
+"duration": 33.0,
+"clips": [
+{
+"file": "clips/_review/CANDY_1.mp4",
+"span": [
+0.79,
+4.41
+]
+}
+],
+"status": "pending"
+},
+"CAPIAS": {
+"source": "C/Capias.mp4",
+"duration": 21.8,
+"clips": [
+{
+"file": "clips/_review/CAPIAS_1.mp4",
+"span": [
+0.79,
+2.33
+]
+},
+{
+"file": "clips/_review/CAPIAS_2.mp4",
+"span": [
+2.39,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"CAPON": {
+"source": "C/Capon.mp4",
+"duration": 18.7,
+"clips": [
+{
+"file": "clips/_review/CAPON_1.mp4",
+"span": [
+0.75,
+2.67
+]
+}
+],
+"status": "pending"
+},
+"CAPITALISM": {
+"source": "C/Capitalism.mp4",
+"duration": 22.5,
+"status": "no-cut"
+},
+"CAPILLARY": {
+"source": "C/Capillary.mp4",
+"duration": 48.5,
+"status": "no-cut"
+},
+"CAPONISATION": {
+"source": "C/Caponisation.mp4",
+"duration": 33.1,
+"status": "no-cut"
+},
+"CARBOHYDRATES": {
+"source": "C/Carbohydrates.mp4",
+"duration": 26.8,
+"status": "no-cut"
+},
+"CAPTIVE": {
+"source": "C/Captive.mp4",
+"duration": 25.5,
+"clips": [
+{
+"file": "clips/_review/CAPTIVE_1.mp4",
+"span": [
+0.79,
+3.93
+]
+}
+],
+"status": "pending"
+},
+"CARICATURE": {
+"source": "C/Caricature.mp4",
+"duration": 12.3,
+"status": "no-cut"
+},
+"CARBON": {
+"source": "C/Carbon.mp4",
+"duration": 21.1,
+"status": "no-cut"
+},
+"CEILING": {
+"source": "C/Ceiling.mp4",
+"duration": 12.0,
+"status": "no-cut"
+},
+"CELL": {
+"source": "C/Cell.mp4",
+"duration": 12.9,
+"status": "no-cut"
+},
+"CENTERING": {
+"source": "C/Centering.mp4",
+"duration": 15.1,
+"clips": [
+{
+"file": "clips/_review/CENTERING_1.mp4",
+"span": [
+0.55,
+2.01
+]
+}
+],
+"status": "pending"
+},
+"CARNIVORES": {
+"source": "C/Carnivores.mp4",
+"duration": 29.0,
+"status": "no-cut"
+},
+"CENTRIFUGE": {
+"source": "C/Centrifuge.mp4",
+"duration": 15.6,
+"status": "no-cut"
+},
+"CELLS": {
+"source": "C/Cells.mp4",
+"duration": 30.8,
+"clips": [
+{
+"file": "clips/_review/CELLS_1.mp4",
+"span": [
+0.33,
+3.17
+]
+}
+],
+"status": "pending"
+},
+"CEREMONY": {
+"source": "C/Ceremony.mp4",
+"duration": 20.0,
+"status": "no-cut"
+},
+"CHAMBER": {
+"source": "C/Chamber.mp4",
+"duration": 14.5,
+"clips": [
+{
+"file": "clips/_review/CHAMBER_1.mp4",
+"span": [
+0.47,
+4.17
+]
+}
+],
+"status": "pending"
+},
+"CHANA": {
+"source": "C/Chana.mp4",
+"duration": 18.2,
+"clips": [
+{
+"file": "clips/_review/CHANA_1.mp4",
+"span": [
+0.67,
+3.92
+]
+},
+{
+"file": "clips/_review/CHANA_2.mp4",
+"span": [
+3.83,
+7.67
+]
+}
+],
+"status": "pending"
+},
+"CERTIORARI": {
+"source": "C/Certiorari.mp4",
+"duration": 44.5,
+"status": "no-cut"
+},
+"CHATANI": {
+"source": "C/Chatani.mp4",
+"duration": 39.2,
+"clips": [
+{
+"file": "clips/_review/CHATANI_1.mp4",
+"span": [
+1.0,
+2.17
+]
+},
+{
+"file": "clips/_review/CHATANI_2.mp4",
+"span": [
+2.42,
+4.58
+]
+}
+],
+"status": "pending"
+},
+"CHIMNEY": {
+"source": "C/Chimney.mp4",
+"duration": 13.2,
+"status": "no-cut"
+},
+"CHECK-IN": {
+"source": "C/Check_in.mp4",
+"duration": 40.9,
+"clips": [
+{
+"file": "clips/_review/CHECK-IN_1.mp4",
+"span": [
+2.79,
+4.17
+]
+},
+{
+"file": "clips/_review/CHECK-IN_2.mp4",
+"span": [
+4.31,
+5.69
+]
+}
+],
+"status": "pending"
+},
+"CHECK-OUT": {
+"source": "C/Check_out.mp4",
+"duration": 34.0,
+"clips": [
+{
+"file": "clips/_review/CHECK-OUT_1.mp4",
+"span": [
+7.75,
+9.37
+]
+}
+],
+"status": "pending"
+},
+"CHLOROPHYLL": {
+"source": "C/Chlorophyll.mp4",
+"duration": 22.7,
+"status": "no-cut"
+},
+"CHIP": {
+"source": "C/Chip.mp4",
+"duration": 23.1,
+"clips": [
+{
+"file": "clips/_review/CHIP_1.mp4",
+"span": [
+1.75,
+5.29
+]
+}
+],
+"status": "pending"
+},
+"CHROME": {
+"source": "C/Chrome.mp4",
+"duration": 33.6,
+"clips": [
+{
+"file": "clips/_review/CHROME_1.mp4",
+"span": [
+0.07,
+1.37
+]
+},
+{
+"file": "clips/_review/CHROME_2.mp4",
+"span": [
+0.07,
+2.09
+]
+}
+],
+"status": "pending"
+},
+"CHORD": {
+"source": "C/Chord.mp4",
+"duration": 40.0,
+"clips": [
+{
+"file": "clips/_review/CHORD_1.mp4",
+"span": [
+7.11,
+9.37
+]
+}
+],
+"status": "pending"
+},
+"CIRCLIP": {
+"source": "C/Circlip.mp4",
+"duration": 24.8,
+"status": "no-cut"
+},
+"CIRCULAR": {
+"source": "C/Circular.mp4",
+"duration": 33.3,
+"clips": [
+{
+"file": "clips/_review/CIRCULAR_1.mp4",
+"span": [
+1.67,
+4.42
+]
+}
+],
+"status": "pending"
+},
+"CIRCUMFERENCE": {
+"source": "C/Circumference.mp4",
+"duration": 15.4,
+"status": "no-cut"
+},
+"CIVICS": {
+"source": "C/Civics.mp4",
+"duration": 19.1,
+"status": "no-cut"
+},
+"CLARIFY": {
+"source": "C/Clarify.mp4",
+"duration": 29.2,
+"clips": [
+{
+"file": "clips/_review/CLARIFY_1.mp4",
+"span": [
+1.51,
+5.13
+]
+},
+{
+"file": "clips/_review/CLARIFY_2.mp4",
+"span": [
+5.19,
+7.37
+]
+}
+],
+"status": "pending"
+},
+"CLIMBERS": {
+"source": "C/Climbers.mp4",
+"duration": 20.1,
+"clips": [
+{
+"file": "clips/_review/CLIMBERS_1.mp4",
+"span": [
+0.71,
+2.65
+]
+}
+],
+"status": "pending"
+},
+"CLOUDINESS": {
+"source": "C/Cloudiness.mp4",
+"duration": 11.1,
+"status": "no-cut"
+},
+"CIVILIZATION": {
+"source": "C/Civilization.mpg",
+"duration": 58.4,
+"status": "no-cut"
+},
+"CLASSIFICATION": {
+"source": "C/Classification.mp4",
+"duration": 54.8,
+"status": "no-cut"
+},
+"CLUMSY": {
+"source": "C/Clumsy.mp4",
+"duration": 11.6,
+"status": "no-cut"
+},
+"CLIPBOARD": {
+"source": "C/Clipboard.mp4",
+"duration": 26.9,
+"clips": [
+{
+"file": "clips/_review/CLIPBOARD_1.mp4",
+"span": [
+2.71,
+5.05
+]
+}
+],
+"status": "pending"
+},
+"COBWEB": {
+"source": "C/Cobweb.mp4",
+"duration": 9.3,
+"clips": [
+{
+"file": "clips/_review/COBWEB_1.mp4",
+"span": [
+6.67,
+9.42
+]
+}
+],
+"status": "pending"
+},
+"CODA": {
+"source": "C/CODA.mp4",
+"duration": 11.5,
+"clips": [
+{
+"file": "clips/_review/CODA_1.mp4",
+"span": [
+2.79,
+4.09
+]
+}
+],
+"status": "pending"
+},
+"CODICIL": {
+"source": "C/Codicil.mp4",
+"duration": 24.8,
+"clips": [
+{
+"file": "clips/_review/CODICIL_1.mp4",
+"span": [
+0.55,
+2.17
+]
+}
+],
+"status": "pending"
+},
+"COGENERATION": {
+"source": "C/Cogeneration.mp4",
+"duration": 52.3,
+"status": "no-cut"
+},
+"COGNIZABLE": {
+"source": "C/Cognizable.mp4",
+"duration": 42.8,
+"clips": [
+{
+"file": "clips/_review/COGNIZABLE_1.mp4",
+"span": [
+11.51,
+13.37
+]
+}
+],
+"status": "pending"
+},
+"COIR": {
+"source": "C/Coir.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"CODEBOOK": {
+"source": "C/Codebook.mp4",
+"duration": 93.5,
+"status": "no-cut"
+},
+"COHORT": {
+"source": "C/Cohort.mp4",
+"duration": 68.6,
+"status": "no-cut"
+},
+"COLLAPSE": {
+"source": "C/Collapse.mp4",
+"duration": 19.3,
+"status": "no-cut"
+},
+"COLOSTRUM": {
+"source": "C/Colostrum.mp4",
+"duration": 21.1,
+"clips": [
+{
+"file": "clips/_review/COLOSTRUM_1.mp4",
+"span": [
+0.33,
+3.0
+]
+}
+],
+"status": "pending"
+},
+"COLLABRATE": {
+"source": "C/Collabrate.mp4",
+"duration": 55.8,
+"status": "no-cut"
+},
+"COLUMN": {
+"source": "C/Column.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"COLLABORATION": {
+"source": "C/Collaboration.mp4",
+"duration": 78.2,
+"status": "no-cut"
+},
+"COMBINE": {
+"source": "C/Combine.mp4",
+"duration": 33.1,
+"status": "no-cut"
+},
+"COMMISSION": {
+"source": "C/Commission.mp4",
+"duration": 25.9,
+"status": "no-cut"
+},
+"COMPACTION": {
+"source": "C/Compaction.mp4",
+"duration": 9.6,
+"clips": [
+{
+"file": "clips/_review/COMPACTION_1.mp4",
+"span": [
+0.79,
+4.33
+]
+},
+{
+"file": "clips/_review/COMPACTION_2.mp4",
+"span": [
+4.47,
+6.81
+]
+}
+],
+"status": "pending"
+},
+"COMBUSTIBLE": {
+"source": "C/Combustible.mp4",
+"duration": 59.4,
+"status": "no-cut"
+},
+"COMPETENCE": {
+"source": "C/Competence.mp4",
+"duration": 37.0,
+"status": "no-cut"
+},
+"COMPASS": {
+"source": "C/Compass.mp4",
+"duration": 46.2,
+"status": "no-cut"
+},
+"COMPOST": {
+"source": "C/Compost.mp4",
+"duration": 27.8,
+"status": "no-cut"
+},
+"COMPILER": {
+"source": "C/Compiler.mp4",
+"duration": 43.2,
+"status": "no-cut"
+},
+"COMETS": {
+"source": "C/Comets.mp4",
+"duration": 110.9,
+"status": "no-cut"
+},
+"CONFESSION": {
+"source": "C/Confession.mp4",
+"duration": 21.7,
+"status": "no-cut"
+},
+"CONDONE": {
+"source": "C/Condone.mp4",
+"duration": 34.2,
+"status": "no-cut"
+},
+"COMPREHENSION": {
+"source": "C/Comprehension.mp4",
+"duration": 61.5,
+"clips": [
+{
+"file": "clips/_review/COMPREHENSION_1.mp4",
+"span": [
+6.92,
+9.75
+]
+}
+],
+"status": "pending"
+},
+"CONDENSATION": {
+"source": "C/Condensation.mp4",
+"duration": 46.0,
+"status": "no-cut"
+},
+"CONFLUENCE": {
+"source": "C/Confluence.mp4",
+"duration": 20.5,
+"status": "no-cut"
+},
+"CONSENSUS": {
+"source": "C/Consensus.mp4",
+"duration": 30.4,
+"status": "no-cut"
+},
+"CONGRUENT": {
+"source": "C/Congruent.mp4",
+"duration": 47.6,
+"status": "no-cut"
+},
+"CONSPIRACY": {
+"source": "C/Conspiracy.mp4",
+"duration": 15.4,
+"clips": [
+{
+"file": "clips/_review/CONSPIRACY_1.mp4",
+"span": [
+1.19,
+2.97
+]
+}
+],
+"status": "pending"
+},
+"CONSERVATION": {
+"source": "C/Conservation.mp4",
+"duration": 46.6,
+"clips": [
+{
+"file": "clips/_review/CONSERVATION_1.mp4",
+"span": [
+9.92,
+12.17
+]
+}
+],
+"status": "pending"
+},
+"CONSOLIDATION": {
+"source": "C/Consolidation.mp4",
+"duration": 54.2,
+"clips": [
+{
+"file": "clips/_review/CONSOLIDATION_1.mp4",
+"span": [
+5.17,
+7.25
+]
+}
+],
+"status": "pending"
+},
+"CONSTANT": {
+"source": "C/Constant.mp4",
+"duration": 24.2,
+"clips": [
+{
+"file": "clips/_review/CONSTANT_1.mp4",
+"span": [
+0.39,
+3.05
+]
+}
+],
+"status": "pending"
+},
+"CONSTITUTE": {
+"source": "C/Constitute.mp4",
+"duration": 25.0,
+"status": "no-cut"
+},
+"CONTINENTS": {
+"source": "C/Continents.mp4",
+"duration": 29.4,
+"status": "no-cut"
+},
+"CONTRACEPTIVES": {
+"source": "C/Contraceptives.mp4",
+"duration": 22.1,
+"status": "no-cut"
+},
+"CONTUSION": {
+"source": "C/Contusion.mp4",
+"duration": 21.6,
+"clips": [
+{
+"file": "clips/_review/CONTUSION_1.mp4",
+"span": [
+0.71,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"CONTRACTS": {
+"source": "C/Contracts.mp4",
+"duration": 23.1,
+"clips": [
+{
+"file": "clips/_review/CONTRACTS_1.mp4",
+"span": [
+0.75,
+4.58
+]
+}
+],
+"status": "pending"
+},
+"COPYRIGHT": {
+"source": "C/Copyright.mp4",
+"duration": 28.8,
+"status": "no-cut"
+},
+"CONVECTION": {
+"source": "C/Convection.mp4",
+"duration": 54.3,
+"clips": [
+{
+"file": "clips/_review/CONVECTION_1.mp4",
+"span": [
+0.79,
+4.17
+]
+}
+],
+"status": "pending"
+},
+"CONVEYOR": {
+"source": "C/Conveyor.mp4",
+"duration": 56.2,
+"clips": [
+{
+"file": "clips/_review/CONVEYOR_1.mp4",
+"span": [
+3.51,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"COOKIES": {
+"source": "C/Cookies.mp4",
+"duration": 68.0,
+"status": "no-cut"
+},
+"CORRIGENDUM": {
+"source": "C/Corrigendum.mp4",
+"duration": 24.5,
+"clips": [
+{
+"file": "clips/_review/CORRIGENDUM_1.mp4",
+"span": [
+7.33,
+8.83
+]
+}
+],
+"status": "pending"
+},
+"COUNTERFEIT": {
+"source": "C/Counterfeit.mp4",
+"duration": 18.8,
+"clips": [
+{
+"file": "clips/_review/COUNTERFEIT_1.mp4",
+"span": [
+1.19,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"COUTURIERE": {
+"source": "C/Couturiere.mp4",
+"duration": 22.6,
+"status": "no-cut"
+},
+"CORDIAL": {
+"source": "C/Cordial.mp4",
+"duration": 52.9,
+"clips": [
+{
+"file": "clips/_review/CORDIAL_1.mp4",
+"span": [
+1.35,
+4.01
+]
+},
+{
+"file": "clips/_review/CORDIAL_2.mp4",
+"span": [
+3.91,
+7.21
+]
+}
+],
+"status": "pending"
+},
+"COUCHING": {
+"source": "C/Couching.mp4",
+"duration": 39.4,
+"clips": [
+{
+"file": "clips/_review/COUCHING_1.mp4",
+"span": [
+4.63,
+8.17
+]
+},
+{
+"file": "clips/_review/COUCHING_2.mp4",
+"span": [
+10.87,
+14.09
+]
+}
+],
+"status": "pending"
+},
+"COWL": {
+"source": "C/Cowl.mp4",
+"duration": 11.1,
+"clips": [
+{
+"file": "clips/_review/COWL_1.mp4",
+"span": [
+0.31,
+1.93
+]
+},
+{
+"file": "clips/_review/COWL_2.mp4",
+"span": [
+2.23,
+5.61
+]
+}
+],
+"status": "pending"
+},
+"CRAWL": {
+"source": "C/Crawl.mp4",
+"duration": 11.9,
+"status": "no-cut"
+},
+"COWBOY": {
+"source": "C/Cowboy.mp4",
+"duration": 28.1,
+"status": "no-cut"
+},
+"CRIMINAL": {
+"source": "C/Criminal.mp4",
+"duration": 12.1,
+"clips": [
+{
+"file": "clips/_review/CRIMINAL_1.mp4",
+"span": [
+0.39,
+3.45
+]
+},
+{
+"file": "clips/_review/CRIMINAL_2.mp4",
+"span": [
+3.35,
+5.21
+]
+}
+],
+"status": "pending"
+},
+"CREEPERS": {
+"source": "C/Creepers.mp4",
+"duration": 17.2,
+"clips": [
+{
+"file": "clips/_review/CREEPERS_1.mp4",
+"span": [
+0.55,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"COVERAGE": {
+"source": "C/Coverage.mp4",
+"duration": 40.3,
+"status": "no-cut"
+},
+"CRUMB": {
+"source": "C/Crumb.mp4",
+"duration": 14.2,
+"status": "no-cut"
+},
+"CROSSWORD": {
+"source": "C/Crossword.mp4",
+"duration": 22.8,
+"status": "no-cut"
+},
+"CRITERIA": {
+"source": "C/Criteria.mp4",
+"duration": 30.2,
+"clips": [
+{
+"file": "clips/_review/CRITERIA_1.mp4",
+"span": [
+0.5,
+3.17
+]
+}
+],
+"status": "pending"
+},
+"CRYPTOSPORIDIUM": {
+"source": "C/Cryptosporidium.mp4",
+"duration": 17.8,
+"clips": [
+{
+"file": "clips/_review/CRYPTOSPORIDIUM_1.mp4",
+"span": [
+2.25,
+3.92
+]
+},
+{
+"file": "clips/_review/CRYPTOSPORIDIUM_2.mp4",
+"span": [
+4.75,
+6.33
+]
+}
+],
+"status": "pending"
+},
+"CUB": {
+"source": "C/Cub.mp4",
+"duration": 16.7,
+"clips": [
+{
+"file": "clips/_review/CUB_1.mp4",
+"span": [
+0.67,
+2.17
+]
+}
+],
+"status": "pending"
+},
+"CRISIS": {
+"source": "C/Crisis.mp4",
+"duration": 52.2,
+"clips": [
+{
+"file": "clips/_review/CRISIS_1.mp4",
+"span": [
+1.58,
+4.58
+]
+}
+],
+"status": "pending"
+},
+"CUISINE": {
+"source": "C/Cuisine.mp4",
+"duration": 22.4,
+"status": "no-cut"
+},
+"CULLET": {
+"source": "C/Cullet.mp4",
+"duration": 15.3,
+"clips": [
+{
+"file": "clips/_review/CULLET_1.mp4",
+"span": [
+1.5,
+5.0
+]
+}
+],
+"status": "pending"
+},
+"CURING": {
+"source": "C/Curing.mp4",
+"duration": 12.6,
+"clips": [
+{
+"file": "clips/_review/CURING_1.mp4",
+"span": [
+5.11,
+7.85
+]
+}
+],
+"status": "pending"
+},
+"CUNEIFORM": {
+"source": "C/Cuneiform.mp4",
+"duration": 37.7,
+"status": "no-cut"
+},
+"CURSOR": {
+"source": "C/Cursor.mp4",
+"duration": 16.4,
+"clips": [
+{
+"file": "clips/_review/CURSOR_1.mp4",
+"span": [
+1.43,
+3.13
+]
+},
+{
+"file": "clips/_review/CURSOR_2.mp4",
+"span": [
+3.11,
+6.01
+]
+}
+],
+"status": "pending"
+},
+"CURFEW": {
+"source": "C/Curfew.mp4",
+"duration": 53.8,
+"status": "no-cut"
+},
+"CURRICULUM": {
+"source": "C/Curriculum.mp4",
+"duration": 46.2,
+"status": "no-cut"
+},
+"CULTIVATION": {
+"source": "C/Cultivation.mp4",
+"duration": 89.0,
+"status": "no-cut"
+},
+"CUSTOMER": {
+"source": "C/Customer.mp4",
+"duration": 17.4,
+"status": "no-cut"
+},
+"CUSTODIAN": {
+"source": "C/Custodian.mp4",
+"duration": 30.4,
+"status": "no-cut"
+},
+"CUSTODY": {
+"source": "C/Custody.mp4",
+"duration": 30.3,
+"status": "no-cut"
+},
+"DAMP": {
+"source": "D/Damp.mp4",
+"duration": 16.1,
+"clips": [
+{
+"file": "clips/_review/DAMP_1.mp4",
+"span": [
+1.75,
+5.0
+]
+}
+],
+"status": "pending"
+},
+"CYCLONE": {
+"source": "C/Cyclone.mp4",
+"duration": 28.0,
+"status": "no-cut"
+},
+"CYSTITIS": {
+"source": "C/Cystitis.mp4",
+"duration": 23.2,
+"clips": [
+{
+"file": "clips/_review/CYSTITIS_1.mp4",
+"span": [
+0.55,
+1.69
+]
+},
+{
+"file": "clips/_review/CYSTITIS_2.mp4",
+"span": [
+1.83,
+3.05
+]
+}
+],
+"status": "pending"
+},
+"DATUM": {
+"source": "D/Datum.mp4",
+"duration": 15.7,
+"status": "no-cut"
+},
+"DATA": {
+"source": "D/Data.mp4",
+"duration": 21.2,
+"status": "no-cut"
+},
+"CUTTING": {
+"source": "C/Cutting.mp4",
+"duration": 61.9,
+"status": "no-cut"
+},
+"DEAFHOOD": {
+"source": "D/Deafhood.mp4",
+"duration": 38.5,
+"clips": [
+{
+"file": "clips/_review/DEAFHOOD_1.mp4",
+"span": [
+0.17,
+2.17
+]
+}
+],
+"status": "pending"
+},
+"DEBRIDEMENT": {
+"source": "D/Debridement.mp4",
+"duration": 17.0,
+"clips": [
+{
+"file": "clips/_review/DEBRIDEMENT_1.mp4",
+"span": [
+1.51,
+3.21
+]
+}
+],
+"status": "pending"
+},
+"DEBEAKING": {
+"source": "D/Debeaking.mp4",
+"duration": 31.7,
+"status": "no-cut"
+},
+"DEALERS": {
+"source": "D/Dealers.mp4",
+"duration": 26.7,
+"clips": [
+{
+"file": "clips/_review/DEALERS_1.mp4",
+"span": [
+0.88,
+4.38
+]
+}
+],
+"status": "pending"
+},
+"DECIMAL": {
+"source": "D/Decimal.mp4",
+"duration": 19.2,
+"clips": [
+{
+"file": "clips/_review/DECIMAL_1.mp4",
+"span": [
+0.08,
+1.67
+]
+}
+],
+"status": "pending"
+},
+"DECREE": {
+"source": "D/Decree.mp4",
+"duration": 18.0,
+"status": "no-cut"
+},
+"DECLINE": {
+"source": "D/Decline.mp4",
+"duration": 17.4,
+"clips": [
+{
+"file": "clips/_review/DECLINE_1.mp4",
+"span": [
+1.42,
+3.58
+]
+},
+{
+"file": "clips/_review/DECLINE_2.mp4",
+"span": [
+1.42,
+4.32
+]
+}
+],
+"status": "pending"
+},
+"DECRYPTION": {
+"source": "D/Decryption.mp4",
+"duration": 37.5,
+"clips": [
+{
+"file": "clips/_review/DECRYPTION_1.mp4",
+"span": [
+1.35,
+2.57
+]
+},
+{
+"file": "clips/_review/DECRYPTION_2.mp4",
+"span": [
+1.35,
+4.89
+]
+}
+],
+"status": "pending"
+},
+"DEFENCE": {
+"source": "D/Defence.mp4",
+"duration": 31.8,
+"clips": [
+{
+"file": "clips/_review/DEFENCE_1.mp4",
+"span": [
+1.03,
+4.09
+]
+}
+],
+"status": "pending"
+},
+"DECOMPOSE": {
+"source": "D/Decompose.mp4",
+"duration": 63.3,
+"status": "no-cut"
+},
+"DEHYDRATION": {
+"source": "D/Dehydration.mp4",
+"duration": 20.6,
+"status": "no-cut"
+},
+"DEFORESTATION": {
+"source": "D/Deforestation.mp4",
+"duration": 54.5,
+"clips": [
+{
+"file": "clips/_review/DEFORESTATION_1.mp4",
+"span": [
+7.01,
+9.01
+]
+},
+{
+"file": "clips/_review/DEFORESTATION_2.mp4",
+"span": [
+9.26,
+10.93
+]
+}
+],
+"status": "pending"
+},
+"DELETE": {
+"source": "D/Delete.mp4",
+"duration": 22.0,
+"clips": [
+{
+"file": "clips/_review/DELETE_1.mp4",
+"span": [
+0.63,
+2.41
+]
+}
+],
+"status": "pending"
+},
+"DEMENTIA": {
+"source": "D/Dementia.mp4",
+"duration": 22.9,
+"status": "no-cut"
+},
+"DENITRIFICATION": {
+"source": "D/Denitrification.mp4",
+"duration": 24.5,
+"status": "no-cut"
+},
+"DEMOCRACY": {
+"source": "D/Democracy.mp4",
+"duration": 31.6,
+"status": "no-cut"
+},
+"DEPOSORIES": {
+"source": "D/Deposories.mp4",
+"duration": 21.7,
+"clips": [
+{
+"file": "clips/_review/DEPOSORIES_1.mp4",
+"span": [
+1.02,
+3.92
+]
+},
+{
+"file": "clips/_review/DEPOSORIES_2.mp4",
+"span": [
+6.62,
+8.12
+]
+}
+],
+"status": "pending"
+},
+"DESPATCH": {
+"source": "D/Despatch.mp4",
+"duration": 19.9,
+"clips": [
+{
+"file": "clips/_review/DESPATCH_1.mp4",
+"span": [
+1.15,
+3.45
+]
+}
+],
+"status": "pending"
+},
+"DERIVATIVES": {
+"source": "D/Derivatives.mp4",
+"duration": 26.8,
+"clips": [
+{
+"file": "clips/_review/DERIVATIVES_1.mp4",
+"span": [
+0.62,
+2.78
+]
+}
+],
+"status": "pending"
+},
+"DEVALUATION": {
+"source": "D/Devaluation.mp4",
+"duration": 26.1,
+"clips": [
+{
+"file": "clips/_review/DEVALUATION_1.mp4",
+"span": [
+0.42,
+1.92
+]
+}
+],
+"status": "pending"
+},
+"DEMURRER": {
+"source": "D/Demurrer.mp4",
+"duration": 66.4,
+"clips": [
+{
+"file": "clips/_review/DEMURRER_1.mp4",
+"span": [
+6.95,
+9.85
+]
+}
+],
+"status": "pending"
+},
+"DIABETIC": {
+"source": "D/Diabetic.mp4",
+"duration": 11.2,
+"clips": [
+{
+"file": "clips/_review/DIABETIC_1.mp4",
+"span": [
+0.71,
+2.01
+]
+},
+{
+"file": "clips/_review/DIABETIC_2.mp4",
+"span": [
+0.71,
+2.89
+]
+}
+],
+"status": "pending"
+},
+"DIET": {
+"source": "D/Diet.mp4",
+"duration": 10.4,
+"status": "no-cut"
+},
+"DIFFUSION": {
+"source": "D/Diffusion.mp4",
+"duration": 15.4,
+"clips": [
+{
+"file": "clips/_review/DIFFUSION_1.mp4",
+"span": [
+8.75,
+9.92
+]
+}
+],
+"status": "pending"
+},
+"DIGESTIBLE": {
+"source": "D/Digestible.mp4",
+"duration": 23.2,
+"status": "no-cut"
+},
+"DEVERNILIZATION": {
+"source": "D/Devernilization.mp4",
+"duration": 46.1,
+"status": "no-cut"
+},
+"DEVDASI": {
+"source": "D/Devdasi.mp4",
+"duration": 47.0,
+"clips": [
+{
+"file": "clips/_review/DEVDASI_1.mp4",
+"span": [
+1.59,
+3.53
+]
+},
+{
+"file": "clips/_review/DEVDASI_2.mp4",
+"span": [
+3.43,
+6.25
+]
+}
+],
+"status": "pending"
+},
+"DINKUS": {
+"source": "D/Dinkus.mp4",
+"duration": 11.9,
+"status": "no-cut"
+},
+"DIMMER": {
+"source": "D/Dimmer.mp4",
+"duration": 16.8,
+"clips": [
+{
+"file": "clips/_review/DIMMER_1.mp4",
+"span": [
+0.23,
+2.25
+]
+}
+],
+"status": "pending"
+},
+"DIGESTION": {
+"source": "D/Digestion.mp4",
+"duration": 24.9,
+"clips": [
+{
+"file": "clips/_review/DIGESTION_1.mp4",
+"span": [
+6.71,
+10.57
+]
+}
+],
+"status": "pending"
+},
+"DIPLOPIA": {
+"source": "D/Diplopia.mp4",
+"duration": 18.8,
+"clips": [
+{
+"file": "clips/_review/DIPLOPIA_1.mp4",
+"span": [
+0.79,
+1.93
+]
+},
+{
+"file": "clips/_review/DIPLOPIA_2.mp4",
+"span": [
+3.03,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"DISASTER": {
+"source": "D/Disaster.mp4",
+"duration": 27.5,
+"status": "no-cut"
+},
+"DIODE": {
+"source": "D/Diode.mp4",
+"duration": 41.0,
+"clips": [
+{
+"file": "clips/_review/DIODE_1.mp4",
+"span": [
+1.27,
+2.57
+]
+}
+],
+"status": "pending"
+},
+"DIRECTORS": {
+"source": "D/Directors.mp4",
+"duration": 33.1,
+"clips": [
+{
+"file": "clips/_review/DIRECTORS_1.mp4",
+"span": [
+0.35,
+1.45
+]
+},
+{
+"file": "clips/_review/DIRECTORS_2.mp4",
+"span": [
+1.62,
+3.25
+]
+}
+],
+"status": "pending"
+},
+"DISCLAIM": {
+"source": "D/Disclaim.mp4",
+"duration": 23.0,
+"clips": [
+{
+"file": "clips/_review/DISCLAIM_1.mp4",
+"span": [
+0.79,
+3.05
+]
+},
+{
+"file": "clips/_review/DISCLAIM_2.mp4",
+"span": [
+2.95,
+4.89
+]
+}
+],
+"status": "pending"
+},
+"DISCRIMINATION": {
+"source": "D/Discrimination.mp4",
+"duration": 21.0,
+"status": "no-cut"
+},
+"DISCLOSURE": {
+"source": "D/Disclosure.mp4",
+"duration": 29.2,
+"status": "no-cut"
+},
+"DISLOCATION": {
+"source": "D/Dislocation.mp4",
+"duration": 15.2,
+"status": "no-cut"
+},
+"DISINFECTION": {
+"source": "D/Disinfection.mp4",
+"duration": 18.4,
+"status": "no-cut"
+},
+"DITHERING": {
+"source": "D/Dithering.mp4",
+"duration": 11.5,
+"status": "no-cut"
+},
+"DISPERSION": {
+"source": "D/Dispersion.mp4",
+"duration": 37.0,
+"status": "no-cut"
+},
+"DISSIPATION": {
+"source": "D/Dissipation.mp4",
+"duration": 29.3,
+"clips": [
+{
+"file": "clips/_review/DISSIPATION_1.mp4",
+"span": [
+1.67,
+5.13
+]
+}
+],
+"status": "pending"
+},
+"DISTRACTED": {
+"source": "D/Distracted.mp4",
+"duration": 34.0,
+"clips": [
+{
+"file": "clips/_review/DISTRACTED_1.mp4",
+"span": [
+2.39,
+3.61
+]
+}
+],
+"status": "pending"
+},
+"DITYLENCHUS": {
+"source": "D/Ditylenchus.mp4",
+"duration": 22.6,
+"clips": [
+{
+"file": "clips/_review/DITYLENCHUS_1.mp4",
+"span": [
+0.71,
+3.61
+]
+}
+],
+"status": "pending"
+},
+"DOLLY": {
+"source": "D/Dolly.mp4",
+"duration": 11.2,
+"clips": [
+{
+"file": "clips/_review/DOLLY_1.mp4",
+"span": [
+9.42,
+11.33
+]
+}
+],
+"status": "pending"
+},
+"DOCKYARD": {
+"source": "D/Dockyard.mp4",
+"duration": 39.5,
+"status": "no-cut"
+},
+"DOODLE": {
+"source": "D/Doodle.mp4",
+"duration": 30.0,
+"clips": [
+{
+"file": "clips/_review/DOODLE_1.mp4",
+"span": [
+8.75,
+10.25
+]
+}
+],
+"status": "pending"
+},
+"DORMANCY": {
+"source": "D/Dormancy.mp4",
+"duration": 32.1,
+"status": "no-cut"
+},
+"DRAINGE": {
+"source": "D/Drainge.mp4",
+"duration": 14.0,
+"status": "no-cut"
+},
+"DRAINAGE": {
+"source": "D/Drainage.mp4",
+"duration": 29.7,
+"status": "no-cut"
+},
+"DIVIDEND": {
+"source": "D/Dividend.mp4",
+"duration": 65.8,
+"clips": [
+{
+"file": "clips/_review/DIVIDEND_1.mp4",
+"span": [
+2.08,
+5.78
+]
+},
+{
+"file": "clips/_review/DIVIDEND_2.mp4",
+"span": [
+6.08,
+8.78
+]
+}
+],
+"status": "pending"
+},
+"DOWNMARKET": {
+"source": "D/Downmarket.mp4",
+"duration": 40.6,
+"clips": [
+{
+"file": "clips/_review/DOWNMARKET_1.mp4",
+"span": [
+1.5,
+4.67
+]
+}
+],
+"status": "pending"
+},
+"DRAMA": {
+"source": "D/Drama.mp4",
+"duration": 20.9,
+"clips": [
+{
+"file": "clips/_review/DRAMA_1.mp4",
+"span": [
+1.51,
+5.13
+]
+}
+],
+"status": "pending"
+},
+"EARACHE": {
+"source": "E/Earache.mp4",
+"duration": 15.8,
+"clips": [
+{
+"file": "clips/_review/EARACHE_1.mp4",
+"span": [
+0.55,
+2.25
+]
+}
+],
+"status": "pending"
+},
+"DROUGHT": {
+"source": "D/Drought.mp4",
+"duration": 25.5,
+"status": "no-cut"
+},
+"DVP": {
+"source": "D/DVP.mp4",
+"duration": 25.9,
+"clips": [
+{
+"file": "clips/_review/DVP_1.mp4",
+"span": [
+1.15,
+3.92
+]
+}
+],
+"status": "pending"
+},
+"EARDRUM": {
+"source": "E/Eardrum.mp4",
+"duration": 27.0,
+"clips": [
+{
+"file": "clips/_review/EARDRUM_1.mp4",
+"span": [
+0.71,
+2.65
+]
+},
+{
+"file": "clips/_review/EARDRUM_2.mp4",
+"span": [
+0.71,
+3.85
+]
+}
+],
+"status": "pending"
+},
+"EARLOBE": {
+"source": "E/Earlobe.mp4",
+"duration": 15.8,
+"clips": [
+{
+"file": "clips/_review/EARLOBE_1.mp4",
+"span": [
+4.31,
+7.05
+]
+}
+],
+"status": "pending"
+},
+"ECHOCARDIOGRAM": {
+"source": "E/Echocardiogram.mp4",
+"duration": 27.4,
+"status": "no-cut"
+},
+"ECO": {
+"source": "E/Eco.mp4",
+"duration": 17.8,
+"clips": [
+{
+"file": "clips/_review/ECO_1.mp4",
+"span": [
+1.03,
+3.13
+]
+}
+],
+"status": "pending"
+},
+"ECONNECT": {
+"source": "E/Econnect.mp4",
+"duration": 28.4,
+"clips": [
+{
+"file": "clips/_review/ECONNECT_1.mp4",
+"span": [
+1.5,
+3.5
+]
+}
+],
+"status": "pending"
+},
+"ECOSYSTEM": {
+"source": "E/Ecosystem.mp4",
+"duration": 28.8,
+"status": "no-cut"
+},
+"ECOLABEL": {
+"source": "E/Ecolabel.mp4",
+"duration": 50.9,
+"clips": [
+{
+"file": "clips/_review/ECOLABEL_1.mp4",
+"span": [
+8.47,
+11.45
+]
+}
+],
+"status": "pending"
+},
+"ECOHOUSE": {
+"source": "E/Ecohouse.mp4",
+"duration": 59.0,
+"clips": [
+{
+"file": "clips/_review/ECOHOUSE_1.mp4",
+"span": [
+1.19,
+3.85
+]
+}
+],
+"status": "pending"
+},
+"ECOTOURSIM": {
+"source": "E/Ecotoursim.mp4",
+"duration": 22.1,
+"status": "no-cut"
+},
+"EDITOR": {
+"source": "E/Editor.mp4",
+"duration": 24.5,
+"clips": [
+{
+"file": "clips/_review/EDITOR_1.mp4",
+"span": [
+2.23,
+4.65
+]
+}
+],
+"status": "pending"
+},
+"EDGING": {
+"source": "E/Edging.mp4",
+"duration": 30.3,
+"clips": [
+{
+"file": "clips/_review/EDGING_1.mp4",
+"span": [
+4.55,
+6.57
+]
+}
+],
+"status": "pending"
+},
+"EDGE": {
+"source": "E/Edge.mp4",
+"duration": 49.3,
+"status": "no-cut"
+},
+"EFFICIENCY": {
+"source": "E/Efficiency.mp4",
+"duration": 34.8,
+"status": "no-cut"
+},
+"EFFLUENT": {
+"source": "E/Effluent.mp4",
+"duration": 23.0,
+"status": "no-cut"
+},
+"EFFORT": {
+"source": "E/Effort.mp4",
+"duration": 24.8,
+"clips": [
+{
+"file": "clips/_review/EFFORT_1.mp4",
+"span": [
+0.71,
+2.49
+]
+}
+],
+"status": "pending"
+},
+"EJECTMENT": {
+"source": "E/Ejectment.mp4",
+"duration": 25.2,
+"status": "no-cut"
+},
+"ELECTROCUTION": {
+"source": "E/Electrocution.mp4",
+"duration": 15.5,
+"clips": [
+{
+"file": "clips/_review/ELECTROCUTION_1.mp4",
+"span": [
+2.15,
+4.17
+]
+}
+],
+"status": "pending"
+},
+"ELASTICITY": {
+"source": "E/Elasticity.mp4",
+"duration": 34.1,
+"clips": [
+{
+"file": "clips/_review/ELASTICITY_1.mp4",
+"span": [
+3.43,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"ELECTROENCEPHALOGRAPHY": {
+"source": "E/Electroencephalography.mp4",
+"duration": 40.3,
+"status": "no-cut"
+},
+"ELECTROLYSIS": {
+"source": "E/Electrolysis.mp4",
+"duration": 34.1,
+"clips": [
+{
+"file": "clips/_review/ELECTROLYSIS_1.mp4",
+"span": [
+2.39,
+6.33
+]
+}
+],
+"status": "pending"
+},
+"ELECTROPLATING": {
+"source": "E/Electroplating.mp4",
+"duration": 27.6,
+"clips": [
+{
+"file": "clips/_review/ELECTROPLATING_1.mp4",
+"span": [
+9.35,
+12.33
+]
+}
+],
+"status": "pending"
+},
+"ELECTROMAGNET": {
+"source": "E/Electromagnet.mp4",
+"duration": 43.6,
+"clips": [
+{
+"file": "clips/_review/ELECTROMAGNET_1.mp4",
+"span": [
+6.47,
+7.77
+]
+}
+],
+"status": "pending"
+},
+"ELEVATION": {
+"source": "E/Elevation.mp4",
+"duration": 16.0,
+"status": "no-cut"
+},
+"ELECTROSCOPE": {
+"source": "E/Electroscope.mp4",
+"duration": 29.2,
+"clips": [
+{
+"file": "clips/_review/ELECTROSCOPE_1.mp4",
+"span": [
+0.71,
+3.21
+]
+}
+],
+"status": "pending"
+},
+"ELEPHANTIASIS": {
+"source": "E/Elephantiasis.mp4",
+"duration": 34.1,
+"clips": [
+{
+"file": "clips/_review/ELEPHANTIASIS_1.mp4",
+"span": [
+2.39,
+6.33
+]
+}
+],
+"status": "pending"
+},
+"EMBRYO": {
+"source": "E/Embryo.mp4",
+"duration": 17.3,
+"clips": [
+{
+"file": "clips/_review/EMBRYO_1.mp4",
+"span": [
+3.35,
+7.29
+]
+},
+{
+"file": "clips/_review/EMBRYO_2.mp4",
+"span": [
+8.15,
+10.97
+]
+}
+],
+"status": "pending"
+},
+"EMBARGOES": {
+"source": "E/Embargoes.mp4",
+"duration": 35.3,
+"clips": [
+{
+"file": "clips/_review/EMBARGOES_1.mp4",
+"span": [
+0.88,
+3.12
+]
+}
+],
+"status": "pending"
+},
+"EMBEZZLEMENT": {
+"source": "E/Embezzlement.mp4",
+"duration": 39.8,
+"status": "no-cut"
+},
+"ELIGIBLE": {
+"source": "E/Eligible.mp4",
+"duration": 51.1,
+"clips": [
+{
+"file": "clips/_review/ELIGIBLE_1.mp4",
+"span": [
+2.15,
+3.69
+]
+}
+],
+"status": "pending"
+},
+"ENAMEL": {
+"source": "E/Enamel.mp4",
+"duration": 16.3,
+"clips": [
+{
+"file": "clips/_review/ENAMEL_1.mp4",
+"span": [
+5.03,
+6.41
+]
+}
+],
+"status": "pending"
+},
+"EMPLOY": {
+"source": "E/Employ.mp4",
+"duration": 39.0,
+"clips": [
+{
+"file": "clips/_review/EMPLOY_1.mp4",
+"span": [
+1.42,
+2.75
+]
+}
+],
+"status": "pending"
+},
+"EMPYEMA": {
+"source": "E/Empyema.mp4",
+"duration": 31.7,
+"clips": [
+{
+"file": "clips/_review/EMPYEMA_1.mp4",
+"span": [
+1.27,
+3.29
+]
+},
+{
+"file": "clips/_review/EMPYEMA_2.mp4",
+"span": [
+3.91,
+5.61
+]
+}
+],
+"status": "pending"
+},
+"ENCEPHALITIS": {
+"source": "E/Encephalitis.mp4",
+"duration": 38.9,
+"status": "no-cut"
+},
+"ENDOCRINOLOGIST": {
+"source": "E/Endocrinologist.mp4",
+"duration": 14.4,
+"clips": [
+{
+"file": "clips/_review/ENDOCRINOLOGIST_1.mp4",
+"span": [
+4.07,
+5.37
+]
+}
+],
+"status": "pending"
+},
+"ENCRYPTION": {
+"source": "E/Encryption.mp4",
+"duration": 29.8,
+"status": "no-cut"
+},
+"ENCOUNTER": {
+"source": "E/Encounter.mp4",
+"duration": 34.8,
+"clips": [
+{
+"file": "clips/_review/ENCOUNTER_1.mp4",
+"span": [
+1.33,
+3.25
+]
+}
+],
+"status": "pending"
+},
+"ENDOSCOPE": {
+"source": "E/Endoscope.mp4",
+"duration": 9.4,
+"status": "no-cut"
+},
+"ENDOCRINOLOGY": {
+"source": "E/Endocrinology.mp4",
+"duration": 18.2,
+"clips": [
+{
+"file": "clips/_review/ENDOCRINOLOGY_1.mp4",
+"span": [
+2.31,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"ENDOWMENT": {
+"source": "E/Endowment.mp4",
+"duration": 27.5,
+"clips": [
+{
+"file": "clips/_review/ENDOWMENT_1.mp4",
+"span": [
+0.47,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"ENROLMENT": {
+"source": "E/Enrolment.mp4",
+"duration": 36.3,
+"clips": [
+{
+"file": "clips/_review/ENROLMENT_1.mp4",
+"span": [
+0.33,
+3.67
+]
+}
+],
+"status": "pending"
+},
+"ENTERTAINMENT": {
+"source": "E/Entertainment.mp4",
+"duration": 38.2,
+"status": "no-cut"
+},
+"ENTITLEMENT": {
+"source": "E/Entitlement.mp4",
+"duration": 43.6,
+"clips": [
+{
+"file": "clips/_review/ENTITLEMENT_1.mp4",
+"span": [
+6.63,
+7.93
+]
+}
+],
+"status": "pending"
+},
+"ENTRAPMENT": {
+"source": "E/Entrapment.mp4",
+"duration": 26.1,
+"status": "no-cut"
+},
+"ENTRY": {
+"source": "E/Entry.mp4",
+"duration": 16.1,
+"clips": [
+{
+"file": "clips/_review/ENTRY_1.mp4",
+"span": [
+0.63,
+3.77
+]
+},
+{
+"file": "clips/_review/ENTRY_2.mp4",
+"span": [
+5.59,
+8.49
+]
+}
+],
+"status": "pending"
+},
+"ENZYMES": {
+"source": "E/Enzymes.mp4",
+"duration": 26.6,
+"clips": [
+{
+"file": "clips/_review/ENZYMES_1.mp4",
+"span": [
+1.51,
+5.13
+]
+},
+{
+"file": "clips/_review/ENZYMES_2.mp4",
+"span": [
+5.03,
+8.65
+]
+}
+],
+"status": "pending"
+},
+"EPIDEMIC": {
+"source": "E/Epidemic.mp4",
+"duration": 20.6,
+"status": "no-cut"
+},
+"EPILEPTOLOGY": {
+"source": "E/Epileptology.mp4",
+"duration": 20.2,
+"status": "no-cut"
+},
+"EQUALITY": {
+"source": "E/Equality.mp4",
+"duration": 19.7,
+"clips": [
+{
+"file": "clips/_review/EQUALITY_1.mp4",
+"span": [
+0.95,
+2.17
+]
+},
+{
+"file": "clips/_review/EQUALITY_2.mp4",
+"span": [
+2.31,
+3.93
+]
+}
+],
+"status": "pending"
+},
+"EQUATOR": {
+"source": "E/Equator.mp4",
+"duration": 27.0,
+"status": "no-cut"
+},
+"EROSION": {
+"source": "E/Erosion.mp4",
+"duration": 33.6,
+"clips": [
+{
+"file": "clips/_review/EROSION_1.mp4",
+"span": [
+1.11,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"ESSAY": {
+"source": "E/Essay.mp4",
+"duration": 30.1,
+"clips": [
+{
+"file": "clips/_review/ESSAY_1.mp4",
+"span": [
+0.87,
+3.53
+]
+}
+],
+"status": "pending"
+},
+"EQUINOX": {
+"source": "E/Equinox.mp4",
+"duration": 64.2,
+"status": "no-cut"
+},
+"EQUITIES": {
+"source": "E/Equities.mp4",
+"duration": 52.0,
+"clips": [
+{
+"file": "clips/_review/EQUITIES_1.mp4",
+"span": [
+0.82,
+3.65
+]
+}
+],
+"status": "pending"
+},
+"ESTUARY": {
+"source": "E/Estuary.mp4",
+"duration": 17.3,
+"status": "no-cut"
+},
+"ESTOPPEL": {
+"source": "E/Estoppel.mp4",
+"duration": 29.4,
+"clips": [
+{
+"file": "clips/_review/ESTOPPEL_1.mp4",
+"span": [
+0.95,
+2.49
+]
+},
+{
+"file": "clips/_review/ESTOPPEL_2.mp4",
+"span": [
+3.03,
+4.81
+]
+}
+],
+"status": "pending"
+},
+"EVALUATION": {
+"source": "E/Evaluation.mp4",
+"duration": 21.3,
+"clips": [
+{
+"file": "clips/_review/EVALUATION_1.mp4",
+"span": [
+4.75,
+7.0
+]
+}
+],
+"status": "pending"
+},
+"EVAPOTRANSPIRATION": {
+"source": "E/Evapotranspiration.mp4",
+"duration": 18.7,
+"status": "no-cut"
+},
+"EVACUEE": {
+"source": "E/Evacuee.mp4",
+"duration": 39.0,
+"clips": [
+{
+"file": "clips/_review/EVACUEE_1.mp4",
+"span": [
+3.03,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"EVAPORATION": {
+"source": "E/Evaporation.mp4",
+"duration": 37.2,
+"clips": [
+{
+"file": "clips/_review/EVAPORATION_1.mp4",
+"span": [
+7.27,
+9.85
+]
+}
+],
+"status": "pending"
+},
+"EVICTION": {
+"source": "E/Eviction.mp4",
+"duration": 32.4,
+"status": "no-cut"
+},
+"EVOLUTION": {
+"source": "E/Evolution.mp4",
+"duration": 32.4,
+"status": "no-cut"
+},
+"EXHAUSTED": {
+"source": "E/Exhausted.mp4",
+"duration": 22.2,
+"clips": [
+{
+"file": "clips/_review/EXHAUSTED_1.mp4",
+"span": [
+0.47,
+2.57
+]
+},
+{
+"file": "clips/_review/EXHAUSTED_2.mp4",
+"span": [
+0.47,
+4.41
+]
+}
+],
+"status": "pending"
+},
+"EXIT": {
+"source": "E/Exit.mp4",
+"duration": 15.1,
+"status": "no-cut"
+},
+"EXHIBIT": {
+"source": "E/Exhibit.mp4",
+"duration": 33.1,
+"status": "no-cut"
+},
+"EXPAND": {
+"source": "E/Expand.mp4",
+"duration": 31.2,
+"status": "no-cut"
+},
+"EXCRETION": {
+"source": "E/Excretion.mp4",
+"duration": 65.1,
+"clips": [
+{
+"file": "clips/_review/EXCRETION_1.mp4",
+"span": [
+7.26,
+9.84
+]
+}
+],
+"status": "pending"
+},
+"EXPEDITION": {
+"source": "E/Expedition.mp4",
+"duration": 36.1,
+"status": "no-cut"
+},
+"EXPLOIT": {
+"source": "E/Exploit.mp4",
+"duration": 41.1,
+"clips": [
+{
+"file": "clips/_review/EXPLOIT_1.mp4",
+"span": [
+3.5,
+5.42
+]
+}
+],
+"status": "pending"
+},
+"EXPLORATION": {
+"source": "E/Exploration.mp4",
+"duration": 42.6,
+"status": "no-cut"
+},
+"EXTERNALITY": {
+"source": "E/Externality.mp4",
+"duration": 28.8,
+"clips": [
+{
+"file": "clips/_review/EXTERNALITY_1.mp4",
+"span": [
+1.58,
+3.0
+]
+},
+{
+"file": "clips/_review/EXTERNALITY_2.mp4",
+"span": [
+4.42,
+8.0
+]
+}
+],
+"status": "pending"
+},
+"EXTINCTION": {
+"source": "E/Extinction.mp4",
+"duration": 26.4,
+"clips": [
+{
+"file": "clips/_review/EXTINCTION_1.mp4",
+"span": [
+0.79,
+2.33
+]
+}
+],
+"status": "pending"
+},
+"EXTENSION": {
+"source": "E/Extension.mp4",
+"duration": 63.9,
+"clips": [
+{
+"file": "clips/_review/EXTENSION_1.mp4",
+"span": [
+0.75,
+4.25
+]
+},
+{
+"file": "clips/_review/EXTENSION_2.mp4",
+"span": [
+4.25,
+6.5
+]
+}
+],
+"status": "pending"
+},
+"EXTORTION": {
+"source": "E/Extortion.mp4",
+"duration": 23.2,
+"clips": [
+{
+"file": "clips/_review/EXTORTION_1.mp4",
+"span": [
+2.39,
+5.69
+]
+}
+],
+"status": "pending"
+},
+"FAST-FOOD": {
+"source": "F/Fast_Food.mp4",
+"duration": 27.1,
+"clips": [
+{
+"file": "clips/_review/FAST-FOOD_1.mp4",
+"span": [
+5.35,
+8.65
+]
+}
+],
+"status": "pending"
+},
+"EXTRADITION": {
+"source": "E/Extradition.mp4",
+"duration": 62.9,
+"status": "no-cut"
+},
+"FATAL": {
+"source": "F/Fatal.mp4",
+"duration": 44.8,
+"status": "no-cut"
+},
+"FARMAN": {
+"source": "F/Farman.mp4",
+"duration": 60.0,
+"status": "no-cut"
+},
+"FEEDER": {
+"source": "F/Feeder.mp4",
+"duration": 16.1,
+"clips": [
+{
+"file": "clips/_review/FEEDER_1.mp4",
+"span": [
+0.31,
+1.77
+]
+},
+{
+"file": "clips/_review/FEEDER_2.mp4",
+"span": [
+2.23,
+3.69
+]
+}
+],
+"status": "pending"
+},
+"FEMUR": {
+"source": "F/Femur.mp4",
+"duration": 12.4,
+"clips": [
+{
+"file": "clips/_review/FEMUR_1.mp4",
+"span": [
+0.47,
+2.17
+]
+}
+],
+"status": "pending"
+},
+"FEDERALISM": {
+"source": "F/Federalism.mp4",
+"duration": 44.8,
+"clips": [
+{
+"file": "clips/_review/FEDERALISM_1.mp4",
+"span": [
+2.31,
+4.81
+]
+}
+],
+"status": "pending"
+},
+"FERTILIZATION": {
+"source": "F/Fertilization.mp4",
+"duration": 21.9,
+"clips": [
+{
+"file": "clips/_review/FERTILIZATION_1.mp4",
+"span": [
+2.55,
+4.89
+]
+},
+{
+"file": "clips/_review/FERTILIZATION_2.mp4",
+"span": [
+5.59,
+8.01
+]
+}
+],
+"status": "pending"
+},
+"FETICIDE": {
+"source": "F/Feticide.mp4",
+"duration": 19.8,
+"clips": [
+{
+"file": "clips/_review/FETICIDE_1.mp4",
+"span": [
+1.83,
+3.69
+]
+}
+],
+"status": "pending"
+},
+"FETUS": {
+"source": "F/Fetus.mp4",
+"duration": 17.8,
+"clips": [
+{
+"file": "clips/_review/FETUS_1.mp4",
+"span": [
+0.87,
+2.57
+]
+}
+],
+"status": "pending"
+},
+"FIBULA": {
+"source": "F/Fibula.mp4",
+"duration": 13.4,
+"clips": [
+{
+"file": "clips/_review/FIBULA_1.mp4",
+"span": [
+0.15,
+1.77
+]
+},
+{
+"file": "clips/_review/FIBULA_2.mp4",
+"span": [
+2.47,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"FIRBOX": {
+"source": "F/Firbox.mp4",
+"duration": 9.8,
+"clips": [
+{
+"file": "clips/_review/FIRBOX_1.mp4",
+"span": [
+0.23,
+2.33
+]
+}
+],
+"status": "pending"
+},
+"FERMENTATION": {
+"source": "F/Fermentation.mp4",
+"duration": 62.8,
+"clips": [
+{
+"file": "clips/_review/FERMENTATION_1.mp4",
+"span": [
+10.23,
+13.21
+]
+}
+],
+"status": "pending"
+},
+"FILAMENT": {
+"source": "F/Filament.mp4",
+"duration": 26.9,
+"clips": [
+{
+"file": "clips/_review/FILAMENT_1.mp4",
+"span": [
+0.95,
+4.65
+]
+},
+{
+"file": "clips/_review/FILAMENT_2.mp4",
+"span": [
+5.19,
+7.85
+]
+}
+],
+"status": "pending"
+},
+"FIBRE": {
+"source": "F/Fibre.mp4",
+"duration": 44.4,
+"status": "no-cut"
+},
+"FISSION": {
+"source": "F/Fission.mp4",
+"duration": 9.5,
+"status": "no-cut"
+},
+"FIRM": {
+"source": "F/Firm.mp4",
+"duration": 24.5,
+"status": "no-cut"
+},
+"FLANGE": {
+"source": "F/Flange.mp4",
+"duration": 19.7,
+"clips": [
+{
+"file": "clips/_review/FLANGE_1.mp4",
+"span": [
+0.23,
+1.69
+]
+},
+{
+"file": "clips/_review/FLANGE_2.mp4",
+"span": [
+2.23,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"FLATFOOT": {
+"source": "F/Flatfoot.mp4",
+"duration": 10.6,
+"clips": [
+{
+"file": "clips/_review/FLATFOOT_1.mp4",
+"span": [
+1.11,
+2.89
+]
+},
+{
+"file": "clips/_review/FLATFOOT_2.mp4",
+"span": [
+4.87,
+6.57
+]
+}
+],
+"status": "pending"
+},
+"FLASK": {
+"source": "F/Flask.mp4",
+"duration": 18.1,
+"clips": [
+{
+"file": "clips/_review/FLASK_1.mp4",
+"span": [
+6.42,
+8.58
+]
+}
+],
+"status": "pending"
+},
+"FIRST-AID": {
+"source": "F/First_Aid.mp4",
+"duration": 37.9,
+"clips": [
+{
+"file": "clips/_review/FIRST-AID_1.mp4",
+"span": [
+1.35,
+2.89
+]
+}
+],
+"status": "pending"
+},
+"FLATULENCE": {
+"source": "F/Flatulence.mp4",
+"duration": 9.6,
+"clips": [
+{
+"file": "clips/_review/FLATULENCE_1.mp4",
+"span": [
+1.83,
+3.77
+]
+},
+{
+"file": "clips/_review/FLATULENCE_2.mp4",
+"span": [
+3.99,
+5.53
+]
+}
+],
+"status": "pending"
+},
+"FLOAT": {
+"source": "F/Float.mp4",
+"duration": 10.1,
+"clips": [
+{
+"file": "clips/_review/FLOAT_1.mp4",
+"span": [
+7.59,
+9.61
+]
+}
+],
+"status": "pending"
+},
+"FLORICULTURE": {
+"source": "F/Floriculture.mp4",
+"duration": 10.9,
+"status": "no-cut"
+},
+"FLAYING": {
+"source": "F/Flaying.mp4",
+"duration": 18.9,
+"clips": [
+{
+"file": "clips/_review/FLAYING_1.mp4",
+"span": [
+0.95,
+2.41
+]
+},
+{
+"file": "clips/_review/FLAYING_2.mp4",
+"span": [
+0.95,
+4.41
+]
+}
+],
+"status": "pending"
+},
+"FOOTAGE": {
+"source": "F/Footage.mp4",
+"duration": 10.0,
+"status": "no-cut"
+},
+"FOMENT": {
+"source": "F/Foment.mp4",
+"duration": 19.2,
+"status": "no-cut"
+},
+"FORNICATION": {
+"source": "F/Fornication.mp4",
+"duration": 14.0,
+"clips": [
+{
+"file": "clips/_review/FORNICATION_1.mp4",
+"span": [
+1.35,
+4.17
+]
+}
+],
+"status": "pending"
+},
+"FORTNIGHT": {
+"source": "F/Fortnight.mp4",
+"duration": 26.0,
+"clips": [
+{
+"file": "clips/_review/FORTNIGHT_1.mp4",
+"span": [
+0.71,
+3.29
+]
+}
+],
+"status": "pending"
+},
+"FREEZING": {
+"source": "F/Freezing.mp4",
+"duration": 11.3,
+"clips": [
+{
+"file": "clips/_review/FREEZING_1.mp4",
+"span": [
+4.47,
+7.13
+]
+}
+],
+"status": "pending"
+},
+"FOP": {
+"source": "F/FOP.mp4",
+"duration": 28.2,
+"clips": [
+{
+"file": "clips/_review/FOP_1.mp4",
+"span": [
+1.28,
+2.85
+]
+},
+{
+"file": "clips/_review/FOP_2.mp4",
+"span": [
+4.02,
+5.98
+]
+}
+],
+"status": "pending"
+},
+"FRYERS": {
+"source": "F/Fryers.mp4",
+"duration": 14.9,
+"clips": [
+{
+"file": "clips/_review/FRYERS_1.mp4",
+"span": [
+1.75,
+3.5
+]
+},
+{
+"file": "clips/_review/FRYERS_2.mp4",
+"span": [
+3.67,
+5.67
+]
+}
+],
+"status": "pending"
+},
+"FOSSIL": {
+"source": "F/Fossil.mp4",
+"duration": 43.2,
+"status": "no-cut"
+},
+"FUMIGATION": {
+"source": "F/Fumigation.mp4",
+"duration": 19.2,
+"status": "no-cut"
+},
+"FROST": {
+"source": "F/Frost.mp4",
+"duration": 25.2,
+"status": "no-cut"
+},
+"FUNDING": {
+"source": "F/Funding.mp4",
+"duration": 15.8,
+"clips": [
+{
+"file": "clips/_review/FUNDING_1.mp4",
+"span": [
+0.28,
+2.45
+]
+}
+],
+"status": "pending"
+},
+"FUNGUS": {
+"source": "F/Fungus.mp4",
+"duration": 29.2,
+"status": "no-cut"
+},
+"FUNGI": {
+"source": "F/Fungi.mp4",
+"duration": 36.3,
+"status": "no-cut"
+},
+"GAFFE": {
+"source": "G/Gaffe.mp4",
+"duration": 26.9,
+"clips": [
+{
+"file": "clips/_review/GAFFE_1.mp4",
+"span": [
+0.08,
+2.12
+]
+}
+],
+"status": "pending"
+},
+"FUTURES": {
+"source": "F/Futures.mp4",
+"duration": 37.5,
+"clips": [
+{
+"file": "clips/_review/FUTURES_1.mp4",
+"span": [
+1.08,
+3.05
+]
+}
+],
+"status": "pending"
+},
+"GALLOWS": {
+"source": "G/Gallows.mp4",
+"duration": 11.0,
+"status": "no-cut"
+},
+"FUSE": {
+"source": "F/Fuse.mp4",
+"duration": 70.8,
+"status": "no-cut"
+},
+"GAIN": {
+"source": "G/Gain.mp4",
+"duration": 38.3,
+"clips": [
+{
+"file": "clips/_review/GAIN_1.mp4",
+"span": [
+9.03,
+12.57
+]
+}
+],
+"status": "pending"
+},
+"GALLSTONE": {
+"source": "G/Gallstone.mp4",
+"duration": 16.3,
+"status": "no-cut"
+},
+"GARLAND": {
+"source": "G/Garland.mp4",
+"duration": 10.4,
+"status": "no-cut"
+},
+"GANG": {
+"source": "G/Gang.mp4",
+"duration": 17.0,
+"clips": [
+{
+"file": "clips/_review/GANG_1.mp4",
+"span": [
+0.79,
+2.01
+]
+}
+],
+"status": "pending"
+},
+"GALVANIZATION": {
+"source": "G/Galvanization.mp4",
+"duration": 24.4,
+"status": "no-cut"
+},
+"GARGLE": {
+"source": "G/Gargle.mp4",
+"duration": 17.9,
+"clips": [
+{
+"file": "clips/_review/GARGLE_1.mp4",
+"span": [
+0.67,
+2.75
+]
+},
+{
+"file": "clips/_review/GARGLE_2.mp4",
+"span": [
+2.92,
+6.83
+]
+}
+],
+"status": "pending"
+},
+"GAUGES": {
+"source": "G/Gauges.mp4",
+"duration": 15.6,
+"status": "no-cut"
+},
+"GATHER": {
+"source": "G/Gather.mp4",
+"duration": 17.4,
+"status": "no-cut"
+},
+"GARNISH": {
+"source": "G/Garnish.mp4",
+"duration": 27.4,
+"status": "no-cut"
+},
+"GENEALOGY": {
+"source": "G/Genealogy.mp4",
+"duration": 8.8,
+"status": "no-cut"
+},
+"GENOME": {
+"source": "G/Genome.mp4",
+"duration": 13.0,
+"status": "no-cut"
+},
+"GAZETTE": {
+"source": "G/Gazette.mp4",
+"duration": 32.6,
+"clips": [
+{
+"file": "clips/_review/GAZETTE_1.mp4",
+"span": [
+2.15,
+4.09
+]
+}
+],
+"status": "pending"
+},
+"GENRE": {
+"source": "G/Genre.mp4",
+"duration": 15.4,
+"status": "no-cut"
+},
+"GEOSYNCLINE": {
+"source": "G/Geosyncline.mp4",
+"duration": 24.8,
+"status": "no-cut"
+},
+"GHAT": {
+"source": "G/Ghat.mp4",
+"duration": 10.7,
+"status": "no-cut"
+},
+"GERMINATION": {
+"source": "G/Germination.mp4",
+"duration": 22.7,
+"status": "no-cut"
+},
+"GESTURE": {
+"source": "G/Gesture.mp4",
+"duration": 30.7,
+"status": "no-cut"
+},
+"GIFTWRAP": {
+"source": "G/Giftwrap.mp4",
+"duration": 13.7,
+"status": "no-cut"
+},
+"GLIMMER": {
+"source": "G/Glimmer.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/GLIMMER_1.mp4",
+"span": [
+0.08,
+2.32
+]
+}
+],
+"status": "pending"
+},
+"GLACIER": {
+"source": "G/Glacier.mp4",
+"duration": 22.8,
+"status": "no-cut"
+},
+"GIF": {
+"source": "G/Gif.mp4",
+"duration": 46.6,
+"clips": [
+{
+"file": "clips/_review/GIF_1.mp4",
+"span": [
+2.23,
+4.73
+]
+}
+],
+"status": "pending"
+},
+"GLINT": {
+"source": "G/Glint.mp4",
+"duration": 31.6,
+"status": "no-cut"
+},
+"GLOOM": {
+"source": "G/Gloom.mp4",
+"duration": 17.9,
+"status": "no-cut"
+},
+"GHETTOISATION": {
+"source": "G/Ghettoisation.mp4",
+"duration": 68.0,
+"clips": [
+{
+"file": "clips/_review/GHETTOISATION_1.mp4",
+"span": [
+2.39,
+5.69
+]
+}
+],
+"status": "pending"
+},
+"GNP": {
+"source": "G/Gnp.mp4",
+"duration": 12.8,
+"clips": [
+{
+"file": "clips/_review/GNP_1.mp4",
+"span": [
+1.5,
+3.83
+]
+}
+],
+"status": "pending"
+},
+"GOALS": {
+"source": "G/Goals.mp4",
+"duration": 12.8,
+"status": "no-cut"
+},
+"GLOW": {
+"source": "G/Glow.mp4",
+"duration": 19.7,
+"clips": [
+{
+"file": "clips/_review/GLOW_1.mp4",
+"span": [
+0.31,
+2.09
+]
+},
+{
+"file": "clips/_review/GLOW_2.mp4",
+"span": [
+2.63,
+5.53
+]
+}
+],
+"status": "pending"
+},
+"GLOBALISATION": {
+"source": "G/Globalisation.mp4",
+"duration": 50.4,
+"clips": [
+{
+"file": "clips/_review/GLOBALISATION_1.mp4",
+"span": [
+0.55,
+3.13
+]
+}
+],
+"status": "pending"
+},
+"GRADERS": {
+"source": "G/Graders.mp4",
+"duration": 9.2,
+"clips": [
+{
+"file": "clips/_review/GRADERS_1.mp4",
+"span": [
+0.63,
+3.53
+]
+},
+{
+"file": "clips/_review/GRADERS_2.mp4",
+"span": [
+4.15,
+5.77
+]
+}
+],
+"status": "pending"
+},
+"GONORRHEA": {
+"source": "G/Gonorrhea.mp4",
+"duration": 25.4,
+"status": "no-cut"
+},
+"GOUT": {
+"source": "G/Gout.mp4",
+"duration": 34.1,
+"status": "no-cut"
+},
+"GOTRAS": {
+"source": "G/Gotras.mp4",
+"duration": 43.4,
+"status": "no-cut"
+},
+"GRADUAL": {
+"source": "G/Gradual.mp4",
+"duration": 24.2,
+"clips": [
+{
+"file": "clips/_review/GRADUAL_1.mp4",
+"span": [
+3.62,
+4.85
+]
+}
+],
+"status": "pending"
+},
+"GRAMOPHONE": {
+"source": "G/Gramophone.mp4",
+"duration": 9.8,
+"status": "no-cut"
+},
+"GRAFT": {
+"source": "G/Graft.mp4",
+"duration": 32.2,
+"status": "no-cut"
+},
+"GRAFTING": {
+"source": "G/Grafting.mp4",
+"duration": 32.6,
+"clips": [
+{
+"file": "clips/_review/GRAFTING_1.mp4",
+"span": [
+2.39,
+4.41
+]
+},
+{
+"file": "clips/_review/GRAFTING_2.mp4",
+"span": [
+5.03,
+7.29
+]
+}
+],
+"status": "pending"
+},
+"GRADING": {
+"source": "G/Grading.mp4",
+"duration": 60.2,
+"clips": [
+{
+"file": "clips/_review/GRADING_1.mp4",
+"span": [
+0.67,
+3.67
+]
+}
+],
+"status": "pending"
+},
+"GRANULATION": {
+"source": "G/Granulation.mp4",
+"duration": 18.7,
+"clips": [
+{
+"file": "clips/_review/GRANULATION_1.mp4",
+"span": [
+9.27,
+10.73
+]
+}
+],
+"status": "pending"
+},
+"GRASSLANDS": {
+"source": "G/Grasslands.mp4",
+"duration": 17.1,
+"status": "no-cut"
+},
+"GRAVITATIONAL": {
+"source": "G/Gravitational.mp4",
+"duration": 10.1,
+"clips": [
+{
+"file": "clips/_review/GRAVITATIONAL_1.mp4",
+"span": [
+0.25,
+3.33
+]
+}
+],
+"status": "pending"
+},
+"GRAVITY": {
+"source": "G/Gravity.mp4",
+"duration": 10.2,
+"clips": [
+{
+"file": "clips/_review/GRAVITY_1.mp4",
+"span": [
+6.83,
+9.92
+]
+}
+],
+"status": "pending"
+},
+"GRANARY": {
+"source": "G/Granary.mp4",
+"duration": 59.3,
+"clips": [
+{
+"file": "clips/_review/GRANARY_1.mp4",
+"span": [
+0.71,
+3.05
+]
+},
+{
+"file": "clips/_review/GRANARY_2.mp4",
+"span": [
+2.95,
+4.09
+]
+}
+],
+"status": "pending"
+},
+"GREYLIST": {
+"source": "G/Greylist.m4v",
+"duration": 29.6,
+"status": "no-cut"
+},
+"GRATUITY": {
+"source": "G/Gratuity.mp4",
+"duration": 51.0,
+"clips": [
+{
+"file": "clips/_review/GRATUITY_1.mp4",
+"span": [
+0.95,
+2.73
+]
+}
+],
+"status": "pending"
+},
+"GREYWATER": {
+"source": "G/Greywater.mp4",
+"duration": 28.8,
+"clips": [
+{
+"file": "clips/_review/GREYWATER_1.mp4",
+"span": [
+7.19,
+9.45
+]
+}
+],
+"status": "pending"
+},
+"GRIND": {
+"source": "G/Grind.mp4",
+"duration": 19.2,
+"clips": [
+{
+"file": "clips/_review/GRIND_1.mp4",
+"span": [
+1.35,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"GROUNDWATER": {
+"source": "G/Groundwater.mp4",
+"duration": 15.4,
+"clips": [
+{
+"file": "clips/_review/GROUNDWATER_1.mp4",
+"span": [
+0.71,
+2.25
+]
+}
+],
+"status": "pending"
+},
+"GUTTATION": {
+"source": "G/Guttation.mp4",
+"duration": 15.8,
+"clips": [
+{
+"file": "clips/_review/GUTTATION_1.mp4",
+"span": [
+1.0,
+4.0
+]
+},
+{
+"file": "clips/_review/GUTTATION_2.mp4",
+"span": [
+4.83,
+7.17
+]
+}
+],
+"status": "pending"
+},
+"GUARANTOR": {
+"source": "G/Guarantor.mp4",
+"duration": 27.1,
+"clips": [
+{
+"file": "clips/_review/GUARANTOR_1.mp4",
+"span": [
+0.39,
+4.17
+]
+}
+],
+"status": "pending"
+},
+"GRID": {
+"source": "G/Grid.mp4",
+"duration": 56.1,
+"status": "no-cut"
+},
+"GUTTER": {
+"source": "G/Gutter.mp4",
+"duration": 25.3,
+"status": "no-cut"
+},
+"GYNAECOLOGY": {
+"source": "G/Gynaecology.mp4",
+"duration": 10.0,
+"clips": [
+{
+"file": "clips/_review/GYNAECOLOGY_1.mp4",
+"span": [
+0.71,
+3.13
+]
+}
+],
+"status": "pending"
+},
+"GYNECOMASTIA": {
+"source": "G/Gynecomastia.mp4",
+"duration": 21.1,
+"clips": [
+{
+"file": "clips/_review/GYNECOMASTIA_1.mp4",
+"span": [
+1.75,
+4.41
+]
+},
+{
+"file": "clips/_review/GYNECOMASTIA_2.mp4",
+"span": [
+4.71,
+6.97
+]
+}
+],
+"status": "pending"
+},
+"HALITOSIS": {
+"source": "H/Halitosis.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/HALITOSIS_1.mp4",
+"span": [
+1.19,
+3.21
+]
+},
+{
+"file": "clips/_review/HALITOSIS_2.mp4",
+"span": [
+3.11,
+5.05
+]
+}
+],
+"status": "pending"
+},
+"HALFTONE": {
+"source": "H/Halftone.mp4",
+"duration": 22.0,
+"clips": [
+{
+"file": "clips/_review/HALFTONE_1.mp4",
+"span": [
+0.92,
+3.08
+]
+},
+{
+"file": "clips/_review/HALFTONE_2.mp4",
+"span": [
+3.17,
+5.92
+]
+}
+],
+"status": "pending"
+},
+"HANDWRITING": {
+"source": "H/Handwriting.mp4",
+"duration": 15.2,
+"status": "no-cut"
+},
+"HANG": {
+"source": "H/Hang.mp4",
+"duration": 25.7,
+"clips": [
+{
+"file": "clips/_review/HANG_1.mp4",
+"span": [
+1.59,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"HANGOUTS": {
+"source": "H/Hangouts.mp4",
+"duration": 16.2,
+"status": "no-cut"
+},
+"HANGMAN": {
+"source": "H/Hangman.mp4",
+"duration": 23.5,
+"status": "no-cut"
+},
+"HARASSMENT": {
+"source": "H/Harassment.mp4",
+"duration": 17.0,
+"status": "no-cut"
+},
+"HABITAT": {
+"source": "H/Habitat.mp4",
+"duration": 58.7,
+"clips": [
+{
+"file": "clips/_review/HABITAT_1.mp4",
+"span": [
+8.07,
+9.69
+]
+},
+{
+"file": "clips/_review/HABITAT_2.mp4",
+"span": [
+8.07,
+10.81
+]
+}
+],
+"status": "pending"
+},
+"HEARSAY": {
+"source": "H/Hearsay.mp4",
+"duration": 14.4,
+"clips": [
+{
+"file": "clips/_review/HEARSAY_1.mp4",
+"span": [
+0.23,
+1.45
+]
+}
+],
+"status": "pending"
+},
+"HEDGES": {
+"source": "H/Hedges.mp4",
+"duration": 23.8,
+"status": "no-cut"
+},
+"HEIR": {
+"source": "H/Heir.mp4",
+"duration": 17.0,
+"status": "no-cut"
+},
+"HELIPADS": {
+"source": "H/Helipads.mp4",
+"duration": 14.0,
+"clips": [
+{
+"file": "clips/_review/HELIPADS_1.mp4",
+"span": [
+1.03,
+4.01
+]
+},
+{
+"file": "clips/_review/HELIPADS_2.mp4",
+"span": [
+4.31,
+6.49
+]
+}
+],
+"status": "pending"
+},
+"HEMISPHERE": {
+"source": "H/Hemisphere.mp4",
+"duration": 11.5,
+"status": "no-cut"
+},
+"HEMODIALYSIS": {
+"source": "H/Hemodialysis.mp4",
+"duration": 10.7,
+"clips": [
+{
+"file": "clips/_review/HEMODIALYSIS_1.mp4",
+"span": [
+0.07,
+1.61
+]
+}
+],
+"status": "pending"
+},
+"HELIUM": {
+"source": "H/Helium.mp4",
+"duration": 22.4,
+"status": "no-cut"
+},
+"HEIROGLYPHS": {
+"source": "H/Heiroglyphs.mp4",
+"duration": 40.0,
+"status": "no-cut"
+},
+"HEMOLYSIS": {
+"source": "H/Hemolysis.mp4",
+"duration": 16.3,
+"status": "no-cut"
+},
+"HEMOPHILIA": {
+"source": "H/Hemophilia.mp4",
+"duration": 10.4,
+"clips": [
+{
+"file": "clips/_review/HEMOPHILIA_1.mp4",
+"span": [
+6.31,
+9.37
+]
+}
+],
+"status": "pending"
+},
+"HEPATITIS": {
+"source": "H/Hepatitis.mp4",
+"duration": 10.6,
+"clips": [
+{
+"file": "clips/_review/HEPATITIS_1.mp4",
+"span": [
+0.55,
+1.69
+]
+},
+{
+"file": "clips/_review/HEPATITIS_2.mp4",
+"span": [
+1.83,
+3.93
+]
+}
+],
+"status": "pending"
+},
+"HERBS": {
+"source": "H/Herbs.mp4",
+"duration": 19.6,
+"status": "no-cut"
+},
+"HERBACEOUS": {
+"source": "H/Herbaceous.mp4",
+"duration": 25.6,
+"clips": [
+{
+"file": "clips/_review/HERBACEOUS_1.mp4",
+"span": [
+0.5,
+1.67
+]
+},
+{
+"file": "clips/_review/HERBACEOUS_2.mp4",
+"span": [
+1.92,
+5.25
+]
+}
+],
+"status": "pending"
+},
+"HETEROTROPHIC": {
+"source": "H/Heterotrophic.mp4",
+"duration": 26.4,
+"clips": [
+{
+"file": "clips/_review/HETEROTROPHIC_1.mp4",
+"span": [
+8.5,
+10.42
+]
+}
+],
+"status": "pending"
+},
+"HIGHWAY": {
+"source": "H/Highway.mp4",
+"duration": 18.3,
+"status": "no-cut"
+},
+"HETEROTROPH": {
+"source": "H/Heterotroph.mp4",
+"duration": 52.2,
+"clips": [
+{
+"file": "clips/_review/HETEROTROPH_1.mp4",
+"span": [
+0.25,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"HIGHLIGHT": {
+"source": "H/Highlight.mp4",
+"duration": 31.3,
+"status": "no-cut"
+},
+"HIERARCHY": {
+"source": "H/Hierarchy.mp4",
+"duration": 38.5,
+"status": "no-cut"
+},
+"HISTOLOGY": {
+"source": "H/Histology.mp4",
+"duration": 9.3,
+"clips": [
+{
+"file": "clips/_review/HISTOLOGY_1.mp4",
+"span": [
+4.87,
+7.45
+]
+}
+],
+"status": "pending"
+},
+"HINGE": {
+"source": "H/Hinge.mp4",
+"duration": 21.6,
+"clips": [
+{
+"file": "clips/_review/HINGE_1.mp4",
+"span": [
+7.08,
+10.42
+]
+}
+],
+"status": "pending"
+},
+"HOARDING": {
+"source": "H/Hoarding.mp4",
+"duration": 23.5,
+"status": "no-cut"
+},
+"HOLD": {
+"source": "H/Hold.mp4",
+"duration": 29.0,
+"status": "no-cut"
+},
+"HOMEBODIES": {
+"source": "H/Homebodies.mp4",
+"duration": 30.7,
+"status": "no-cut"
+},
+"HISTORIAN": {
+"source": "H/Historian.mp4",
+"duration": 42.7,
+"status": "no-cut"
+},
+"HOMESTEAD": {
+"source": "H/Homestead.mp4",
+"duration": 16.9,
+"status": "no-cut"
+},
+"HOST": {
+"source": "H/Host.mp4",
+"duration": 20.0,
+"clips": [
+{
+"file": "clips/_review/HOST_1.mp4",
+"span": [
+1.59,
+3.37
+]
+}
+],
+"status": "pending"
+},
+"HORTICULTURE": {
+"source": "H/Horticulture.mp4",
+"duration": 19.9,
+"status": "no-cut"
+},
+"HOMONOMY": {
+"source": "H/Homonomy.mp4",
+"duration": 33.4,
+"clips": [
+{
+"file": "clips/_review/HOMONOMY_1.mp4",
+"span": [
+5.58,
+8.92
+]
+}
+],
+"status": "pending"
+},
+"HOMOPHONE": {
+"source": "H/Homophone.mp4",
+"duration": 27.2,
+"status": "no-cut"
+},
+"HOSTICIDE": {
+"source": "H/Hosticide.mp4",
+"duration": 13.5,
+"status": "no-cut"
+},
+"HUMPED": {
+"source": "H/Humped.mp4",
+"duration": 14.4,
+"status": "no-cut"
+},
+"HUSKIES": {
+"source": "H/Huskies.mp4",
+"duration": 13.8,
+"status": "no-cut"
+},
+"HYDATHODES": {
+"source": "H/Hydathodes.mp4",
+"duration": 10.5,
+"clips": [
+{
+"file": "clips/_review/HYDATHODES_1.mp4",
+"span": [
+0.58,
+2.75
+]
+},
+{
+"file": "clips/_review/HYDATHODES_2.mp4",
+"span": [
+3.25,
+4.67
+]
+}
+],
+"status": "pending"
+},
+"HUMUS": {
+"source": "H/Humus.mp4",
+"duration": 27.7,
+"status": "no-cut"
+},
+"HYPERMETROPIA": {
+"source": "H/Hypermetropia.mp4",
+"duration": 11.2,
+"clips": [
+{
+"file": "clips/_review/HYPERMETROPIA_1.mp4",
+"span": [
+1.0,
+4.92
+]
+},
+{
+"file": "clips/_review/HYPERMETROPIA_2.mp4",
+"span": [
+5.0,
+7.83
+]
+}
+],
+"status": "pending"
+},
+"HYBRID": {
+"source": "H/Hybrid.mp4",
+"duration": 32.6,
+"status": "no-cut"
+},
+"HYDRATION": {
+"source": "H/Hydration.mp4",
+"duration": 15.3,
+"clips": [
+{
+"file": "clips/_review/HYDRATION_1.mp4",
+"span": [
+0.23,
+3.29
+]
+}
+],
+"status": "pending"
+},
+"HYPERTHYROIDISM": {
+"source": "H/Hyperthyroidism.mp4",
+"duration": 16.8,
+"clips": [
+{
+"file": "clips/_review/HYPERTHYROIDISM_1.mp4",
+"span": [
+3.19,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"HYPOGEAL": {
+"source": "H/Hypogeal.mp4",
+"duration": 15.9,
+"clips": [
+{
+"file": "clips/_review/HYPOGEAL_1.mp4",
+"span": [
+6.33,
+7.75
+]
+}
+],
+"status": "pending"
+},
+"HYPOTENUSE": {
+"source": "H/Hypotenuse.mp4",
+"duration": 17.8,
+"clips": [
+{
+"file": "clips/_review/HYPOTENUSE_1.mp4",
+"span": [
+0.25,
+2.0
+]
+}
+],
+"status": "pending"
+},
+"HYPHENATION": {
+"source": "H/Hyphenation.mp4",
+"duration": 40.2,
+"status": "no-cut"
+},
+"HYPOTHALAMUS": {
+"source": "H/Hypothalamus.mp4",
+"duration": 16.2,
+"clips": [
+{
+"file": "clips/_review/HYPOTHALAMUS_1.mp4",
+"span": [
+0.31,
+2.01
+]
+},
+{
+"file": "clips/_review/HYPOTHALAMUS_2.mp4",
+"span": [
+2.39,
+4.33
+]
+}
+],
+"status": "pending"
+},
+"HYBRIDIZATION": {
+"source": "H/Hybridization.mp4",
+"duration": 77.4,
+"clips": [
+{
+"file": "clips/_review/HYBRIDIZATION_1.mp4",
+"span": [
+6.47,
+7.85
+]
+}
+],
+"status": "pending"
+},
+"HYPOTHERMIA": {
+"source": "H/Hypothermia.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"ICON": {
+"source": "I/Icon.mp4",
+"duration": 26.4,
+"clips": [
+{
+"file": "clips/_review/ICON_1.mp4",
+"span": [
+2.23,
+3.77
+]
+}
+],
+"status": "pending"
+},
+"IDDAT": {
+"source": "I/Iddat.mp4",
+"duration": 27.9,
+"clips": [
+{
+"file": "clips/_review/IDDAT_1.mp4",
+"span": [
+1.43,
+4.25
+]
+},
+{
+"file": "clips/_review/IDDAT_2.mp4",
+"span": [
+4.47,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"IDEAL": {
+"source": "I/Ideal.mp4",
+"duration": 40.5,
+"status": "no-cut"
+},
+"ICONICITY": {
+"source": "I/Iconicity.mp4",
+"duration": 71.8,
+"clips": [
+{
+"file": "clips/_review/ICONICITY_1.mp4",
+"span": [
+4.83,
+7.42
+]
+}
+],
+"status": "pending"
+},
+"IDENTIFICATION": {
+"source": "I/Identification.mp4",
+"duration": 43.0,
+"clips": [
+{
+"file": "clips/_review/IDENTIFICATION_1.mp4",
+"span": [
+1.19,
+2.57
+]
+}
+],
+"status": "pending"
+},
+"IMMATERIAL": {
+"source": "I/Immaterial.mp4",
+"duration": 18.7,
+"status": "no-cut"
+},
+"IDIOLECT": {
+"source": "I/Idiolect.mp4",
+"duration": 55.8,
+"status": "no-cut"
+},
+"IDIOMS": {
+"source": "I/Idioms.mp4",
+"duration": 41.0,
+"status": "no-cut"
+},
+"IMITATION": {
+"source": "I/Imitation.mp4",
+"duration": 27.3,
+"status": "no-cut"
+},
+"IMPACT": {
+"source": "I/Impact.mp4",
+"duration": 37.6,
+"status": "no-cut"
+},
+"IMPERIALISM": {
+"source": "I/Imperialism.mp4",
+"duration": 32.9,
+"status": "no-cut"
+},
+"IMPLEMENT": {
+"source": "I/Implement.mp4",
+"duration": 41.2,
+"status": "no-cut"
+},
+"IMPLEMENTATION": {
+"source": "I/Implementation.mp4",
+"duration": 22.3,
+"status": "no-cut"
+},
+"IMPEACHMENT": {
+"source": "I/Impeachment.mp4",
+"duration": 68.4,
+"clips": [
+{
+"file": "clips/_review/IMPEACHMENT_1.mp4",
+"span": [
+1.75,
+3.05
+]
+},
+{
+"file": "clips/_review/IMPEACHMENT_2.mp4",
+"span": [
+4.71,
+6.65
+]
+}
+],
+"status": "pending"
+},
+"INARCHING": {
+"source": "I/Inarching.mp4",
+"duration": 36.9,
+"status": "no-cut"
+},
+"INBREEDING": {
+"source": "I/Inbreeding.mp4",
+"duration": 31.2,
+"clips": [
+{
+"file": "clips/_review/INBREEDING_1.mp4",
+"span": [
+2.08,
+5.58
+]
+}
+],
+"status": "pending"
+},
+"INCENTIVE": {
+"source": "I/Incentive.mp4",
+"duration": 15.6,
+"status": "no-cut"
+},
+"INDENT": {
+"source": "I/Indent.mp4",
+"duration": 12.1,
+"clips": [
+{
+"file": "clips/_review/INDENT_1.mp4",
+"span": [
+0.33,
+3.83
+]
+}
+],
+"status": "pending"
+},
+"INDEXING": {
+"source": "I/Indexing.mp4",
+"duration": 16.4,
+"status": "no-cut"
+},
+"INDEX": {
+"source": "I/Index.mp4",
+"duration": 19.2,
+"clips": [
+{
+"file": "clips/_review/INDEX_1.mp4",
+"span": [
+0.55,
+4.18
+]
+}
+],
+"status": "pending"
+},
+"INCUMBRANCE": {
+"source": "I/Incumbrance.mp4",
+"duration": 31.7,
+"clips": [
+{
+"file": "clips/_review/INCUMBRANCE_1.mp4",
+"span": [
+2.47,
+4.73
+]
+}
+],
+"status": "pending"
+},
+"INDUCTOR": {
+"source": "I/Inductor.mp4",
+"duration": 20.7,
+"clips": [
+{
+"file": "clips/_review/INDUCTOR_1.mp4",
+"span": [
+2.07,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"INDIGESTION": {
+"source": "I/Indigestion.mp4",
+"duration": 26.8,
+"status": "no-cut"
+},
+"INFANT": {
+"source": "I/Infant.mp4",
+"duration": 12.2,
+"status": "no-cut"
+},
+"INFANTICIDE": {
+"source": "I/Infanticide.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/INFANTICIDE_1.mp4",
+"span": [
+1.67,
+4.49
+]
+},
+{
+"file": "clips/_review/INFANTICIDE_2.mp4",
+"span": [
+4.39,
+6.73
+]
+}
+],
+"status": "pending"
+},
+"INFECTION": {
+"source": "I/Infection.mp4",
+"duration": 14.8,
+"clips": [
+{
+"file": "clips/_review/INFECTION_1.mp4",
+"span": [
+0.47,
+2.89
+]
+},
+{
+"file": "clips/_review/INFECTION_2.mp4",
+"span": [
+3.27,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"INERTIA": {
+"source": "I/Inertia.mp4",
+"duration": 30.6,
+"clips": [
+{
+"file": "clips/_review/INERTIA_1.mp4",
+"span": [
+5.99,
+9.29
+]
+}
+],
+"status": "pending"
+},
+"INFERTILITY": {
+"source": "I/Infertility.mp4",
+"duration": 19.2,
+"clips": [
+{
+"file": "clips/_review/INFERTILITY_1.mp4",
+"span": [
+4.47,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"INGADULICIS": {
+"source": "I/Ingadulicis.mp4",
+"duration": 12.3,
+"status": "no-cut"
+},
+"INFILTRATION": {
+"source": "I/Infiltration.mp4",
+"duration": 22.1,
+"status": "no-cut"
+},
+"INSTALL": {
+"source": "I/Install.mp4",
+"duration": 20.2,
+"clips": [
+{
+"file": "clips/_review/INSTALL_1.mp4",
+"span": [
+2.63,
+3.85
+]
+},
+{
+"file": "clips/_review/INSTALL_2.mp4",
+"span": [
+2.63,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"INGREDIENTS": {
+"source": "I/Ingredients.mp4",
+"duration": 34.4,
+"status": "no-cut"
+},
+"INNATE": {
+"source": "I/Innate.mp4",
+"duration": 30.6,
+"clips": [
+{
+"file": "clips/_review/INNATE_1.mp4",
+"span": [
+1.08,
+4.33
+]
+},
+{
+"file": "clips/_review/INNATE_2.mp4",
+"span": [
+4.67,
+6.25
+]
+}
+],
+"status": "pending"
+},
+"INSULATOR": {
+"source": "I/Insulator.mp4",
+"duration": 24.0,
+"clips": [
+{
+"file": "clips/_review/INSULATOR_1.mp4",
+"span": [
+0.95,
+2.73
+]
+}
+],
+"status": "pending"
+},
+"INTEGER": {
+"source": "I/Integer.mp4",
+"duration": 21.1,
+"clips": [
+{
+"file": "clips/_review/INTEGER_1.mp4",
+"span": [
+2.15,
+4.73
+]
+}
+],
+"status": "pending"
+},
+"INTELLIGENCE": {
+"source": "I/Intelligence.mp4",
+"duration": 34.6,
+"status": "no-cut"
+},
+"INTERBANK": {
+"source": "I/Interbank.mp4",
+"duration": 30.2,
+"clips": [
+{
+"file": "clips/_review/INTERBANK_1.mp4",
+"span": [
+1.82,
+4.58
+]
+}
+],
+"status": "pending"
+},
+"INTERPRETATION": {
+"source": "I/Interpretation.mp4",
+"duration": 19.7,
+"status": "no-cut"
+},
+"INTERCEPTOR": {
+"source": "I/Interceptor.mp4",
+"duration": 52.1,
+"status": "no-cut"
+},
+"INTESTATE": {
+"source": "I/Intestate.mp4",
+"duration": 12.9,
+"clips": [
+{
+"file": "clips/_review/INTESTATE_1.mp4",
+"span": [
+0.55,
+1.93
+]
+},
+{
+"file": "clips/_review/INTESTATE_2.mp4",
+"span": [
+1.99,
+5.93
+]
+}
+],
+"status": "pending"
+},
+"INTERNSHIP": {
+"source": "I/Internship.mp4",
+"duration": 51.5,
+"clips": [
+{
+"file": "clips/_review/INTERNSHIP_1.mp4",
+"span": [
+2.33,
+4.17
+]
+},
+{
+"file": "clips/_review/INTERNSHIP_2.mp4",
+"span": [
+4.08,
+5.5
+]
+}
+],
+"status": "pending"
+},
+"INTERSTATE": {
+"source": "I/Interstate.mp4",
+"duration": 43.5,
+"status": "no-cut"
+},
+"INVERTEBRATES": {
+"source": "I/Invertebrates.mp4",
+"duration": 17.7,
+"status": "no-cut"
+},
+"INVENTORY": {
+"source": "I/Inventory.mp4",
+"duration": 23.7,
+"status": "no-cut"
+},
+"INTRASTATE": {
+"source": "I/Intrastate.mp4",
+"duration": 54.2,
+"status": "no-cut"
+},
+"INTROSPECTION": {
+"source": "I/Introspection.mp4",
+"duration": 42.4,
+"status": "no-cut"
+},
+"INVESTMENT": {
+"source": "I/Investment.mp4",
+"duration": 28.8,
+"status": "no-cut"
+},
+"IPAD": {
+"source": "I/iPad.mp4",
+"duration": 11.9,
+"clips": [
+{
+"file": "clips/_review/IPAD_1.mp4",
+"span": [
+2.79,
+6.09
+]
+},
+{
+"file": "clips/_review/IPAD_2.mp4",
+"span": [
+7.51,
+10.25
+]
+}
+],
+"status": "pending"
+},
+"INVESTOR": {
+"source": "I/Investor.mp4",
+"duration": 29.4,
+"clips": [
+{
+"file": "clips/_review/INVESTOR_1.mp4",
+"span": [
+0.28,
+2.72
+]
+},
+{
+"file": "clips/_review/INVESTOR_2.mp4",
+"span": [
+2.82,
+5.78
+]
+}
+],
+"status": "pending"
+},
+"ITINERARY": {
+"source": "I/Itinerary.mp4",
+"duration": 19.2,
+"status": "no-cut"
+},
+"ITALICS": {
+"source": "I/Italics.mp4",
+"duration": 22.6,
+"clips": [
+{
+"file": "clips/_review/ITALICS_1.mp4",
+"span": [
+2.79,
+4.65
+]
+}
+],
+"status": "pending"
+},
+"IRRIGATION": {
+"source": "I/Irrigation.mp4",
+"duration": 36.8,
+"status": "no-cut"
+},
+"JACKPOT": {
+"source": "J/Jackpot.mp4",
+"duration": 11.1,
+"status": "no-cut"
+},
+"JOINT": {
+"source": "J/Joint.mp4",
+"duration": 12.1,
+"status": "no-cut"
+},
+"JACK": {
+"source": "J/Jack.mp4",
+"duration": 27.8,
+"clips": [
+{
+"file": "clips/_review/JACK_1.mp4",
+"span": [
+0.23,
+2.01
+]
+},
+{
+"file": "clips/_review/JACK_2.mp4",
+"span": [
+3.67,
+5.29
+]
+}
+],
+"status": "pending"
+},
+"JOINTING": {
+"source": "J/Jointing.mp4",
+"duration": 14.0,
+"status": "no-cut"
+},
+"JIZYA": {
+"source": "J/Jizya.mp4",
+"duration": 26.0,
+"status": "no-cut"
+},
+"JOYSTICK": {
+"source": "J/Joystick.mp4",
+"duration": 15.6,
+"clips": [
+{
+"file": "clips/_review/JOYSTICK_1.mp4",
+"span": [
+1.35,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"JOINTS": {
+"source": "J/Joints.mp4",
+"duration": 21.0,
+"clips": [
+{
+"file": "clips/_review/JOINTS_1.mp4",
+"span": [
+1.91,
+4.89
+]
+}
+],
+"status": "pending"
+},
+"JULIENNE": {
+"source": "J/Julienne.mp4",
+"duration": 12.8,
+"clips": [
+{
+"file": "clips/_review/JULIENNE_1.mp4",
+"span": [
+0.63,
+3.13
+]
+}
+],
+"status": "pending"
+},
+"JPEG": {
+"source": "J/JPEG.mp4",
+"duration": 20.4,
+"status": "no-cut"
+},
+"JUVENILE": {
+"source": "J/Juvenile.mp4",
+"duration": 10.6,
+"status": "no-cut"
+},
+"JUSTIFY": {
+"source": "J/Justify.mp4",
+"duration": 25.2,
+"clips": [
+{
+"file": "clips/_review/JUSTIFY_1.mp4",
+"span": [
+0.55,
+2.41
+]
+}
+],
+"status": "pending"
+},
+"KALEIDOSCOPE": {
+"source": "K/Kaleidoscope.mp4",
+"duration": 21.9,
+"status": "no-cut"
+},
+"JUPITER": {
+"source": "J/Jupiter.mp4",
+"duration": 44.6,
+"clips": [
+{
+"file": "clips/_review/JUPITER_1.mp4",
+"span": [
+6.58,
+8.17
+]
+}
+],
+"status": "pending"
+},
+"KAYAK": {
+"source": "K/Kayak.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/KAYAK_1.mp4",
+"span": [
+9.51,
+11.45
+]
+}
+],
+"status": "pending"
+},
+"KERNING": {
+"source": "K/Kerning.mp4",
+"duration": 11.0,
+"clips": [
+{
+"file": "clips/_review/KERNING_1.mp4",
+"span": [
+0.33,
+3.08
+]
+}
+],
+"status": "pending"
+},
+"KEYING": {
+"source": "K/Keying.mp4",
+"duration": 13.1,
+"status": "no-cut"
+},
+"KEY-CARD": {
+"source": "K/Key_Card.mp4",
+"duration": 24.9,
+"status": "no-cut"
+},
+"JUSTICE": {
+"source": "J/Justice.mp4",
+"duration": 65.9,
+"clips": [
+{
+"file": "clips/_review/JUSTICE_1.mp4",
+"span": [
+7.09,
+8.76
+]
+},
+{
+"file": "clips/_review/JUSTICE_2.mp4",
+"span": [
+7.09,
+9.43
+]
+}
+],
+"status": "pending"
+},
+"KIN": {
+"source": "K/Kin.mp4",
+"duration": 15.3,
+"clips": [
+{
+"file": "clips/_review/KIN_1.mp4",
+"span": [
+0.55,
+2.33
+]
+}
+],
+"status": "pending"
+},
+"KITOSIS": {
+"source": "K/Kitosis.mp4",
+"duration": 15.8,
+"status": "no-cut"
+},
+"KNEAD": {
+"source": "K/Knead.mp4",
+"duration": 11.6,
+"clips": [
+{
+"file": "clips/_review/KNEAD_1.mp4",
+"span": [
+0.47,
+1.69
+]
+},
+{
+"file": "clips/_review/KNEAD_2.mp4",
+"span": [
+0.47,
+3.85
+]
+}
+],
+"status": "pending"
+},
+"KNIT": {
+"source": "K/Knit.mp4",
+"duration": 17.9,
+"clips": [
+{
+"file": "clips/_review/KNIT_1.mp4",
+"span": [
+0.87,
+3.13
+]
+}
+],
+"status": "pending"
+},
+"KNEEL": {
+"source": "K/Kneel.mp4",
+"duration": 24.2,
+"clips": [
+{
+"file": "clips/_review/KNEEL_1.mp4",
+"span": [
+0.39,
+2.73
+]
+}
+],
+"status": "pending"
+},
+"LABOUR": {
+"source": "L/Labour.mp4",
+"duration": 11.9,
+"clips": [
+{
+"file": "clips/_review/LABOUR_1.mp4",
+"span": [
+0.47,
+2.49
+]
+}
+],
+"status": "pending"
+},
+"LACERATE": {
+"source": "L/Lacerate.mp4",
+"duration": 11.2,
+"clips": [
+{
+"file": "clips/_review/LACERATE_1.mp4",
+"span": [
+1.43,
+3.45
+]
+}
+],
+"status": "pending"
+},
+"LABOURER": {
+"source": "L/Labourer.mp4",
+"duration": 14.7,
+"status": "no-cut"
+},
+"LACTATION": {
+"source": "L/Lactation.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/LACTATION_1.mp4",
+"span": [
+8.47,
+10.09
+]
+}
+],
+"status": "pending"
+},
+"KYC": {
+"source": "K/KYC.mp4",
+"duration": 28.4,
+"clips": [
+{
+"file": "clips/_review/KYC_1.mp4",
+"span": [
+1.68,
+4.18
+]
+}
+],
+"status": "pending"
+},
+"LACTOSE": {
+"source": "L/Lactose.mp4",
+"duration": 14.0,
+"status": "no-cut"
+},
+"LADYBIRD": {
+"source": "L/Ladybird.mp4",
+"duration": 14.8,
+"clips": [
+{
+"file": "clips/_review/LADYBIRD_1.mp4",
+"span": [
+0.08,
+1.83
+]
+}
+],
+"status": "pending"
+},
+"LAIDBACK": {
+"source": "L/Laidback.mp4",
+"duration": 14.8,
+"clips": [
+{
+"file": "clips/_review/LAIDBACK_1.mp4",
+"span": [
+0.22,
+3.72
+]
+}
+],
+"status": "pending"
+},
+"LACUNAE": {
+"source": "L/Lacunae.mp4",
+"duration": 23.3,
+"status": "no-cut"
+},
+"LANDSCAPE": {
+"source": "L/Landscape.mp4",
+"duration": 13.8,
+"status": "no-cut"
+},
+"LANDMINE": {
+"source": "L/Landmine.mp4",
+"duration": 22.5,
+"status": "no-cut"
+},
+"LAPAROSCOPE": {
+"source": "L/Laparoscope.mp4",
+"duration": 10.0,
+"status": "no-cut"
+},
+"LANDFILL": {
+"source": "L/Landfill.mp4",
+"duration": 25.9,
+"status": "no-cut"
+},
+"LANDMARK": {
+"source": "L/Landmark.mp4",
+"duration": 55.2,
+"status": "no-cut"
+},
+"LAPSE": {
+"source": "L/Lapse.mp4",
+"duration": 17.1,
+"clips": [
+{
+"file": "clips/_review/LAPSE_1.mp4",
+"span": [
+1.17,
+2.58
+]
+},
+{
+"file": "clips/_review/LAPSE_2.mp4",
+"span": [
+2.58,
+4.0
+]
+}
+],
+"status": "pending"
+},
+"LANDSLIDE": {
+"source": "L/Landslide.mp4",
+"duration": 35.6,
+"status": "no-cut"
+},
+"LARYNGITIS": {
+"source": "L/Laryngitis.mp4",
+"duration": 10.5,
+"clips": [
+{
+"file": "clips/_review/LARYNGITIS_1.mp4",
+"span": [
+2.23,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"LARYNGOSCOPE": {
+"source": "L/Laryngoscope.mp4",
+"duration": 12.7,
+"status": "no-cut"
+},
+"LATHI": {
+"source": "L/Lathi.mp4",
+"duration": 14.4,
+"status": "no-cut"
+},
+"LATHER": {
+"source": "L/Lather.mp4",
+"duration": 20.8,
+"clips": [
+{
+"file": "clips/_review/LATHER_1.mp4",
+"span": [
+1.0,
+2.83
+]
+}
+],
+"status": "pending"
+},
+"LATITUDE": {
+"source": "L/Latitude.mp4",
+"duration": 20.0,
+"status": "no-cut"
+},
+"LAVA": {
+"source": "L/Lava.mp4",
+"duration": 15.9,
+"status": "no-cut"
+},
+"LEACHING": {
+"source": "L/Leaching.mp4",
+"duration": 23.0,
+"clips": [
+{
+"file": "clips/_review/LEACHING_1.mp4",
+"span": [
+1.17,
+5.0
+]
+},
+{
+"file": "clips/_review/LEACHING_2.mp4",
+"span": [
+2.0,
+5.0
+]
+}
+],
+"status": "pending"
+},
+"LAUNCH": {
+"source": "L/Launch.mp4",
+"duration": 35.2,
+"clips": [
+{
+"file": "clips/_review/LAUNCH_1.mp4",
+"span": [
+0.83,
+4.58
+]
+}
+],
+"status": "pending"
+},
+"LEGALESE": {
+"source": "L/Legalese.mp4",
+"duration": 14.1,
+"status": "no-cut"
+},
+"LEAD": {
+"source": "L/Lead.mp4",
+"duration": 42.6,
+"status": "no-cut"
+},
+"LEGAL": {
+"source": "L/Legal.mp4",
+"duration": 30.2,
+"clips": [
+{
+"file": "clips/_review/LEGAL_1.mp4",
+"span": [
+1.08,
+2.38
+]
+}
+],
+"status": "pending"
+},
+"LEISURE": {
+"source": "L/Leisure.mp4",
+"duration": 26.4,
+"status": "no-cut"
+},
+"LEPROSY": {
+"source": "L/Leprosy.mp4",
+"duration": 20.2,
+"clips": [
+{
+"file": "clips/_review/LEPROSY_1.mp4",
+"span": [
+0.79,
+2.01
+]
+},
+{
+"file": "clips/_review/LEPROSY_2.mp4",
+"span": [
+3.91,
+5.29
+]
+}
+],
+"status": "pending"
+},
+"LENS": {
+"source": "L/Lens.mp4",
+"duration": 40.7,
+"clips": [
+{
+"file": "clips/_review/LENS_1.mp4",
+"span": [
+6.47,
+7.85
+]
+},
+{
+"file": "clips/_review/LENS_2.mp4",
+"span": [
+8.63,
+11.29
+]
+}
+],
+"status": "pending"
+},
+"LHS": {
+"source": "L/LHS.mp4",
+"duration": 32.6,
+"status": "no-cut"
+},
+"LEVEES": {
+"source": "L/Levees.mp4",
+"duration": 41.9,
+"status": "no-cut"
+},
+"LIABILITY": {
+"source": "L/Liability.mp4",
+"duration": 27.7,
+"clips": [
+{
+"file": "clips/_review/LIABILITY_1.mp4",
+"span": [
+1.25,
+2.92
+]
+}
+],
+"status": "pending"
+},
+"LILACWATER": {
+"source": "L/Lilacwater.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"LIMNOLOGY": {
+"source": "L/Limnology.mp4",
+"duration": 15.8,
+"status": "no-cut"
+},
+"LIBERALIZATION": {
+"source": "L/Liberalization.mp4",
+"duration": 47.1,
+"status": "no-cut"
+},
+"LIBOR": {
+"source": "L/LIBOR.mp4",
+"duration": 51.6,
+"clips": [
+{
+"file": "clips/_review/LIBOR_1.mp4",
+"span": [
+2.08,
+4.25
+]
+},
+{
+"file": "clips/_review/LIBOR_2.mp4",
+"span": [
+2.75,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"LIQUIDITY": {
+"source": "L/Liquidity.mp4",
+"duration": 23.7,
+"clips": [
+{
+"file": "clips/_review/LIQUIDITY_1.mp4",
+"span": [
+0.68,
+3.65
+]
+}
+],
+"status": "pending"
+},
+"LITTER": {
+"source": "L/Litter.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"LIQUIDATION": {
+"source": "L/Liquidation.mp4",
+"duration": 52.8,
+"clips": [
+{
+"file": "clips/_review/LIQUIDATION_1.mp4",
+"span": [
+0.55,
+2.58
+]
+},
+{
+"file": "clips/_review/LIQUIDATION_2.mp4",
+"span": [
+2.62,
+5.25
+]
+}
+],
+"status": "pending"
+},
+"LISTING": {
+"source": "L/Listing.mp4",
+"duration": 34.8,
+"clips": [
+{
+"file": "clips/_review/LISTING_1.mp4",
+"span": [
+0.62,
+3.85
+]
+}
+],
+"status": "pending"
+},
+"LOAD": {
+"source": "L/Load.mp4",
+"duration": 25.2,
+"clips": [
+{
+"file": "clips/_review/LOAD_1.mp4",
+"span": [
+1.19,
+4.57
+]
+}
+],
+"status": "pending"
+},
+"LOFTS": {
+"source": "L/Lofts.mp4",
+"duration": 21.6,
+"clips": [
+{
+"file": "clips/_review/LOFTS_1.mp4",
+"span": [
+7.92,
+10.42
+]
+}
+],
+"status": "pending"
+},
+"LOAM": {
+"source": "L/Loam.mp4",
+"duration": 40.3,
+"status": "no-cut"
+},
+"LOCKOUT": {
+"source": "L/Lockout.mp4",
+"duration": 31.3,
+"clips": [
+{
+"file": "clips/_review/LOCKOUT_1.mp4",
+"span": [
+2.71,
+4.73
+]
+}
+],
+"status": "pending"
+},
+"LONGITUDE": {
+"source": "L/Longitude.mp4",
+"duration": 17.3,
+"status": "no-cut"
+},
+"LOITERING": {
+"source": "L/Loitering.m4v",
+"duration": 39.4,
+"clips": [
+{
+"file": "clips/_review/LOITERING_1.mp4",
+"span": [
+0.87,
+4.81
+]
+}
+],
+"status": "pending"
+},
+"LUNGS": {
+"source": "L/Lungs.mp4",
+"duration": 35.8,
+"clips": [
+{
+"file": "clips/_review/LUNGS_1.mp4",
+"span": [
+7.09,
+8.59
+]
+}
+],
+"status": "pending"
+},
+"MAFROOR": {
+"source": "M/Mafroor.mp4",
+"duration": 20.3,
+"clips": [
+{
+"file": "clips/_review/MAFROOR_1.mp4",
+"span": [
+1.35,
+2.81
+]
+}
+],
+"status": "pending"
+},
+"MACROS": {
+"source": "M/Macros.mp4",
+"duration": 34.0,
+"status": "no-cut"
+},
+"MAHRANA": {
+"source": "M/Mahrana.mp4",
+"duration": 19.7,
+"clips": [
+{
+"file": "clips/_review/MAHRANA_1.mp4",
+"span": [
+0.15,
+1.93
+]
+}
+],
+"status": "pending"
+},
+"MAHR": {
+"source": "M/MAHR.mp4",
+"duration": 25.8,
+"status": "no-cut"
+},
+"LOOPHOLE": {
+"source": "L/Loophole.mp4",
+"duration": 74.8,
+"status": "no-cut"
+},
+"MAGNESIUM": {
+"source": "M/Magnesium.mp4",
+"duration": 37.7,
+"clips": [
+{
+"file": "clips/_review/MAGNESIUM_1.mp4",
+"span": [
+-0.17,
+1.83
+]
+},
+{
+"file": "clips/_review/MAGNESIUM_2.mp4",
+"span": [
+2.25,
+5.33
+]
+}
+],
+"status": "pending"
+},
+"MAINSWORN": {
+"source": "M/Mainsworn.mp4",
+"duration": 14.8,
+"status": "no-cut"
+},
+"MANIA": {
+"source": "M/Mania.mp4",
+"duration": 11.5,
+"clips": [
+{
+"file": "clips/_review/MANIA_1.mp4",
+"span": [
+1.19,
+4.17
+]
+}
+],
+"status": "pending"
+},
+"MANIFESTO": {
+"source": "M/Manifesto.mp4",
+"duration": 21.5,
+"status": "no-cut"
+},
+"MAMMALS": {
+"source": "M/Mammals.mp4",
+"duration": 37.0,
+"status": "no-cut"
+},
+"MANDATORY": {
+"source": "M/Mandatory.mp4",
+"duration": 33.0,
+"clips": [
+{
+"file": "clips/_review/MANDATORY_1.mp4",
+"span": [
+1.22,
+3.38
+]
+}
+],
+"status": "pending"
+},
+"MANUSCRIPT": {
+"source": "M/Manuscript.mp4",
+"duration": 14.2,
+"status": "no-cut"
+},
+"MANUAL": {
+"source": "M/Manual.mp4",
+"duration": 30.4,
+"status": "no-cut"
+},
+"MARINADE": {
+"source": "M/Marinade.mp4",
+"duration": 16.0,
+"status": "no-cut"
+},
+"MARGIN": {
+"source": "M/Margin.mp4",
+"duration": 24.6,
+"clips": [
+{
+"file": "clips/_review/MARGIN_1.mp4",
+"span": [
+0.42,
+2.58
+]
+}
+],
+"status": "pending"
+},
+"MASK": {
+"source": "M/Mask.mp4",
+"duration": 10.6,
+"status": "no-cut"
+},
+"MASH": {
+"source": "M/Mash.mp4",
+"duration": 22.8,
+"status": "no-cut"
+},
+"MARKUP": {
+"source": "M/Markup.mp4",
+"duration": 35.6,
+"clips": [
+{
+"file": "clips/_review/MARKUP_1.mp4",
+"span": [
+6.79,
+8.25
+]
+}
+],
+"status": "pending"
+},
+"MARGINALIZATION": {
+"source": "M/Marginalization.mp4",
+"duration": 41.4,
+"status": "no-cut"
+},
+"MASS": {
+"source": "M/Mass.mp4",
+"duration": 11.3,
+"clips": [
+{
+"file": "clips/_review/MASS_1.mp4",
+"span": [
+1.35,
+3.53
+]
+},
+{
+"file": "clips/_review/MASS_2.mp4",
+"span": [
+1.35,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"MASTITIS": {
+"source": "M/Mastitis.mp4",
+"duration": 17.2,
+"status": "no-cut"
+},
+"MATURE": {
+"source": "M/Mature.mp4",
+"duration": 12.2,
+"clips": [
+{
+"file": "clips/_review/MATURE_1.mp4",
+"span": [
+0.15,
+2.57
+]
+}
+],
+"status": "pending"
+},
+"MATRIARCHAL": {
+"source": "M/Matriarchal.mp4",
+"duration": 28.0,
+"status": "no-cut"
+},
+"MAXIMIZE": {
+"source": "M/Maximize.mp4",
+"duration": 15.8,
+"clips": [
+{
+"file": "clips/_review/MAXIMIZE_1.mp4",
+"span": [
+7.51,
+10.25
+]
+}
+],
+"status": "pending"
+},
+"MAYA": {
+"source": "M/Maya.mp4",
+"duration": 17.2,
+"status": "no-cut"
+},
+"MEDIUM": {
+"source": "M/Medium.mp4",
+"duration": 10.8,
+"status": "no-cut"
+},
+"MASTERMIND": {
+"source": "M/Mastermind.mp4",
+"duration": 54.3,
+"clips": [
+{
+"file": "clips/_review/MASTERMIND_1.mp4",
+"span": [
+2.42,
+5.42
+]
+}
+],
+"status": "pending"
+},
+"MENINGITIS": {
+"source": "M/Meningitis.mp4",
+"duration": 15.4,
+"clips": [
+{
+"file": "clips/_review/MENINGITIS_1.mp4",
+"span": [
+1.11,
+4.01
+]
+}
+],
+"status": "pending"
+},
+"MELATONIN": {
+"source": "M/Melatonin.mp4",
+"duration": 25.6,
+"clips": [
+{
+"file": "clips/_review/MELATONIN_1.mp4",
+"span": [
+0.15,
+3.29
+]
+}
+],
+"status": "pending"
+},
+"MENOPAUSE": {
+"source": "M/Menopause.mp4",
+"duration": 19.7,
+"clips": [
+{
+"file": "clips/_review/MENOPAUSE_1.mp4",
+"span": [
+6.71,
+8.41
+]
+}
+],
+"status": "pending"
+},
+"MENUBAR": {
+"source": "M/Menubar.mp4",
+"duration": 19.2,
+"status": "no-cut"
+},
+"MEDIAN": {
+"source": "M/Median.mp4",
+"duration": 45.6,
+"clips": [
+{
+"file": "clips/_review/MEDIAN_1.mp4",
+"span": [
+1.99,
+5.93
+]
+}
+],
+"status": "pending"
+},
+"MERCANTILE": {
+"source": "M/Mercantile.mp4",
+"duration": 16.6,
+"status": "no-cut"
+},
+"METABOLISM": {
+"source": "M/Metabolism.mp4",
+"duration": 22.6,
+"status": "no-cut"
+},
+"METAMERISM": {
+"source": "M/Metamerism.mp4",
+"duration": 30.2,
+"status": "no-cut"
+},
+"MERCURY": {
+"source": "M/Mercury.mp4",
+"duration": 38.4,
+"clips": [
+{
+"file": "clips/_review/MERCURY_1.mp4",
+"span": [
+10.08,
+12.25
+]
+}
+],
+"status": "pending"
+},
+"MIGRAINE": {
+"source": "M/Migraine.mp4",
+"duration": 10.7,
+"clips": [
+{
+"file": "clips/_review/MIGRAINE_1.mp4",
+"span": [
+6.79,
+10.41
+]
+}
+],
+"status": "pending"
+},
+"METAMORPHOSIS": {
+"source": "M/Metamorphosis.mp4",
+"duration": 37.1,
+"clips": [
+{
+"file": "clips/_review/METAMORPHOSIS_1.mp4",
+"span": [
+0.87,
+3.37
+]
+},
+{
+"file": "clips/_review/METAMORPHOSIS_2.mp4",
+"span": [
+4.07,
+7.45
+]
+}
+],
+"status": "pending"
+},
+"MINCE": {
+"source": "M/Mince.mp4",
+"duration": 10.5,
+"status": "no-cut"
+},
+"METAPHOR": {
+"source": "M/Metaphor.mp4",
+"duration": 40.7,
+"status": "no-cut"
+},
+"MIDDLEMAN": {
+"source": "M/Middleman.mp4",
+"duration": 37.2,
+"clips": [
+{
+"file": "clips/_review/MIDDLEMAN_1.mp4",
+"span": [
+0.42,
+2.83
+]
+},
+{
+"file": "clips/_review/MIDDLEMAN_2.mp4",
+"span": [
+4.33,
+6.0
+]
+}
+],
+"status": "pending"
+},
+"MILITARIZE": {
+"source": "M/Militarize.mp4",
+"duration": 27.0,
+"status": "no-cut"
+},
+"MINIMIZE": {
+"source": "M/Minimize.mp4",
+"duration": 13.0,
+"clips": [
+{
+"file": "clips/_review/MINIMIZE_1.mp4",
+"span": [
+6.23,
+8.09
+]
+}
+],
+"status": "pending"
+},
+"MISOGYNIST": {
+"source": "M/Misogynist.mp4",
+"duration": 17.5,
+"clips": [
+{
+"file": "clips/_review/MISOGYNIST_1.mp4",
+"span": [
+0.83,
+2.25
+]
+}
+],
+"status": "pending"
+},
+"MISBRANDING": {
+"source": "M/Misbranding.mp4",
+"duration": 27.2,
+"status": "no-cut"
+},
+"MISSING": {
+"source": "M/Missing.mp4",
+"duration": 21.5,
+"clips": [
+{
+"file": "clips/_review/MISSING_1.mp4",
+"span": [
+1.08,
+2.18
+]
+}
+],
+"status": "pending"
+},
+"MINERALS": {
+"source": "M/Minerals.mp4",
+"duration": 65.4,
+"status": "no-cut"
+},
+"MODERATES": {
+"source": "M/Moderates.mp4",
+"duration": 23.5,
+"status": "no-cut"
+},
+"MODE": {
+"source": "M/Mode.mp4",
+"duration": 35.2,
+"status": "no-cut"
+},
+"MOCKUP": {
+"source": "M/Mockup.mp4",
+"duration": 43.3,
+"clips": [
+{
+"file": "clips/_review/MOCKUP_1.mp4",
+"span": [
+0.58,
+3.08
+]
+}
+],
+"status": "pending"
+},
+"MOLECULES": {
+"source": "M/Molecules.mp4",
+"duration": 15.8,
+"clips": [
+{
+"file": "clips/_review/MOLECULES_1.mp4",
+"span": [
+0.17,
+2.5
+]
+}
+],
+"status": "pending"
+},
+"MONARCHY": {
+"source": "M/Monarchy.mp4",
+"duration": 17.5,
+"clips": [
+{
+"file": "clips/_review/MONARCHY_1.mp4",
+"span": [
+0.55,
+3.05
+]
+}
+],
+"status": "pending"
+},
+"MONITOR": {
+"source": "M/Monitor.mp4",
+"duration": 18.7,
+"clips": [
+{
+"file": "clips/_review/MONITOR_1.mp4",
+"span": [
+1.75,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"MONOCULTURE": {
+"source": "M/Monoculture.mp4",
+"duration": 23.8,
+"status": "no-cut"
+},
+"MONOPOLY": {
+"source": "M/Monopoly.mp4",
+"duration": 27.5,
+"status": "no-cut"
+},
+"MORTUARY": {
+"source": "M/Mortuary.mp4",
+"duration": 10.4,
+"status": "no-cut"
+},
+"MOTHERBOARD": {
+"source": "M/Motherboard.mp4",
+"duration": 13.9,
+"status": "no-cut"
+},
+"MORPHOLOGY": {
+"source": "M/Morphology.mp4",
+"duration": 38.9,
+"status": "no-cut"
+},
+"MUGSHOT": {
+"source": "M/Mugshot.mp4",
+"duration": 11.9,
+"clips": [
+{
+"file": "clips/_review/MUGSHOT_1.mp4",
+"span": [
+0.55,
+4.33
+]
+}
+],
+"status": "pending"
+},
+"MOUTHING": {
+"source": "M/Mouthing.mp4",
+"duration": 19.7,
+"clips": [
+{
+"file": "clips/_review/MOUTHING_1.mp4",
+"span": [
+0.67,
+4.0
+]
+},
+{
+"file": "clips/_review/MOUTHING_2.mp4",
+"span": [
+5.75,
+7.92
+]
+}
+],
+"status": "pending"
+},
+"MORTGAGES": {
+"source": "M/Mortgages.mp4",
+"duration": 47.4,
+"clips": [
+{
+"file": "clips/_review/MORTGAGES_1.mp4",
+"span": [
+0.48,
+2.12
+]
+},
+{
+"file": "clips/_review/MORTGAGES_2.mp4",
+"span": [
+0.48,
+2.72
+]
+}
+],
+"status": "pending"
+},
+"MOTION": {
+"source": "M/Motion.mp4",
+"duration": 43.2,
+"status": "no-cut"
+},
+"MUKHBIR": {
+"source": "M/Mukhbir.mp4",
+"duration": 17.1,
+"status": "no-cut"
+},
+"MULTILINGUALISM": {
+"source": "M/Multilingualism.mp4",
+"duration": 16.8,
+"status": "no-cut"
+},
+"MULTITASK": {
+"source": "M/Multitask.mp4",
+"duration": 24.5,
+"clips": [
+{
+"file": "clips/_review/MULTITASK_1.mp4",
+"span": [
+7.27,
+9.21
+]
+}
+],
+"status": "pending"
+},
+"MUMPS": {
+"source": "M/Mumps.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"MULCHING": {
+"source": "M/Mulching.mp4",
+"duration": 42.7,
+"clips": [
+{
+"file": "clips/_review/MULCHING_1.mp4",
+"span": [
+0.95,
+3.61
+]
+}
+],
+"status": "pending"
+},
+"MYOMECTOMY": {
+"source": "M/Myomectomy.mp4",
+"duration": 9.8,
+"status": "no-cut"
+},
+"MUTINY": {
+"source": "M/Mutiny.mp4",
+"duration": 24.6,
+"status": "no-cut"
+},
+"NATALITY": {
+"source": "N/Natality.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"MUTUALISM": {
+"source": "M/Mutualism.mp4",
+"duration": 40.7,
+"status": "no-cut"
+},
+"MUMMIFICATION": {
+"source": "M/Mummification.mp4",
+"duration": 67.4,
+"clips": [
+{
+"file": "clips/_review/MUMMIFICATION_1.mp4",
+"span": [
+1.75,
+3.93
+]
+}
+],
+"status": "pending"
+},
+"NEBULIZATION": {
+"source": "N/Nebulization.mp4",
+"duration": 15.4,
+"clips": [
+{
+"file": "clips/_review/NEBULIZATION_1.mp4",
+"span": [
+1.59,
+5.21
+]
+}
+],
+"status": "pending"
+},
+"NECTAR": {
+"source": "N/Nectar.mp4",
+"duration": 26.5,
+"status": "no-cut"
+},
+"NAZISM": {
+"source": "N/Nazism.mp4",
+"duration": 57.1,
+"status": "no-cut"
+},
+"NEMAPHOSE": {
+"source": "N/Nemaphose.mp4",
+"duration": 23.8,
+"status": "no-cut"
+},
+"NEGOTIATE": {
+"source": "N/Negotiate.mp4",
+"duration": 33.8,
+"status": "no-cut"
+},
+"NEMATOLOGY": {
+"source": "N/Nematology.mp4",
+"duration": 12.2,
+"clips": [
+{
+"file": "clips/_review/NEMATOLOGY_1.mp4",
+"span": [
+0.23,
+2.73
+]
+},
+{
+"file": "clips/_review/NEMATOLOGY_2.mp4",
+"span": [
+1.19,
+2.73
+]
+}
+],
+"status": "pending"
+},
+"NEGLIGENCE": {
+"source": "N/Negligence.mp4",
+"duration": 60.0,
+"status": "no-cut"
+},
+"NEON": {
+"source": "N/Neon.mp4",
+"duration": 25.7,
+"status": "no-cut"
+},
+"NEMATICIDES": {
+"source": "N/Nematicides.mp4",
+"duration": 29.2,
+"clips": [
+{
+"file": "clips/_review/NEMATICIDES_1.mp4",
+"span": [
+7.43,
+9.05
+]
+}
+],
+"status": "pending"
+},
+"NEUROLOGIST": {
+"source": "N/Neurologist.mp4",
+"duration": 13.8,
+"status": "no-cut"
+},
+"NERVOUS": {
+"source": "N/Nervous.mp4",
+"duration": 25.0,
+"clips": [
+{
+"file": "clips/_review/NERVOUS_1.mp4",
+"span": [
+1.75,
+4.57
+]
+},
+{
+"file": "clips/_review/NERVOUS_2.mp4",
+"span": [
+4.55,
+7.85
+]
+}
+],
+"status": "pending"
+},
+"NEUROLINGUISTICS": {
+"source": "N/Neurolinguistics.mp4",
+"duration": 35.2,
+"status": "no-cut"
+},
+"NICKEL": {
+"source": "N/Nickel.mp4",
+"duration": 21.9,
+"clips": [
+{
+"file": "clips/_review/NICKEL_1.mp4",
+"span": [
+4.92,
+7.25
+]
+}
+],
+"status": "pending"
+},
+"NEUROPSYCHOLOGY": {
+"source": "N/Neuropsychology.mp4",
+"duration": 27.6,
+"status": "no-cut"
+},
+"NETTING": {
+"source": "N/Netting.mp4",
+"duration": 49.0,
+"clips": [
+{
+"file": "clips/_review/NETTING_1.mp4",
+"span": [
+0.62,
+3.32
+]
+}
+],
+"status": "pending"
+},
+"NOMOGRAPHER": {
+"source": "N/Nomographer.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"NOMINEE": {
+"source": "N/Nominee.mp4",
+"duration": 23.4,
+"status": "no-cut"
+},
+"NORM": {
+"source": "N/Norm.mp4",
+"duration": 11.8,
+"status": "no-cut"
+},
+"NOTA": {
+"source": "N/Nota.m4v",
+"duration": 23.2,
+"status": "no-cut"
+},
+"NOISE": {
+"source": "N/Noise.mp4",
+"duration": 52.2,
+"status": "no-cut"
+},
+"NOTING": {
+"source": "N/Noting.mp4",
+"duration": 26.6,
+"clips": [
+{
+"file": "clips/_review/NOTING_1.mp4",
+"span": [
+6.07,
+9.93
+]
+}
+],
+"status": "pending"
+},
+"NOTEPAD": {
+"source": "N/Notepad.mp4",
+"duration": 28.8,
+"clips": [
+{
+"file": "clips/_review/NOTEPAD_1.mp4",
+"span": [
+1.59,
+4.73
+]
+},
+{
+"file": "clips/_review/NOTEPAD_2.mp4",
+"span": [
+5.43,
+8.01
+]
+}
+],
+"status": "pending"
+},
+"NOUN": {
+"source": "N/Noun.mp4",
+"duration": 34.7,
+"status": "no-cut"
+},
+"NUBILIS": {
+"source": "N/Nubilis.mp4",
+"duration": 26.3,
+"clips": [
+{
+"file": "clips/_review/NUBILIS_1.mp4",
+"span": [
+1.35,
+3.37
+]
+},
+{
+"file": "clips/_review/NUBILIS_2.mp4",
+"span": [
+3.43,
+7.37
+]
+}
+],
+"status": "pending"
+},
+"NOVERCA": {
+"source": "N/Noverca.mp4",
+"duration": 38.9,
+"clips": [
+{
+"file": "clips/_review/NOVERCA_1.mp4",
+"span": [
+3.43,
+5.53
+]
+}
+],
+"status": "pending"
+},
+"NRI": {
+"source": "N/NRI.mp4",
+"duration": 35.5,
+"clips": [
+{
+"file": "clips/_review/NRI_1.mp4",
+"span": [
+2.95,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"NUISANCE": {
+"source": "N/Nuisance.mp4",
+"duration": 25.3,
+"status": "no-cut"
+},
+"OASIS": {
+"source": "O/Oasis.mp4",
+"duration": 16.9,
+"status": "no-cut"
+},
+"NUTRITION": {
+"source": "N/Nutrition.mp4",
+"duration": 12.4,
+"clips": [
+{
+"file": "clips/_review/NUTRITION_1.mp4",
+"span": [
+0.55,
+2.73
+]
+},
+{
+"file": "clips/_review/NUTRITION_2.mp4",
+"span": [
+2.79,
+3.93
+]
+}
+],
+"status": "pending"
+},
+"OFFICIALESE": {
+"source": "O/Officialese.mp4",
+"duration": 15.6,
+"status": "no-cut"
+},
+"ODDS": {
+"source": "O/Odds.mp4",
+"duration": 24.0,
+"status": "no-cut"
+},
+"OLERICULTURE": {
+"source": "O/Olericulture.mp4",
+"duration": 11.0,
+"status": "no-cut"
+},
+"OFFENCE": {
+"source": "O/Offence.mp4",
+"duration": 27.8,
+"status": "no-cut"
+},
+"OMNIVORES": {
+"source": "O/Omnivores.mp4",
+"duration": 20.2,
+"status": "no-cut"
+},
+"OFFSET": {
+"source": "O/Offset.mp4",
+"duration": 33.4,
+"clips": [
+{
+"file": "clips/_review/OFFSET_1.mp4",
+"span": [
+2.87,
+5.21
+]
+}
+],
+"status": "pending"
+},
+"OBJECTIVITY": {
+"source": "O/Objectivity.mp4",
+"duration": 69.4,
+"status": "no-cut"
+},
+"OPTICIAN": {
+"source": "O/Optician.mp4",
+"duration": 9.4,
+"clips": [
+{
+"file": "clips/_review/OPTICIAN_1.mp4",
+"span": [
+-0.01,
+2.17
+]
+}
+],
+"status": "pending"
+},
+"OPUNTIA": {
+"source": "O/Opuntia.mp4",
+"duration": 11.4,
+"status": "no-cut"
+},
+"ONOMATOPOEIA": {
+"source": "O/Onomatopoeia.mp4",
+"duration": 38.8,
+"status": "no-cut"
+},
+"ORBITER": {
+"source": "O/Orbiter.mp4",
+"duration": 10.4,
+"status": "no-cut"
+},
+"ORALISM": {
+"source": "O/Oralism.mp4",
+"duration": 18.7,
+"status": "no-cut"
+},
+"ORGANISM": {
+"source": "O/Organism.mp4",
+"duration": 13.5,
+"status": "no-cut"
+},
+"ORGANIC": {
+"source": "O/Organic.mp4",
+"duration": 24.5,
+"status": "no-cut"
+},
+"ORIGAMI": {
+"source": "O/Origami.mp4",
+"duration": 25.3,
+"status": "no-cut"
+},
+"OPTIONS": {
+"source": "O/Options.mp4",
+"duration": 46.0,
+"status": "no-cut"
+},
+"OSCILLOSCOPE": {
+"source": "O/Oscilloscope.mp4",
+"duration": 32.2,
+"status": "no-cut"
+},
+"OSTEOPOROSIS": {
+"source": "O/Osteoporosis.mp4",
+"duration": 21.6,
+"status": "no-cut"
+},
+"OSCILLATION": {
+"source": "O/Oscillation.mp4",
+"duration": 40.5,
+"status": "no-cut"
+},
+"OSTRACISE": {
+"source": "O/Ostracise.mp4",
+"duration": 31.9,
+"status": "no-cut"
+},
+"OUTLIER": {
+"source": "O/Outlier.mp4",
+"duration": 23.4,
+"clips": [
+{
+"file": "clips/_review/OUTLIER_1.mp4",
+"span": [
+0.42,
+3.17
+]
+}
+],
+"status": "pending"
+},
+"OTC": {
+"source": "O/OTC.mp4",
+"duration": 25.6,
+"clips": [
+{
+"file": "clips/_review/OTC_1.mp4",
+"span": [
+0.28,
+2.78
+]
+}
+],
+"status": "pending"
+},
+"OVERTIME": {
+"source": "O/Overtime.mp4",
+"duration": 24.9,
+"clips": [
+{
+"file": "clips/_review/OVERTIME_1.mp4",
+"span": [
+0.47,
+3.53
+]
+}
+],
+"status": "pending"
+},
+"OUTLINE": {
+"source": "O/Outline.mp4",
+"duration": 31.2,
+"clips": [
+{
+"file": "clips/_review/OUTLINE_1.mp4",
+"span": [
+0.58,
+4.0
+]
+}
+],
+"status": "pending"
+},
+"OVIPAROUS": {
+"source": "O/Oviparous.mp4",
+"duration": 12.7,
+"clips": [
+{
+"file": "clips/_review/OVIPAROUS_1.mp4",
+"span": [
+6.79,
+8.57
+]
+}
+],
+"status": "pending"
+},
+"OXIDATION": {
+"source": "O/Oxidation.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"OVULES": {
+"source": "O/Ovules.mp4",
+"duration": 19.4,
+"clips": [
+{
+"file": "clips/_review/OVULES_1.mp4",
+"span": [
+7.27,
+10.73
+]
+}
+],
+"status": "pending"
+},
+"PACEMAKER": {
+"source": "P/Pacemaker.mp4",
+"duration": 18.4,
+"clips": [
+{
+"file": "clips/_review/PACEMAKER_1.mp4",
+"span": [
+1.03,
+3.45
+]
+},
+{
+"file": "clips/_review/PACEMAKER_2.mp4",
+"span": [
+4.63,
+8.41
+]
+}
+],
+"status": "pending"
+},
+"PALPITATION": {
+"source": "P/Palpitation.mp4",
+"duration": 10.7,
+"clips": [
+{
+"file": "clips/_review/PALPITATION_1.mp4",
+"span": [
+7.35,
+9.93
+]
+}
+],
+"status": "pending"
+},
+"OWE": {
+"source": "O/Owe.mp4",
+"duration": 37.0,
+"clips": [
+{
+"file": "clips/_review/OWE_1.mp4",
+"span": [
+2.79,
+4.81
+]
+}
+],
+"status": "pending"
+},
+"PARAMEDICS": {
+"source": "P/Paramedics.mp4",
+"duration": 12.2,
+"status": "no-cut"
+},
+"PALLIATION": {
+"source": "P/Palliation.mp4",
+"duration": 17.7,
+"clips": [
+{
+"file": "clips/_review/PALLIATION_1.mp4",
+"span": [
+0.07,
+1.69
+]
+},
+{
+"file": "clips/_review/PALLIATION_2.mp4",
+"span": [
+1.67,
+3.69
+]
+}
+],
+"status": "pending"
+},
+"PARENTHESES": {
+"source": "P/Parentheses.mp4",
+"duration": 19.7,
+"clips": [
+{
+"file": "clips/_review/PARENTHESES_1.mp4",
+"span": [
+3.75,
+5.77
+]
+}
+],
+"status": "pending"
+},
+"PATELLA": {
+"source": "P/Patella.mp4",
+"duration": 9.3,
+"clips": [
+{
+"file": "clips/_review/PATELLA_1.mp4",
+"span": [
+0.55,
+3.05
+]
+},
+{
+"file": "clips/_review/PATELLA_2.mp4",
+"span": [
+7.19,
+8.97
+]
+}
+],
+"status": "pending"
+},
+"PATHOLOGISTS": {
+"source": "P/Pathologists.mp4",
+"duration": 10.7,
+"status": "no-cut"
+},
+"PARASITISM": {
+"source": "P/Parasitism.mp4",
+"duration": 46.8,
+"clips": [
+{
+"file": "clips/_review/PARASITISM_1.mp4",
+"span": [
+0.31,
+3.53
+]
+},
+{
+"file": "clips/_review/PARASITISM_2.mp4",
+"span": [
+3.75,
+6.17
+]
+}
+],
+"status": "pending"
+},
+"PASTEURIZATION": {
+"source": "P/Pasteurization.mp4",
+"duration": 42.7,
+"status": "no-cut"
+},
+"PAROLE": {
+"source": "P/Parole.mp4",
+"duration": 53.9,
+"clips": [
+{
+"file": "clips/_review/PAROLE_1.mp4",
+"span": [
+1.99,
+4.33
+]
+},
+{
+"file": "clips/_review/PAROLE_2.mp4",
+"span": [
+5.19,
+7.77
+]
+}
+],
+"status": "pending"
+},
+"PATRIARCHAL": {
+"source": "P/Patriarchal.mp4",
+"duration": 24.6,
+"status": "no-cut"
+},
+"PATWARI": {
+"source": "P/Patwari.mp4",
+"duration": 28.4,
+"status": "no-cut"
+},
+"PAYROLL": {
+"source": "P/Payroll.mp4",
+"duration": 28.0,
+"status": "no-cut"
+},
+"PECULATION": {
+"source": "P/Peculation.mp4",
+"duration": 23.3,
+"clips": [
+{
+"file": "clips/_review/PECULATION_1.mp4",
+"span": [
+2.39,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"PERSONALITY": {
+"source": "P/Personality.mp4",
+"duration": 11.7,
+"status": "no-cut"
+},
+"PENINSULA": {
+"source": "P/Peninsula.mp4",
+"duration": 22.8,
+"clips": [
+{
+"file": "clips/_review/PENINSULA_1.mp4",
+"span": [
+0.47,
+4.33
+]
+}
+],
+"status": "pending"
+},
+"PETECHIAE": {
+"source": "P/Petechiae.mp4",
+"duration": 8.3,
+"clips": [
+{
+"file": "clips/_review/PETECHIAE_1.mp4",
+"span": [
+0.15,
+2.73
+]
+},
+{
+"file": "clips/_review/PETECHIAE_2.mp4",
+"span": [
+3.59,
+5.37
+]
+}
+],
+"status": "pending"
+},
+"PENOLOGY": {
+"source": "P/Penology.mp4",
+"duration": 17.6,
+"status": "no-cut"
+},
+"PHARAOH": {
+"source": "P/Pharaoh.mp4",
+"duration": 19.2,
+"status": "no-cut"
+},
+"PHARYNGITIS": {
+"source": "P/Pharyngitis.mp4",
+"duration": 17.2,
+"clips": [
+{
+"file": "clips/_review/PHARYNGITIS_1.mp4",
+"span": [
+1.11,
+2.33
+]
+},
+{
+"file": "clips/_review/PHARYNGITIS_2.mp4",
+"span": [
+2.47,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"PHLEGM": {
+"source": "P/Phlegm.mp4",
+"duration": 9.7,
+"clips": [
+{
+"file": "clips/_review/PHLEGM_1.mp4",
+"span": [
+0.07,
+2.49
+]
+}
+],
+"status": "pending"
+},
+"PETROLEUM": {
+"source": "P/Petroleum.mp4",
+"duration": 34.9,
+"status": "no-cut"
+},
+"PHISHING": {
+"source": "P/Phishing.mp4",
+"duration": 46.1,
+"status": "no-cut"
+},
+"PHONETICS": {
+"source": "P/Phonetics.mp4",
+"duration": 25.4,
+"clips": [
+{
+"file": "clips/_review/PHONETICS_1.mp4",
+"span": [
+7.75,
+9.05
+]
+}
+],
+"status": "pending"
+},
+"PHOENICIANS": {
+"source": "P/Phoenicians.mp4",
+"duration": 56.3,
+"status": "no-cut"
+},
+"PHOSPHORUS": {
+"source": "P/Phosphorus.mp4",
+"duration": 31.1,
+"status": "no-cut"
+},
+"PHONOLOGY": {
+"source": "P/Phonology.mp4",
+"duration": 46.2,
+"status": "no-cut"
+},
+"PI": {
+"source": "P/Pi.mp4",
+"duration": 20.6,
+"status": "no-cut"
+},
+"PHYSICS": {
+"source": "P/Physics.mp4",
+"duration": 22.0,
+"status": "no-cut"
+},
+"PHOTOTROPISM": {
+"source": "P/Phototropism.mp4",
+"duration": 45.4,
+"clips": [
+{
+"file": "clips/_review/PHOTOTROPISM_1.mp4",
+"span": [
+6.23,
+9.61
+]
+}
+],
+"status": "pending"
+},
+"PLASTER": {
+"source": "P/Plaster.mp4",
+"duration": 8.6,
+"status": "no-cut"
+},
+"PILLAR": {
+"source": "P/Pillar.mp4",
+"duration": 22.0,
+"status": "no-cut"
+},
+"PLASTERING": {
+"source": "P/Plastering.mp4",
+"duration": 10.8,
+"status": "no-cut"
+},
+"PISCICULTURE": {
+"source": "P/Pisciculture.mp4",
+"duration": 23.6,
+"status": "no-cut"
+},
+"PHRASE": {
+"source": "P/Phrase.mp4",
+"duration": 63.0,
+"status": "no-cut"
+},
+"PLATEAU": {
+"source": "P/Plateau.mp4",
+"duration": 11.7,
+"status": "no-cut"
+},
+"PNEUMONIA": {
+"source": "P/Pneumonia.mp4",
+"duration": 11.0,
+"clips": [
+{
+"file": "clips/_review/PNEUMONIA_1.mp4",
+"span": [
+0.23,
+2.89
+]
+}
+],
+"status": "pending"
+},
+"PLATELET": {
+"source": "P/Platelet.mp4",
+"duration": 19.2,
+"status": "no-cut"
+},
+"POLISHER": {
+"source": "P/Polisher.mp4",
+"duration": 13.8,
+"clips": [
+{
+"file": "clips/_review/POLISHER_1.mp4",
+"span": [
+8.87,
+12.17
+]
+}
+],
+"status": "pending"
+},
+"POLARITY": {
+"source": "P/Polarity.mp4",
+"duration": 31.0,
+"clips": [
+{
+"file": "clips/_review/POLARITY_1.mp4",
+"span": [
+0.31,
+1.69
+]
+}
+],
+"status": "pending"
+},
+"POLYURIA": {
+"source": "P/Polyuria.mp4",
+"duration": 9.4,
+"status": "no-cut"
+},
+"POLITY": {
+"source": "P/Polity.mp4",
+"duration": 35.0,
+"status": "no-cut"
+},
+"PORT": {
+"source": "P/Port.mp4",
+"duration": 17.4,
+"clips": [
+{
+"file": "clips/_review/PORT_1.mp4",
+"span": [
+1.03,
+2.89
+]
+},
+{
+"file": "clips/_review/PORT_2.mp4",
+"span": [
+2.87,
+5.37
+]
+}
+],
+"status": "pending"
+},
+"POLARIZATION": {
+"source": "P/Polarization.mp4",
+"duration": 66.7,
+"status": "no-cut"
+},
+"POLYSEMY": {
+"source": "P/Polysemy.mp4",
+"duration": 56.7,
+"clips": [
+{
+"file": "clips/_review/POLYSEMY_1.mp4",
+"span": [
+7.83,
+11.08
+]
+}
+],
+"status": "pending"
+},
+"PRESSURE": {
+"source": "P/Pressure.mp4",
+"duration": 10.3,
+"clips": [
+{
+"file": "clips/_review/PRESSURE_1.mp4",
+"span": [
+0.79,
+4.57
+]
+},
+{
+"file": "clips/_review/PRESSURE_2.mp4",
+"span": [
+4.71,
+7.45
+]
+}
+],
+"status": "pending"
+},
+"PRETERM": {
+"source": "P/Preterm.mp4",
+"duration": 12.2,
+"status": "no-cut"
+},
+"PRESBYOPIA": {
+"source": "P/Presbyopia.mp4",
+"duration": 28.0,
+"clips": [
+{
+"file": "clips/_review/PRESBYOPIA_1.mp4",
+"span": [
+1.27,
+5.05
+]
+}
+],
+"status": "pending"
+},
+"PREVENT": {
+"source": "P/Prevent.mp4",
+"duration": 11.3,
+"status": "no-cut"
+},
+"PRIVY": {
+"source": "P/Privy.mp4",
+"duration": 25.7,
+"status": "no-cut"
+},
+"PRAGMATICS": {
+"source": "P/Pragmatics.mp4",
+"duration": 72.8,
+"clips": [
+{
+"file": "clips/_review/PRAGMATICS_1.mp4",
+"span": [
+0.75,
+2.25
+]
+}
+],
+"status": "pending"
+},
+"PROHIBITED": {
+"source": "P/Prohibited.mp4",
+"duration": 26.6,
+"status": "no-cut"
+},
+"PROLACTIN": {
+"source": "P/Prolactin.mp4",
+"duration": 12.1,
+"clips": [
+{
+"file": "clips/_review/PROLACTIN_1.mp4",
+"span": [
+0.79,
+4.17
+]
+},
+{
+"file": "clips/_review/PROLACTIN_2.mp4",
+"span": [
+4.55,
+5.69
+]
+}
+],
+"status": "pending"
+},
+"PROCESSION": {
+"source": "P/Procession.mp4",
+"duration": 43.7,
+"clips": [
+{
+"file": "clips/_review/PROCESSION_1.mp4",
+"span": [
+1.5,
+3.08
+]
+}
+],
+"status": "pending"
+},
+"PROSTAGLANDINS": {
+"source": "P/Prostaglandins.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/PROSTAGLANDINS_1.mp4",
+"span": [
+0.31,
+4.09
+]
+},
+{
+"file": "clips/_review/PROSTAGLANDINS_2.mp4",
+"span": [
+4.47,
+5.85
+]
+}
+],
+"status": "pending"
+},
+"PROSTHETISTS": {
+"source": "P/Prosthetists.mp4",
+"duration": 11.8,
+"clips": [
+{
+"file": "clips/_review/PROSTHETISTS_1.mp4",
+"span": [
+0.47,
+2.09
+]
+}
+],
+"status": "pending"
+},
+"PROSTATE": {
+"source": "P/Prostate.mp4",
+"duration": 23.6,
+"clips": [
+{
+"file": "clips/_review/PROSTATE_1.mp4",
+"span": [
+0.31,
+1.85
+]
+},
+{
+"file": "clips/_review/PROSTATE_2.mp4",
+"span": [
+1.83,
+3.05
+]
+}
+],
+"status": "pending"
+},
+"PROTEINURIA": {
+"source": "P/Proteinuria.mp4",
+"duration": 10.5,
+"status": "no-cut"
+},
+"PROSPECTUS": {
+"source": "P/Prospectus.mp4",
+"duration": 32.9,
+"clips": [
+{
+"file": "clips/_review/PROSPECTUS_1.mp4",
+"span": [
+0.28,
+3.38
+]
+}
+],
+"status": "pending"
+},
+"PUBERTY": {
+"source": "P/Puberty.mp4",
+"duration": 13.5,
+"clips": [
+{
+"file": "clips/_review/PUBERTY_1.mp4",
+"span": [
+0.63,
+3.21
+]
+},
+{
+"file": "clips/_review/PUBERTY_2.mp4",
+"span": [
+0.63,
+4.09
+]
+}
+],
+"status": "pending"
+},
+"PROTEINS": {
+"source": "P/Proteins.mp4",
+"duration": 44.6,
+"status": "no-cut"
+},
+"PULSE": {
+"source": "P/Pulse.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/PULSE_1.mp4",
+"span": [
+1.35,
+3.69
+]
+},
+{
+"file": "clips/_review/PULSE_2.mp4",
+"span": [
+3.99,
+6.97
+]
+}
+],
+"status": "pending"
+},
+"PURULENT": {
+"source": "P/Purulent.mp4",
+"duration": 12.0,
+"status": "no-cut"
+},
+"PUS": {
+"source": "P/Pus.mp4",
+"duration": 17.8,
+"clips": [
+{
+"file": "clips/_review/PUS_1.mp4",
+"span": [
+1.35,
+4.17
+]
+},
+{
+"file": "clips/_review/PUS_2.mp4",
+"span": [
+6.23,
+7.45
+]
+}
+],
+"status": "pending"
+},
+"PSYCHOANALYSIS": {
+"source": "P/Psychoanalysis.mp4",
+"duration": 73.6,
+"clips": [
+{
+"file": "clips/_review/PSYCHOANALYSIS_1.mp4",
+"span": [
+1.03,
+4.65
+]
+},
+{
+"file": "clips/_review/PSYCHOANALYSIS_2.mp4",
+"span": [
+4.95,
+6.65
+]
+}
+],
+"status": "pending"
+},
+"PUNISHMENT": {
+"source": "P/Punishment.mp4",
+"duration": 52.5,
+"clips": [
+{
+"file": "clips/_review/PUNISHMENT_1.mp4",
+"span": [
+1.25,
+4.83
+]
+}
+],
+"status": "pending"
+},
+"PROTOCOL": {
+"source": "P/Protocol.mp4",
+"duration": 96.9,
+"status": "no-cut"
+},
+"PYGMIES": {
+"source": "P/Pygmies.mp4",
+"duration": 23.2,
+"status": "no-cut"
+},
+"QUARANTINE": {
+"source": "Q/Quarantine.mp4",
+"duration": 18.7,
+"status": "no-cut"
+},
+"QUARTER": {
+"source": "Q/Quarter.mp4",
+"duration": 11.6,
+"clips": [
+{
+"file": "clips/_review/QUARTER_1.mp4",
+"span": [
+0.71,
+3.37
+]
+},
+{
+"file": "clips/_review/QUARTER_2.mp4",
+"span": [
+3.43,
+7.29
+]
+}
+],
+"status": "pending"
+},
+"QUADRILATERAL": {
+"source": "Q/Quadrilateral.mp4",
+"duration": 35.3,
+"status": "no-cut"
+},
+"QUICKENING": {
+"source": "Q/Quickening.mp4",
+"duration": 14.4,
+"clips": [
+{
+"file": "clips/_review/QUICKENING_1.mp4",
+"span": [
+1.67,
+2.81
+]
+}
+],
+"status": "pending"
+},
+"QUILTED": {
+"source": "Q/Quilted.mp4",
+"duration": 16.0,
+"clips": [
+{
+"file": "clips/_review/QUILTED_1.mp4",
+"span": [
+0.79,
+2.65
+]
+}
+],
+"status": "pending"
+},
+"QUOTA": {
+"source": "Q/Quota.mp4",
+"duration": 21.9,
+"clips": [
+{
+"file": "clips/_review/QUOTA_1.mp4",
+"span": [
+0.5,
+4.33
+]
+}
+],
+"status": "pending"
+},
+"QUOTATION": {
+"source": "Q/Quotation.mp4",
+"duration": 17.5,
+"clips": [
+{
+"file": "clips/_review/QUOTATION_1.mp4",
+"span": [
+0.5,
+2.08
+]
+},
+{
+"file": "clips/_review/QUOTATION_2.mp4",
+"span": [
+3.42,
+6.0
+]
+}
+],
+"status": "pending"
+},
+"RABIES": {
+"source": "R/Rabies.mp4",
+"duration": 23.6,
+"status": "no-cut"
+},
+"RACE": {
+"source": "R/Race.mp4",
+"duration": 16.8,
+"status": "no-cut"
+},
+"RADIOGRAPHERS": {
+"source": "R/Radiographers.mp4",
+"duration": 12.9,
+"clips": [
+{
+"file": "clips/_review/RADIOGRAPHERS_1.mp4",
+"span": [
+0.15,
+1.29
+]
+}
+],
+"status": "pending"
+},
+"RACK": {
+"source": "R/Rack.mp4",
+"duration": 32.5,
+"status": "no-cut"
+},
+"RAFT": {
+"source": "R/Raft.mp4",
+"duration": 19.0,
+"status": "no-cut"
+},
+"RADAR": {
+"source": "R/Radar.mp4",
+"duration": 38.0,
+"clips": [
+{
+"file": "clips/_review/RADAR_1.mp4",
+"span": [
+0.55,
+2.89
+]
+},
+{
+"file": "clips/_review/RADAR_2.mp4",
+"span": [
+3.43,
+4.57
+]
+}
+],
+"status": "pending"
+},
+"RAFTER": {
+"source": "R/Rafter.mp4",
+"duration": 14.3,
+"status": "no-cut"
+},
+"RAITA": {
+"source": "R/Raita.mp4",
+"duration": 13.8,
+"status": "no-cut"
+},
+"RAKE": {
+"source": "R/Rake.mp4",
+"duration": 16.3,
+"clips": [
+{
+"file": "clips/_review/RAKE_1.mp4",
+"span": [
+2.07,
+4.41
+]
+}
+],
+"status": "pending"
+},
+"RAG": {
+"source": "R/Rag.mp4",
+"duration": 27.5,
+"status": "no-cut"
+},
+"RANIKHET": {
+"source": "R/Ranikhet.mp4",
+"duration": 27.8,
+"clips": [
+{
+"file": "clips/_review/RANIKHET_1.mp4",
+"span": [
+0.83,
+3.17
+]
+},
+{
+"file": "clips/_review/RANIKHET_2.mp4",
+"span": [
+3.17,
+6.08
+]
+}
+],
+"status": "pending"
+},
+"RAMP": {
+"source": "R/Ramp.mp4",
+"duration": 48.0,
+"status": "no-cut"
+},
+"RADIATION": {
+"source": "R/Radiation.mp4",
+"duration": 65.4,
+"status": "no-cut"
+},
+"RAW": {
+"source": "R/Raw.mp4",
+"duration": 17.8,
+"status": "no-cut"
+},
+"RAZOR": {
+"source": "R/Razor.mp4",
+"duration": 13.4,
+"clips": [
+{
+"file": "clips/_review/RAZOR_1.mp4",
+"span": [
+0.31,
+2.01
+]
+}
+],
+"status": "pending"
+},
+"RANGE": {
+"source": "R/Range.mp4",
+"duration": 60.7,
+"clips": [
+{
+"file": "clips/_review/RANGE_1.mp4",
+"span": [
+0.33,
+2.5
+]
+}
+],
+"status": "pending"
+},
+"RANSOM": {
+"source": "R/Ransom.m4v",
+"duration": 23.9,
+"clips": [
+{
+"file": "clips/_review/RANSOM_1.mp4",
+"span": [
+0.95,
+2.41
+]
+}
+],
+"status": "pending"
+},
+"RECIPE": {
+"source": "R/Recipe.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"RECIPROCAL": {
+"source": "R/Reciprocal.mp4",
+"duration": 14.2,
+"status": "no-cut"
+},
+"RDX": {
+"source": "R/RDX.mp4",
+"duration": 25.0,
+"status": "no-cut"
+},
+"REAMER": {
+"source": "R/Reamer.mp4",
+"duration": 29.4,
+"status": "no-cut"
+},
+"RECURRING": {
+"source": "R/Recurring.mp4",
+"duration": 11.0,
+"status": "no-cut"
+},
+"RECREATION": {
+"source": "R/Recreation.mp4",
+"duration": 28.8,
+"status": "no-cut"
+},
+"RECYCLABLES": {
+"source": "R/Recyclables.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"RECRUIT": {
+"source": "R/Recruit.mp4",
+"duration": 35.3,
+"status": "no-cut"
+},
+"RECOVERY": {
+"source": "R/Recovery.mp4",
+"duration": 38.1,
+"clips": [
+{
+"file": "clips/_review/RECOVERY_1.mp4",
+"span": [
+1.08,
+2.67
+]
+},
+{
+"file": "clips/_review/RECOVERY_2.mp4",
+"span": [
+2.92,
+4.08
+]
+}
+],
+"status": "pending"
+},
+"REDO": {
+"source": "R/Redo.mp4",
+"duration": 24.0,
+"status": "no-cut"
+},
+"REFORESTATION": {
+"source": "R/Reforestation.mp4",
+"duration": 14.4,
+"status": "no-cut"
+},
+"REDUCATION": {
+"source": "R/Reducation.mp4",
+"duration": 33.0,
+"status": "no-cut"
+},
+"REFLECTION": {
+"source": "R/Reflection.mp4",
+"duration": 47.4,
+"clips": [
+{
+"file": "clips/_review/REFLECTION_1.mp4",
+"span": [
+6.95,
+8.25
+]
+}
+],
+"status": "pending"
+},
+"REFUND": {
+"source": "R/Refund.mp4",
+"duration": 19.6,
+"status": "no-cut"
+},
+"REFUGEE": {
+"source": "R/Refugee.mp4",
+"duration": 41.3,
+"status": "no-cut"
+},
+"REGURGITATION": {
+"source": "R/Regurgitation.mp4",
+"duration": 16.0,
+"status": "no-cut"
+},
+"REFRACTION": {
+"source": "R/Refraction.mp4",
+"duration": 55.3,
+"clips": [
+{
+"file": "clips/_review/REFRACTION_1.mp4",
+"span": [
+0.87,
+3.93
+]
+}
+],
+"status": "pending"
+},
+"REHEARSAL": {
+"source": "R/Rehearsal.mp4",
+"duration": 24.8,
+"clips": [
+{
+"file": "clips/_review/REHEARSAL_1.mp4",
+"span": [
+1.43,
+5.37
+]
+}
+],
+"status": "pending"
+},
+"RELAXANT": {
+"source": "R/Relaxant.mp4",
+"duration": 25.9,
+"status": "no-cut"
+},
+"REIMBURSEMENT": {
+"source": "R/Reimbursement.mp4",
+"duration": 34.4,
+"status": "no-cut"
+},
+"RELAY": {
+"source": "R/Relay.mp4",
+"duration": 24.9,
+"clips": [
+{
+"file": "clips/_review/RELAY_1.mp4",
+"span": [
+0.95,
+3.77
+]
+}
+],
+"status": "pending"
+},
+"RELIABILITY": {
+"source": "R/Reliability.mp4",
+"duration": 26.6,
+"status": "no-cut"
+},
+"REMARRY": {
+"source": "R/Remarry.mp4",
+"duration": 21.6,
+"clips": [
+{
+"file": "clips/_review/REMARRY_1.mp4",
+"span": [
+5.27,
+7.37
+]
+}
+],
+"status": "pending"
+},
+"REMOTE": {
+"source": "R/Remote.mp4",
+"duration": 18.7,
+"clips": [
+{
+"file": "clips/_review/REMOTE_1.mp4",
+"span": [
+1.35,
+3.21
+]
+},
+{
+"file": "clips/_review/REMOTE_2.mp4",
+"span": [
+1.35,
+4.81
+]
+}
+],
+"status": "pending"
+},
+"REMAND": {
+"source": "R/Remand.mp4",
+"duration": 51.4,
+"status": "no-cut"
+},
+"RENEWABLE": {
+"source": "R/Renewable.mp4",
+"duration": 20.9,
+"status": "no-cut"
+},
+"RENAME": {
+"source": "R/Rename.mp4",
+"duration": 23.0,
+"clips": [
+{
+"file": "clips/_review/RENAME_1.mp4",
+"span": [
+0.87,
+2.81
+]
+},
+{
+"file": "clips/_review/RENAME_2.mp4",
+"span": [
+3.03,
+4.41
+]
+}
+],
+"status": "pending"
+},
+"REMARKETING": {
+"source": "R/Remarketing.mp4",
+"duration": 59.3,
+"clips": [
+{
+"file": "clips/_review/REMARKETING_1.mp4",
+"span": [
+11.33,
+14.75
+]
+}
+],
+"status": "pending"
+},
+"RENOVATION": {
+"source": "R/Renovation.mp4",
+"duration": 12.2,
+"status": "no-cut"
+},
+"REPUBLIC": {
+"source": "R/Republic.mp4",
+"duration": 13.8,
+"status": "no-cut"
+},
+"RES": {
+"source": "R/Res.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"RESIDE": {
+"source": "R/Reside.mp4",
+"duration": 20.2,
+"clips": [
+{
+"file": "clips/_review/RESIDE_1.mp4",
+"span": [
+2.07,
+3.77
+]
+},
+{
+"file": "clips/_review/RESIDE_2.mp4",
+"span": [
+3.75,
+7.29
+]
+}
+],
+"status": "pending"
+},
+"RESPIRATOR": {
+"source": "R/Respirator.mp4",
+"duration": 21.6,
+"clips": [
+{
+"file": "clips/_review/RESPIRATOR_1.mp4",
+"span": [
+1.59,
+5.13
+]
+}
+],
+"status": "pending"
+},
+"RESERVATION": {
+"source": "R/Reservation.mp4",
+"duration": 33.4,
+"clips": [
+{
+"file": "clips/_review/RESERVATION_1.mp4",
+"span": [
+1.91,
+3.13
+]
+},
+{
+"file": "clips/_review/RESERVATION_2.mp4",
+"span": [
+3.43,
+5.93
+]
+}
+],
+"status": "pending"
+},
+"RESPOND": {
+"source": "R/Respond.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"RESUSCITATION": {
+"source": "R/Resuscitation.mp4",
+"duration": 15.3,
+"clips": [
+{
+"file": "clips/_review/RESUSCITATION_1.mp4",
+"span": [
+1.19,
+2.89
+]
+}
+],
+"status": "pending"
+},
+"RESPITE": {
+"source": "R/Respite.mp4",
+"duration": 34.0,
+"status": "no-cut"
+},
+"RESISTANCE": {
+"source": "R/Resistance.mp4",
+"duration": 55.7,
+"clips": [
+{
+"file": "clips/_review/RESISTANCE_1.mp4",
+"span": [
+2.79,
+4.41
+]
+}
+],
+"status": "pending"
+},
+"RETINA": {
+"source": "R/Retina.mp4",
+"duration": 8.9,
+"clips": [
+{
+"file": "clips/_review/RETINA_1.mp4",
+"span": [
+0.5,
+2.92
+]
+}
+],
+"status": "pending"
+},
+"REVENUE": {
+"source": "R/Revenue.mp4",
+"duration": 12.4,
+"status": "no-cut"
+},
+"RETARDER": {
+"source": "R/Retarder.mp4",
+"duration": 29.3,
+"status": "no-cut"
+},
+"REVER": {
+"source": "R/Rever.mp4",
+"duration": 18.2,
+"clips": [
+{
+"file": "clips/_review/REVER_1.mp4",
+"span": [
+2.79,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"REVOLUTION": {
+"source": "R/Revolution.mp4",
+"duration": 10.4,
+"status": "no-cut"
+},
+"RHEUMATOLOGY": {
+"source": "R/Rheumatology.mp4",
+"duration": 8.8,
+"clips": [
+{
+"file": "clips/_review/RHEUMATOLOGY_1.mp4",
+"span": [
+5.51,
+8.01
+]
+}
+],
+"status": "pending"
+},
+"REVOLVE": {
+"source": "R/Revolve.mp4",
+"duration": 16.8,
+"status": "no-cut"
+},
+"REVOLT": {
+"source": "R/Revolt.mp4",
+"duration": 31.0,
+"status": "no-cut"
+},
+"RIBS": {
+"source": "R/Ribs.mp4",
+"duration": 10.1,
+"clips": [
+{
+"file": "clips/_review/RIBS_1.mp4",
+"span": [
+0.15,
+3.37
+]
+}
+],
+"status": "pending"
+},
+"RINDERPEST": {
+"source": "R/Rinderpest.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"RHIZOME": {
+"source": "R/Rhizome.mp4",
+"duration": 25.5,
+"clips": [
+{
+"file": "clips/_review/RHIZOME_1.mp4",
+"span": [
+6.71,
+8.73
+]
+}
+],
+"status": "pending"
+},
+"RHS": {
+"source": "R/Rhs.mp4",
+"duration": 25.0,
+"clips": [
+{
+"file": "clips/_review/RHS_1.mp4",
+"span": [
+4.92,
+6.5
+]
+}
+],
+"status": "pending"
+},
+"RIVERINE": {
+"source": "R/Riverine.mp4",
+"duration": 14.4,
+"status": "no-cut"
+},
+"ROASTERS": {
+"source": "R/Roasters.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/ROASTERS_1.mp4",
+"span": [
+5.17,
+7.5
+]
+}
+],
+"status": "pending"
+},
+"RIVET": {
+"source": "R/Rivet.mp4",
+"duration": 20.6,
+"clips": [
+{
+"file": "clips/_review/RIVET_1.mp4",
+"span": [
+1.51,
+3.37
+]
+},
+{
+"file": "clips/_review/RIVET_2.mp4",
+"span": [
+4.63,
+6.25
+]
+}
+],
+"status": "pending"
+},
+"RIOTS": {
+"source": "R/Riots.mp4",
+"duration": 31.2,
+"clips": [
+{
+"file": "clips/_review/RIOTS_1.mp4",
+"span": [
+2.63,
+4.89
+]
+}
+],
+"status": "pending"
+},
+"ROM": {
+"source": "R/Rom.mp4",
+"duration": 19.2,
+"clips": [
+{
+"file": "clips/_review/ROM_1.mp4",
+"span": [
+7.03,
+8.81
+]
+}
+],
+"status": "pending"
+},
+"ROT": {
+"source": "R/Rot.mp4",
+"duration": 27.1,
+"clips": [
+{
+"file": "clips/_review/ROT_1.mp4",
+"span": [
+6.47,
+8.41
+]
+}
+],
+"status": "pending"
+},
+"ROTTING": {
+"source": "R/Rotting.mp4",
+"duration": 28.3,
+"status": "no-cut"
+},
+"ROTOSCOPE": {
+"source": "R/Rotoscope.mp4",
+"duration": 46.2,
+"clips": [
+{
+"file": "clips/_review/ROTOSCOPE_1.mp4",
+"span": [
+1.67,
+5.33
+]
+}
+],
+"status": "pending"
+},
+"ROUTER": {
+"source": "R/Router.mp4",
+"duration": 36.0,
+"status": "no-cut"
+},
+"RULER": {
+"source": "R/Ruler.mp4",
+"duration": 26.0,
+"clips": [
+{
+"file": "clips/_review/RULER_1.mp4",
+"span": [
+1.03,
+3.29
+]
+}
+],
+"status": "pending"
+},
+"SALESMAN": {
+"source": "S/Salesman.mp4",
+"duration": 18.2,
+"clips": [
+{
+"file": "clips/_review/SALESMAN_1.mp4",
+"span": [
+1.59,
+3.45
+]
+}
+],
+"status": "pending"
+},
+"RUSH": {
+"source": "R/Rush.mp4",
+"duration": 31.5,
+"clips": [
+{
+"file": "clips/_review/RUSH_1.mp4",
+"span": [
+1.11,
+3.37
+]
+}
+],
+"status": "pending"
+},
+"SALIVA": {
+"source": "S/Saliva.mp4",
+"duration": 18.5,
+"clips": [
+{
+"file": "clips/_review/SALIVA_1.mp4",
+"span": [
+2.63,
+3.93
+]
+}
+],
+"status": "pending"
+},
+"RUST": {
+"source": "R/Rust.mp4",
+"duration": 34.6,
+"status": "no-cut"
+},
+"SANDER": {
+"source": "S/Sander.mp4",
+"duration": 18.2,
+"clips": [
+{
+"file": "clips/_review/SANDER_1.mp4",
+"span": [
+2.31,
+3.85
+]
+}
+],
+"status": "pending"
+},
+"SANCTIONS": {
+"source": "S/Sanctions.mp4",
+"duration": 35.0,
+"status": "no-cut"
+},
+"SANITATION": {
+"source": "S/Sanitation.mp4",
+"duration": 34.4,
+"clips": [
+{
+"file": "clips/_review/SANITATION_1.mp4",
+"span": [
+0.95,
+3.69
+]
+}
+],
+"status": "pending"
+},
+"SAMPLE": {
+"source": "S/Sample.mp4",
+"duration": 74.4,
+"status": "no-cut"
+},
+"SAPROTROPHS": {
+"source": "S/Saprotrophs.mp4",
+"duration": 47.4,
+"status": "no-cut"
+},
+"SATELLITE": {
+"source": "S/Satellite.mp4",
+"duration": 29.6,
+"status": "no-cut"
+},
+"SARPANCH": {
+"source": "S/Sarpanch.mp4",
+"duration": 46.0,
+"status": "no-cut"
+},
+"SCALP": {
+"source": "S/Scalp.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"SCABIES": {
+"source": "S/Scabies.mp4",
+"duration": 15.8,
+"clips": [
+{
+"file": "clips/_review/SCABIES_1.mp4",
+"span": [
+1.59,
+3.29
+]
+},
+{
+"file": "clips/_review/SCABIES_2.mp4",
+"span": [
+4.23,
+7.69
+]
+}
+],
+"status": "pending"
+},
+"SATURATION": {
+"source": "S/Saturation.mp4",
+"duration": 36.5,
+"status": "no-cut"
+},
+"SCALPEL": {
+"source": "S/Scalpel.mp4",
+"duration": 14.4,
+"clips": [
+{
+"file": "clips/_review/SCALPEL_1.mp4",
+"span": [
+1.99,
+3.69
+]
+}
+],
+"status": "pending"
+},
+"SCAPULA": {
+"source": "S/Scapula.mp4",
+"duration": 12.9,
+"clips": [
+{
+"file": "clips/_review/SCAPULA_1.mp4",
+"span": [
+9.51,
+10.89
+]
+}
+],
+"status": "pending"
+},
+"SAVANNAHS": {
+"source": "S/Savannahs.mp4",
+"duration": 52.1,
+"status": "no-cut"
+},
+"SCAR": {
+"source": "S/Scar.mp4",
+"duration": 19.3,
+"clips": [
+{
+"file": "clips/_review/SCAR_1.mp4",
+"span": [
+10.15,
+13.21
+]
+}
+],
+"status": "pending"
+},
+"SCIATICA": {
+"source": "S/Sciatica.mp4",
+"duration": 18.6,
+"clips": [
+{
+"file": "clips/_review/SCIATICA_1.mp4",
+"span": [
+1.99,
+3.21
+]
+}
+],
+"status": "pending"
+},
+"SCOLIOSIS": {
+"source": "S/Scoliosis.mp4",
+"duration": 16.3,
+"clips": [
+{
+"file": "clips/_review/SCOLIOSIS_1.mp4",
+"span": [
+1.43,
+2.65
+]
+}
+],
+"status": "pending"
+},
+"SCOURING": {
+"source": "S/Scouring.mp4",
+"duration": 19.3,
+"status": "no-cut"
+},
+"SCAVENGERS": {
+"source": "S/Scavengers.mp4",
+"duration": 27.8,
+"status": "no-cut"
+},
+"SEASHORE": {
+"source": "S/Seashore.mp4",
+"duration": 13.4,
+"clips": [
+{
+"file": "clips/_review/SEASHORE_1.mp4",
+"span": [
+2.17,
+4.0
+]
+}
+],
+"status": "pending"
+},
+"SEALENT": {
+"source": "S/Sealent.mp4",
+"duration": 16.8,
+"clips": [
+{
+"file": "clips/_review/SEALENT_1.mp4",
+"span": [
+1.0,
+2.17
+]
+}
+],
+"status": "pending"
+},
+"SCRIBER": {
+"source": "S/Scriber.mp4",
+"duration": 28.0,
+"status": "no-cut"
+},
+"SCRIBE": {
+"source": "S/Scribe.mp4",
+"duration": 34.3,
+"clips": [
+{
+"file": "clips/_review/SCRIBE_1.mp4",
+"span": [
+0.71,
+3.53
+]
+},
+{
+"file": "clips/_review/SCRIBE_2.mp4",
+"span": [
+3.67,
+6.25
+]
+}
+],
+"status": "pending"
+},
+"SEASONS": {
+"source": "S/Seasons.mp4",
+"duration": 22.0,
+"status": "no-cut"
+},
+"SECTION": {
+"source": "S/Section.mp4",
+"duration": 37.6,
+"status": "no-cut"
+},
+"SECULARISM": {
+"source": "S/Secularism.mp4",
+"duration": 29.0,
+"status": "no-cut"
+},
+"SECULAR": {
+"source": "S/Secular.mp4",
+"duration": 44.2,
+"status": "no-cut"
+},
+"SEDATIVE": {
+"source": "S/Sedative.mp4",
+"duration": 18.0,
+"clips": [
+{
+"file": "clips/_review/SEDATIVE_1.mp4",
+"span": [
+0.23,
+1.53
+]
+},
+{
+"file": "clips/_review/SEDATIVE_2.mp4",
+"span": [
+2.39,
+4.09
+]
+}
+],
+"status": "pending"
+},
+"SECURITIES": {
+"source": "S/Securities.mp4",
+"duration": 29.9,
+"clips": [
+{
+"file": "clips/_review/SECURITIES_1.mp4",
+"span": [
+0.82,
+3.12
+]
+},
+{
+"file": "clips/_review/SECURITIES_2.mp4",
+"span": [
+6.22,
+8.25
+]
+}
+],
+"status": "pending"
+},
+"SEISMOGRAPH": {
+"source": "S/Seismograph.mp4",
+"duration": 13.0,
+"status": "no-cut"
+},
+"SEISMOLOGIST": {
+"source": "S/Seismologist.mp4",
+"duration": 11.6,
+"status": "no-cut"
+},
+"SEEDS": {
+"source": "S/Seeds.mp4",
+"duration": 33.6,
+"clips": [
+{
+"file": "clips/_review/SEEDS_1.mp4",
+"span": [
+3.25,
+4.92
+]
+},
+{
+"file": "clips/_review/SEEDS_2.mp4",
+"span": [
+5.75,
+7.42
+]
+}
+],
+"status": "pending"
+},
+"SEIZURE": {
+"source": "S/Seizure.mp4",
+"duration": 19.9,
+"clips": [
+{
+"file": "clips/_review/SEIZURE_1.mp4",
+"span": [
+0.15,
+2.33
+]
+}
+],
+"status": "pending"
+},
+"SELVAGE": {
+"source": "S/Selvage.mp4",
+"duration": 17.3,
+"clips": [
+{
+"file": "clips/_review/SELVAGE_1.mp4",
+"span": [
+5.99,
+8.41
+]
+}
+],
+"status": "pending"
+},
+"SEIZE": {
+"source": "S/Seize.mp4",
+"duration": 30.4,
+"status": "no-cut"
+},
+"SEMANTICS": {
+"source": "S/Semantics.mp4",
+"duration": 24.8,
+"status": "no-cut"
+},
+"SEPARATION": {
+"source": "S/Separation.mp4",
+"duration": 25.0,
+"status": "no-cut"
+},
+"SEPARATED": {
+"source": "S/Separated.mp4",
+"duration": 34.2,
+"clips": [
+{
+"file": "clips/_review/SEPARATED_1.mp4",
+"span": [
+1.75,
+3.69
+]
+},
+{
+"file": "clips/_review/SEPARATED_2.mp4",
+"span": [
+3.99,
+5.37
+]
+}
+],
+"status": "pending"
+},
+"SEPSIS": {
+"source": "S/Sepsis.mp4",
+"duration": 27.6,
+"clips": [
+{
+"file": "clips/_review/SEPSIS_1.mp4",
+"span": [
+0.87,
+2.89
+]
+},
+{
+"file": "clips/_review/SEPSIS_2.mp4",
+"span": [
+3.03,
+5.93
+]
+}
+],
+"status": "pending"
+},
+"SERICULTURE": {
+"source": "S/Sericulture.mp4",
+"duration": 27.8,
+"status": "no-cut"
+},
+"SEROLOGY": {
+"source": "S/Serology.mp4",
+"duration": 14.9,
+"clips": [
+{
+"file": "clips/_review/SEROLOGY_1.mp4",
+"span": [
+1.83,
+5.45
+]
+}
+],
+"status": "pending"
+},
+"SERIF": {
+"source": "S/Serif.mp4",
+"duration": 20.5,
+"clips": [
+{
+"file": "clips/_review/SERIF_1.mp4",
+"span": [
+1.67,
+3.33
+]
+}
+],
+"status": "pending"
+},
+"SHAFT": {
+"source": "S/Shaft.mp4",
+"duration": 10.3,
+"status": "no-cut"
+},
+"SEW": {
+"source": "S/Sew.mp4",
+"duration": 16.2,
+"status": "no-cut"
+},
+"SHADING": {
+"source": "S/Shading.mp4",
+"duration": 22.0,
+"status": "no-cut"
+},
+"SHEARING": {
+"source": "S/Shearing.mp4",
+"duration": 16.6,
+"status": "no-cut"
+},
+"SETTLEMENT": {
+"source": "S/Settlement.mp4",
+"duration": 37.0,
+"clips": [
+{
+"file": "clips/_review/SETTLEMENT_1.mp4",
+"span": [
+10.95,
+13.45
+]
+}
+],
+"status": "pending"
+},
+"SHRUBS": {
+"source": "S/Shrubs.mp4",
+"duration": 13.2,
+"clips": [
+{
+"file": "clips/_review/SHRUBS_1.mp4",
+"span": [
+0.47,
+2.17
+]
+},
+{
+"file": "clips/_review/SHRUBS_2.mp4",
+"span": [
+2.31,
+6.01
+]
+}
+],
+"status": "pending"
+},
+"SHIRRING": {
+"source": "S/Shirring.mp4",
+"duration": 22.1,
+"clips": [
+{
+"file": "clips/_review/SHIRRING_1.mp4",
+"span": [
+5.19,
+6.41
+]
+},
+{
+"file": "clips/_review/SHIRRING_2.mp4",
+"span": [
+6.55,
+10.49
+]
+}
+],
+"status": "pending"
+},
+"SHIVER": {
+"source": "S/Shiver.mp4",
+"duration": 21.4,
+"clips": [
+{
+"file": "clips/_review/SHIVER_1.mp4",
+"span": [
+0.23,
+1.69
+]
+},
+{
+"file": "clips/_review/SHIVER_2.mp4",
+"span": [
+4.39,
+7.85
+]
+}
+],
+"status": "pending"
+},
+"SHUTTER": {
+"source": "S/Shutter.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"SHUT": {
+"source": "S/Shut.mp4",
+"duration": 20.9,
+"status": "no-cut"
+},
+"SHAREHOLDER": {
+"source": "S/Shareholder.mp4",
+"duration": 51.7,
+"clips": [
+{
+"file": "clips/_review/SHAREHOLDER_1.mp4",
+"span": [
+0.35,
+3.72
+]
+}
+],
+"status": "pending"
+},
+"SIFT": {
+"source": "S/Sift.mp4",
+"duration": 18.9,
+"clips": [
+{
+"file": "clips/_review/SIFT_1.mp4",
+"span": [
+0.71,
+3.29
+]
+},
+{
+"file": "clips/_review/SIFT_2.mp4",
+"span": [
+3.35,
+6.17
+]
+}
+],
+"status": "pending"
+},
+"SIEVING": {
+"source": "S/Sieving.mp4",
+"duration": 29.2,
+"status": "no-cut"
+},
+"SIGNATORY": {
+"source": "S/Signatory.mp4",
+"duration": 16.9,
+"clips": [
+{
+"file": "clips/_review/SIGNATORY_1.mp4",
+"span": [
+1.35,
+3.32
+]
+},
+{
+"file": "clips/_review/SIGNATORY_2.mp4",
+"span": [
+1.35,
+3.92
+]
+}
+],
+"status": "pending"
+},
+"SILAGE": {
+"source": "S/Silage.mp4",
+"duration": 20.6,
+"status": "no-cut"
+},
+"SILHOUETTE": {
+"source": "S/Silhouette.mp4",
+"duration": 27.8,
+"clips": [
+{
+"file": "clips/_review/SILHOUETTE_1.mp4",
+"span": [
+4.15,
+7.77
+]
+},
+{
+"file": "clips/_review/SILHOUETTE_2.mp4",
+"span": [
+7.75,
+9.45
+]
+}
+],
+"status": "pending"
+},
+"SILICON": {
+"source": "S/Silicon.mp4",
+"duration": 42.2,
+"status": "no-cut"
+},
+"SIMMER": {
+"source": "S/Simmer.mp4",
+"duration": 10.6,
+"clips": [
+{
+"file": "clips/_review/SIMMER_1.mp4",
+"span": [
+0.67,
+2.83
+]
+}
+],
+"status": "pending"
+},
+"SIMILE": {
+"source": "S/Simile.mp4",
+"duration": 36.5,
+"status": "no-cut"
+},
+"SINK": {
+"source": "S/Sink.mp4",
+"duration": 13.5,
+"clips": [
+{
+"file": "clips/_review/SINK_1.mp4",
+"span": [
+1.42,
+3.5
+]
+}
+],
+"status": "pending"
+},
+"SILT": {
+"source": "S/Silt.mp4",
+"duration": 41.6,
+"clips": [
+{
+"file": "clips/_review/SILT_1.mp4",
+"span": [
+7.51,
+9.05
+]
+},
+{
+"file": "clips/_review/SILT_2.mp4",
+"span": [
+8.95,
+10.33
+]
+}
+],
+"status": "pending"
+},
+"SITE": {
+"source": "S/Site.mp4",
+"duration": 14.4,
+"clips": [
+{
+"file": "clips/_review/SITE_1.mp4",
+"span": [
+2.33,
+3.92
+]
+}
+],
+"status": "pending"
+},
+"SLAUGHTER": {
+"source": "S/Slaughter.mp4",
+"duration": 21.5,
+"status": "no-cut"
+},
+"SLICE": {
+"source": "S/Slice.mp4",
+"duration": 21.2,
+"clips": [
+{
+"file": "clips/_review/SLICE_1.mp4",
+"span": [
+1.67,
+3.93
+]
+}
+],
+"status": "pending"
+},
+"SLAVE": {
+"source": "S/Slave.mp4",
+"duration": 27.0,
+"clips": [
+{
+"file": "clips/_review/SLAVE_1.mp4",
+"span": [
+0.95,
+3.05
+]
+}
+],
+"status": "pending"
+},
+"SLEEPWALKING": {
+"source": "S/Sleepwalking.mp4",
+"duration": 22.0,
+"clips": [
+{
+"file": "clips/_review/SLEEPWALKING_1.mp4",
+"span": [
+1.43,
+3.69
+]
+}
+],
+"status": "pending"
+},
+"SMOG": {
+"source": "S/Smog.mp4",
+"duration": 14.6,
+"status": "no-cut"
+},
+"SLUG": {
+"source": "S/Slug.mp4",
+"duration": 32.3,
+"status": "no-cut"
+},
+"SNORE": {
+"source": "S/Snore.mp4",
+"duration": 9.7,
+"clips": [
+{
+"file": "clips/_review/SNORE_1.mp4",
+"span": [
+0.07,
+1.93
+]
+}
+],
+"status": "pending"
+},
+"SNIPPETS": {
+"source": "S/Snippets.mp4",
+"duration": 24.9,
+"clips": [
+{
+"file": "clips/_review/SNIPPETS_1.mp4",
+"span": [
+0.83,
+3.25
+]
+}
+],
+"status": "pending"
+},
+"SNORKELLING": {
+"source": "S/Snorkelling.mp4",
+"duration": 13.4,
+"clips": [
+{
+"file": "clips/_review/SNORKELLING_1.mp4",
+"span": [
+0.25,
+2.42
+]
+}
+],
+"status": "pending"
+},
+"SNOOZED": {
+"source": "S/Snoozed.mp4",
+"duration": 47.3,
+"status": "no-cut"
+},
+"SODICITY": {
+"source": "S/Sodicity.mp4",
+"duration": 17.3,
+"clips": [
+{
+"file": "clips/_review/SODICITY_1.mp4",
+"span": [
+1.0,
+2.33
+]
+}
+],
+"status": "pending"
+},
+"SOCIOLINGUISTICS": {
+"source": "S/Sociolinguistics.mp4",
+"duration": 35.6,
+"status": "no-cut"
+},
+"SOLID": {
+"source": "S/Solid.mp4",
+"duration": 15.2,
+"status": "no-cut"
+},
+"SODIUM": {
+"source": "S/Sodium.mp4",
+"duration": 30.0,
+"status": "no-cut"
+},
+"SOLO": {
+"source": "S/Solo.mp4",
+"duration": 23.2,
+"status": "no-cut"
+},
+"SORTING": {
+"source": "S/Sorting.mp4",
+"duration": 11.0,
+"status": "no-cut"
+},
+"SOMATOSTATIN": {
+"source": "S/Somatostatin.mp4",
+"duration": 18.2,
+"clips": [
+{
+"file": "clips/_review/SOMATOSTATIN_1.mp4",
+"span": [
+2.39,
+4.09
+]
+},
+{
+"file": "clips/_review/SOMATOSTATIN_2.mp4",
+"span": [
+4.63,
+5.77
+]
+}
+],
+"status": "pending"
+},
+"SOVEREIGNTY": {
+"source": "S/Sovereignty.mp4",
+"duration": 24.3,
+"status": "no-cut"
+},
+"SONOROUS": {
+"source": "S/Sonorous.mp4",
+"duration": 35.4,
+"status": "no-cut"
+},
+"SPATULA": {
+"source": "S/Spatula.mp4",
+"duration": 10.8,
+"status": "no-cut"
+},
+"SPASM": {
+"source": "S/Spasm.mp4",
+"duration": 23.8,
+"clips": [
+{
+"file": "clips/_review/SPASM_1.mp4",
+"span": [
+10.47,
+13.05
+]
+}
+],
+"status": "pending"
+},
+"SPACECRAFT": {
+"source": "S/Spacecraft.mp4",
+"duration": 34.0,
+"status": "no-cut"
+},
+"SPEAKER": {
+"source": "S/Speaker.mp4",
+"duration": 20.5,
+"status": "no-cut"
+},
+"SPECIFICITY": {
+"source": "S/Specificity.mp4",
+"duration": 24.6,
+"status": "no-cut"
+},
+"SPEEDOMETER": {
+"source": "S/Speedometer.mp4",
+"duration": 19.2,
+"status": "no-cut"
+},
+"SPECTRUM": {
+"source": "S/Spectrum.mp4",
+"duration": 29.2,
+"clips": [
+{
+"file": "clips/_review/SPECTRUM_1.mp4",
+"span": [
+1.5,
+3.5
+]
+}
+],
+"status": "pending"
+},
+"SPIRAL": {
+"source": "S/Spiral.mp4",
+"duration": 18.0,
+"status": "no-cut"
+},
+"SPECULATOR": {
+"source": "S/Speculator.mp4",
+"duration": 40.4,
+"clips": [
+{
+"file": "clips/_review/SPECULATOR_1.mp4",
+"span": [
+0.22,
+1.72
+]
+}
+],
+"status": "pending"
+},
+"SPONDYLITIS": {
+"source": "S/Spondylitis.mp4",
+"duration": 9.6,
+"clips": [
+{
+"file": "clips/_review/SPONDYLITIS_1.mp4",
+"span": [
+1.99,
+5.69
+]
+}
+],
+"status": "pending"
+},
+"SPLEEN": {
+"source": "S/Spleen.mp4",
+"duration": 28.4,
+"clips": [
+{
+"file": "clips/_review/SPLEEN_1.mp4",
+"span": [
+-0.01,
+2.41
+]
+}
+],
+"status": "pending"
+},
+"SPOT": {
+"source": "S/Spot.mp4",
+"duration": 14.3,
+"clips": [
+{
+"file": "clips/_review/SPOT_1.mp4",
+"span": [
+1.51,
+2.97
+]
+},
+{
+"file": "clips/_review/SPOT_2.mp4",
+"span": [
+3.99,
+5.37
+]
+}
+],
+"status": "pending"
+},
+"SPHINX": {
+"source": "S/Sphinx.mp4",
+"duration": 50.7,
+"status": "no-cut"
+},
+"SPRAIN": {
+"source": "S/Sprain.mp4",
+"duration": 8.9,
+"clips": [
+{
+"file": "clips/_review/SPRAIN_1.mp4",
+"span": [
+0.31,
+1.93
+]
+}
+],
+"status": "pending"
+},
+"STABLE": {
+"source": "S/Stable.mp4",
+"duration": 11.2,
+"status": "no-cut"
+},
+"STAGS": {
+"source": "S/Stags.mp4",
+"duration": 12.0,
+"clips": [
+{
+"file": "clips/_review/STAGS_1.mp4",
+"span": [
+0.5,
+3.17
+]
+}
+],
+"status": "pending"
+},
+"STATION": {
+"source": "S/Station.mp4",
+"duration": 15.6,
+"status": "no-cut"
+},
+"STANZA": {
+"source": "S/Stanza.mp4",
+"duration": 28.3,
+"status": "no-cut"
+},
+"STALKING": {
+"source": "S/Stalking.mp4",
+"duration": 29.3,
+"status": "no-cut"
+},
+"STARRED": {
+"source": "S/Starred.mp4",
+"duration": 34.5,
+"status": "no-cut"
+},
+"STEEP": {
+"source": "S/Steep.mp4",
+"duration": 15.4,
+"clips": [
+{
+"file": "clips/_review/STEEP_1.mp4",
+"span": [
+0.71,
+2.81
+]
+}
+],
+"status": "pending"
+},
+"STATISTICS": {
+"source": "S/Statistics.mp4",
+"duration": 25.5,
+"clips": [
+{
+"file": "clips/_review/STATISTICS_1.mp4",
+"span": [
+5.25,
+9.08
+]
+},
+{
+"file": "clips/_review/STATISTICS_2.mp4",
+"span": [
+9.33,
+12.5
+]
+}
+],
+"status": "pending"
+},
+"STENCIL": {
+"source": "S/Stencil.mp4",
+"duration": 19.8,
+"clips": [
+{
+"file": "clips/_review/STENCIL_1.mp4",
+"span": [
+0.79,
+3.53
+]
+}
+],
+"status": "pending"
+},
+"STEPFATHER": {
+"source": "S/Stepfather.mp4",
+"duration": 23.0,
+"status": "no-cut"
+},
+"STENOGRAPHER": {
+"source": "S/Stenographer.mp4",
+"duration": 37.4,
+"status": "no-cut"
+},
+"STEPWELL": {
+"source": "S/Stepwell.mp4",
+"duration": 25.0,
+"clips": [
+{
+"file": "clips/_review/STEPWELL_1.mp4",
+"span": [
+1.83,
+4.0
+]
+}
+],
+"status": "pending"
+},
+"STERILIZER": {
+"source": "S/Sterilizer.mp4",
+"duration": 14.2,
+"status": "no-cut"
+},
+"STERILIZATION": {
+"source": "S/Sterilization.mp4",
+"duration": 23.5,
+"clips": [
+{
+"file": "clips/_review/STERILIZATION_1.mp4",
+"span": [
+0.83,
+4.0
+]
+},
+{
+"file": "clips/_review/STERILIZATION_2.mp4",
+"span": [
+4.0,
+6.08
+]
+}
+],
+"status": "pending"
+},
+"STOCK": {
+"source": "S/Stock.mp4",
+"duration": 20.2,
+"clips": [
+{
+"file": "clips/_review/STOCK_1.mp4",
+"span": [
+1.82,
+4.72
+]
+}
+],
+"status": "pending"
+},
+"STEREOTYPE": {
+"source": "S/Stereotype.mp4",
+"duration": 61.8,
+"clips": [
+{
+"file": "clips/_review/STEREOTYPE_1.mp4",
+"span": [
+1.43,
+4.33
+]
+}
+],
+"status": "pending"
+},
+"STEROID": {
+"source": "S/Steroid.mp4",
+"duration": 46.1,
+"clips": [
+{
+"file": "clips/_review/STEROID_1.mp4",
+"span": [
+2.71,
+6.01
+]
+}
+],
+"status": "pending"
+},
+"STOCKS": {
+"source": "S/Stocks.mp4",
+"duration": 31.0,
+"status": "no-cut"
+},
+"STRETCHER": {
+"source": "S/Stretcher.mp4",
+"duration": 14.8,
+"status": "no-cut"
+},
+"STORYBOARD": {
+"source": "S/Storyboard.mp4",
+"duration": 30.1,
+"status": "no-cut"
+},
+"STOMATA": {
+"source": "S/Stomata.mp4",
+"duration": 48.6,
+"status": "no-cut"
+},
+"SUBCONTINENT": {
+"source": "S/Subcontinent.mp4",
+"duration": 35.6,
+"clips": [
+{
+"file": "clips/_review/SUBCONTINENT_1.mp4",
+"span": [
+0.71,
+3.37
+]
+}
+],
+"status": "pending"
+},
+"SUBSTATION": {
+"source": "S/Substation.mp4",
+"duration": 38.4,
+"clips": [
+{
+"file": "clips/_review/SUBSTATION_1.mp4",
+"span": [
+0.79,
+2.49
+]
+}
+],
+"status": "pending"
+},
+"SUBSIDIARY": {
+"source": "S/Subsidiary.mp4",
+"duration": 45.5,
+"status": "no-cut"
+},
+"SUCKER": {
+"source": "S/Sucker.mp4",
+"duration": 35.4,
+"status": "no-cut"
+},
+"SUBTROPICAL": {
+"source": "S/Subtropical.mp4",
+"duration": 43.2,
+"status": "no-cut"
+},
+"SUICIDE": {
+"source": "S/Suicide.mp4",
+"duration": 13.2,
+"clips": [
+{
+"file": "clips/_review/SUICIDE_1.mp4",
+"span": [
+0.31,
+2.89
+]
+},
+{
+"file": "clips/_review/SUICIDE_2.mp4",
+"span": [
+3.43,
+4.65
+]
+}
+],
+"status": "pending"
+},
+"SUMMON": {
+"source": "S/Summon.mp4",
+"duration": 11.0,
+"clips": [
+{
+"file": "clips/_review/SUMMON_1.mp4",
+"span": [
+0.55,
+2.09
+]
+}
+],
+"status": "pending"
+},
+"SUFISM": {
+"source": "S/Sufism.mp4",
+"duration": 36.4,
+"status": "no-cut"
+},
+"SUMMARY": {
+"source": "S/Summary.mp4",
+"duration": 20.8,
+"clips": [
+{
+"file": "clips/_review/SUMMARY_1.mp4",
+"span": [
+0.08,
+2.5
+]
+}
+],
+"status": "pending"
+},
+"SULPHUR": {
+"source": "S/Sulphur.mp4",
+"duration": 29.8,
+"clips": [
+{
+"file": "clips/_review/SULPHUR_1.mp4",
+"span": [
+6.67,
+10.17
+]
+}
+],
+"status": "pending"
+},
+"SUNTAN": {
+"source": "S/Suntan.mp4",
+"duration": 9.9,
+"clips": [
+{
+"file": "clips/_review/SUNTAN_1.mp4",
+"span": [
+0.63,
+4.09
+]
+}
+],
+"status": "pending"
+},
+"SUNSCREEN": {
+"source": "S/Sunscreen.mp4",
+"duration": 14.6,
+"clips": [
+{
+"file": "clips/_review/SUNSCREEN_1.mp4",
+"span": [
+0.39,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"SURFORM": {
+"source": "S/Surform.mp4",
+"duration": 13.9,
+"status": "no-cut"
+},
+"SURCHARGE": {
+"source": "S/Surcharge.mp4",
+"duration": 20.8,
+"clips": [
+{
+"file": "clips/_review/SURCHARGE_1.mp4",
+"span": [
+0.55,
+2.73
+]
+}
+],
+"status": "pending"
+},
+"SUSPECT": {
+"source": "S/Suspect.m4v",
+"duration": 11.8,
+"clips": [
+{
+"file": "clips/_review/SUSPECT_1.mp4",
+"span": [
+6.39,
+8.41
+]
+}
+],
+"status": "pending"
+},
+"SWEAR": {
+"source": "S/Swear.mp4",
+"duration": 13.1,
+"clips": [
+{
+"file": "clips/_review/SWEAR_1.mp4",
+"span": [
+1.11,
+3.21
+]
+},
+{
+"file": "clips/_review/SWEAR_2.mp4",
+"span": [
+3.51,
+6.01
+]
+}
+],
+"status": "pending"
+},
+"SWELLING": {
+"source": "S/Swelling.mp4",
+"duration": 11.0,
+"clips": [
+{
+"file": "clips/_review/SWELLING_1.mp4",
+"span": [
+0.31,
+1.69
+]
+}
+],
+"status": "pending"
+},
+"SURFACE": {
+"source": "S/Surface.mp4",
+"duration": 49.2,
+"clips": [
+{
+"file": "clips/_review/SURFACE_1.mp4",
+"span": [
+6.25,
+9.42
+]
+}
+],
+"status": "pending"
+},
+"SWELLINGS": {
+"source": "S/Swellings.mp4",
+"duration": 16.7,
+"clips": [
+{
+"file": "clips/_review/SWELLINGS_1.mp4",
+"span": [
+0.79,
+3.05
+]
+},
+{
+"file": "clips/_review/SWELLINGS_2.mp4",
+"span": [
+2.95,
+6.73
+]
+}
+],
+"status": "pending"
+},
+"SWAPS": {
+"source": "S/Swaps.mp4",
+"duration": 26.6,
+"clips": [
+{
+"file": "clips/_review/SWAPS_1.mp4",
+"span": [
+0.15,
+2.18
+]
+}
+],
+"status": "pending"
+},
+"SYLLABUS": {
+"source": "S/Syllabus.mp4",
+"duration": 35.7,
+"status": "no-cut"
+},
+"SYMBOLS": {
+"source": "S/Symbols.mp4",
+"duration": 40.5,
+"status": "no-cut"
+},
+"SYMPTOM": {
+"source": "S/Symptom.mp4",
+"duration": 30.2,
+"clips": [
+{
+"file": "clips/_review/SYMPTOM_1.mp4",
+"span": [
+0.55,
+4.17
+]
+}
+],
+"status": "pending"
+},
+"SYNCOPE": {
+"source": "S/Syncope.mp4",
+"duration": 32.1,
+"clips": [
+{
+"file": "clips/_review/SYNCOPE_1.mp4",
+"span": [
+0.55,
+3.29
+]
+}
+],
+"status": "pending"
+},
+"SYNDROME": {
+"source": "S/Syndrome.mp4",
+"duration": 31.3,
+"clips": [
+{
+"file": "clips/_review/SYNDROME_1.mp4",
+"span": [
+6.15,
+8.33
+]
+}
+],
+"status": "pending"
+},
+"SYNTAX": {
+"source": "S/Syntax.mp4",
+"duration": 21.8,
+"status": "no-cut"
+},
+"SYNONYMY": {
+"source": "S/Synonymy.mp4",
+"duration": 31.1,
+"status": "no-cut"
+},
+"SYPHILIS": {
+"source": "S/Syphilis.mp4",
+"duration": 25.7,
+"clips": [
+{
+"file": "clips/_review/SYPHILIS_1.mp4",
+"span": [
+5.43,
+8.33
+]
+}
+],
+"status": "pending"
+},
+"TAGETUS": {
+"source": "T/Tagetus.mp4",
+"duration": 10.2,
+"clips": [
+{
+"file": "clips/_review/TAGETUS_1.mp4",
+"span": [
+0.47,
+3.05
+]
+}
+],
+"status": "pending"
+},
+"TAKEOVER": {
+"source": "T/Takeover.mp4",
+"duration": 30.0,
+"status": "no-cut"
+},
+"TANNING": {
+"source": "T/Tanning.mp4",
+"duration": 26.9,
+"clips": [
+{
+"file": "clips/_review/TANNING_1.mp4",
+"span": [
+4.95,
+6.65
+]
+}
+],
+"status": "pending"
+},
+"TAXABLE": {
+"source": "T/Taxable.mp4",
+"duration": 23.5,
+"clips": [
+{
+"file": "clips/_review/TAXABLE_1.mp4",
+"span": [
+2.22,
+4.18
+]
+},
+{
+"file": "clips/_review/TAXABLE_2.mp4",
+"span": [
+2.22,
+4.85
+]
+}
+],
+"status": "pending"
+},
+"TEAR": {
+"source": "T/Tear.mp4",
+"duration": 13.9,
+"status": "no-cut"
+},
+"TECHNICIAN": {
+"source": "T/Technician.mp4",
+"duration": 13.9,
+"status": "no-cut"
+},
+"TARGET": {
+"source": "T/Target.mp4",
+"duration": 57.0,
+"status": "no-cut"
+},
+"TDS": {
+"source": "T/TDS.m4v",
+"duration": 28.7,
+"status": "no-cut"
+},
+"TEENAGE": {
+"source": "T/Teenage.mp4",
+"duration": 12.6,
+"clips": [
+{
+"file": "clips/_review/TEENAGE_1.mp4",
+"span": [
+5.11,
+8.41
+]
+}
+],
+"status": "pending"
+},
+"TELESCOPE": {
+"source": "T/Telescope.mp4",
+"duration": 24.1,
+"clips": [
+{
+"file": "clips/_review/TELESCOPE_1.mp4",
+"span": [
+0.63,
+3.21
+]
+}
+],
+"status": "pending"
+},
+"TENDON": {
+"source": "T/Tendon.mp4",
+"duration": 22.6,
+"clips": [
+{
+"file": "clips/_review/TENDON_1.mp4",
+"span": [
+10.15,
+11.37
+]
+}
+],
+"status": "pending"
+},
+"TELEGRAM": {
+"source": "T/Telegram.mp4",
+"duration": 32.3,
+"clips": [
+{
+"file": "clips/_review/TELEGRAM_1.mp4",
+"span": [
+0.15,
+4.09
+]
+}
+],
+"status": "pending"
+},
+"TEMPERATURE": {
+"source": "T/Temperature.mp4",
+"duration": 46.4,
+"clips": [
+{
+"file": "clips/_review/TEMPERATURE_1.mp4",
+"span": [
+7.76,
+9.93
+]
+}
+],
+"status": "pending"
+},
+"TENONS": {
+"source": "T/Tenons.mp4",
+"duration": 24.2,
+"clips": [
+{
+"file": "clips/_review/TENONS_1.mp4",
+"span": [
+0.23,
+3.53
+]
+}
+],
+"status": "pending"
+},
+"TERRAIN": {
+"source": "T/Terrain.mp4",
+"duration": 22.1,
+"clips": [
+{
+"file": "clips/_review/TERRAIN_1.mp4",
+"span": [
+1.33,
+3.42
+]
+},
+{
+"file": "clips/_review/TERRAIN_2.mp4",
+"span": [
+4.5,
+7.0
+]
+}
+],
+"status": "pending"
+},
+"TERRACOTTA": {
+"source": "T/Terracotta.mp4",
+"duration": 29.1,
+"clips": [
+{
+"file": "clips/_review/TERRACOTTA_1.mp4",
+"span": [
+0.47,
+2.49
+]
+}
+],
+"status": "pending"
+},
+"TERRORISM": {
+"source": "T/Terrorism.mp4",
+"duration": 15.2,
+"status": "no-cut"
+},
+"TERRARIUM": {
+"source": "T/Terrarium.mp4",
+"duration": 28.5,
+"status": "no-cut"
+},
+"TERRESTRIAL": {
+"source": "T/Terrestrial.mp4",
+"duration": 26.4,
+"clips": [
+{
+"file": "clips/_review/TERRESTRIAL_1.mp4",
+"span": [
+0.71,
+3.37
+]
+},
+{
+"file": "clips/_review/TERRESTRIAL_2.mp4",
+"span": [
+3.27,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"TERRORIST": {
+"source": "T/Terrorist.mp4",
+"duration": 13.2,
+"status": "no-cut"
+},
+"TESTIFY": {
+"source": "T/Testify.m4v",
+"duration": 13.6,
+"status": "no-cut"
+},
+"TERRITORIES": {
+"source": "T/Territories.mp4",
+"duration": 36.5,
+"clips": [
+{
+"file": "clips/_review/TERRITORIES_1.mp4",
+"span": [
+0.25,
+3.42
+]
+},
+{
+"file": "clips/_review/TERRITORIES_2.mp4",
+"span": [
+3.58,
+5.17
+]
+}
+],
+"status": "pending"
+},
+"TESTOSTERONE": {
+"source": "T/Testosterone.mp4",
+"duration": 20.7,
+"clips": [
+{
+"file": "clips/_review/TESTOSTERONE_1.mp4",
+"span": [
+1.19,
+4.25
+]
+}
+],
+"status": "pending"
+},
+"THERAPIST": {
+"source": "T/Therapist.mp4",
+"duration": 11.0,
+"status": "no-cut"
+},
+"THERMOMETER": {
+"source": "T/Thermometer.mp4",
+"duration": 13.8,
+"clips": [
+{
+"file": "clips/_review/THERMOMETER_1.mp4",
+"span": [
+0.08,
+2.08
+]
+},
+{
+"file": "clips/_review/THERMOMETER_2.mp4",
+"span": [
+0.08,
+3.33
+]
+}
+],
+"status": "pending"
+},
+"THEME": {
+"source": "T/Theme.mp4",
+"duration": 22.1,
+"clips": [
+{
+"file": "clips/_review/THEME_1.mp4",
+"span": [
+2.79,
+6.65
+]
+},
+{
+"file": "clips/_review/THEME_2.mp4",
+"span": [
+6.79,
+8.33
+]
+}
+],
+"status": "pending"
+},
+"THIMBLE": {
+"source": "T/Thimble.mp4",
+"duration": 19.7,
+"clips": [
+{
+"file": "clips/_review/THIMBLE_1.mp4",
+"span": [
+2.63,
+4.17
+]
+}
+],
+"status": "pending"
+},
+"TILTS": {
+"source": "T/Tilts.mp4",
+"duration": 11.2,
+"status": "no-cut"
+},
+"THRILL": {
+"source": "T/Thrill.mp4",
+"duration": 22.6,
+"clips": [
+{
+"file": "clips/_review/THRILL_1.mp4",
+"span": [
+3.19,
+5.61
+]
+}
+],
+"status": "pending"
+},
+"THIRAM": {
+"source": "T/Thiram.mp4",
+"duration": 39.1,
+"clips": [
+{
+"file": "clips/_review/THIRAM_1.mp4",
+"span": [
+0.15,
+2.01
+]
+},
+{
+"file": "clips/_review/THIRAM_2.mp4",
+"span": [
+1.91,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"THRESHING": {
+"source": "T/Threshing.mp4",
+"duration": 36.6,
+"status": "no-cut"
+},
+"TINNITUS": {
+"source": "T/Tinnitus.mp4",
+"duration": 22.2,
+"clips": [
+{
+"file": "clips/_review/TINNITUS_1.mp4",
+"span": [
+0.55,
+3.29
+]
+},
+{
+"file": "clips/_review/TINNITUS_2.mp4",
+"span": [
+3.43,
+4.97
+]
+}
+],
+"status": "pending"
+},
+"TOILE": {
+"source": "T/Toile.mp4",
+"duration": 26.9,
+"status": "no-cut"
+},
+"TISSUES": {
+"source": "T/Tissues.mp4",
+"duration": 32.2,
+"clips": [
+{
+"file": "clips/_review/TISSUES_1.mp4",
+"span": [
+9.17,
+11.42
+]
+}
+],
+"status": "pending"
+},
+"TONSIL": {
+"source": "T/Tonsil.mp4",
+"duration": 14.9,
+"clips": [
+{
+"file": "clips/_review/TONSIL_1.mp4",
+"span": [
+3.75,
+5.13
+]
+}
+],
+"status": "pending"
+},
+"TOLL": {
+"source": "T/Toll.mp4",
+"duration": 36.2,
+"clips": [
+{
+"file": "clips/_review/TOLL_1.mp4",
+"span": [
+0.95,
+3.77
+]
+}
+],
+"status": "pending"
+},
+"TOSS": {
+"source": "T/Toss.mp4",
+"duration": 12.4,
+"status": "no-cut"
+},
+"TIMELINE": {
+"source": "T/Timeline.mp4",
+"duration": 70.2,
+"status": "no-cut"
+},
+"TOOLBAR": {
+"source": "T/Toolbar.mp4",
+"duration": 35.0,
+"status": "no-cut"
+},
+"TOURISM": {
+"source": "T/Tourism.mp4",
+"duration": 15.4,
+"status": "no-cut"
+},
+"TOURNIQUET": {
+"source": "T/Tourniquet.mp4",
+"duration": 12.6,
+"clips": [
+{
+"file": "clips/_review/TOURNIQUET_1.mp4",
+"span": [
+0.47,
+3.61
+]
+}
+],
+"status": "pending"
+},
+"TOXICOLOGY": {
+"source": "T/Toxicology.mp4",
+"duration": 13.0,
+"clips": [
+{
+"file": "clips/_review/TOXICOLOGY_1.mp4",
+"span": [
+2.23,
+3.45
+]
+},
+{
+"file": "clips/_review/TOXICOLOGY_2.mp4",
+"span": [
+4.47,
+6.41
+]
+}
+],
+"status": "pending"
+},
+"TRACHEA": {
+"source": "T/Trachea.mp4",
+"duration": 10.2,
+"status": "no-cut"
+},
+"TRACKING": {
+"source": "T/Tracking.mp4",
+"duration": 22.9,
+"clips": [
+{
+"file": "clips/_review/TRACKING_1.mp4",
+"span": [
+1.67,
+3.83
+]
+},
+{
+"file": "clips/_review/TRACKING_2.mp4",
+"span": [
+4.0,
+6.83
+]
+}
+],
+"status": "pending"
+},
+"TRADE": {
+"source": "T/Trade.mp4",
+"duration": 25.6,
+"status": "no-cut"
+},
+"TRADEMARK": {
+"source": "T/Trademark.mp4",
+"duration": 26.3,
+"clips": [
+{
+"file": "clips/_review/TRADEMARK_1.mp4",
+"span": [
+0.39,
+2.01
+]
+}
+],
+"status": "pending"
+},
+"TRADERS": {
+"source": "T/Traders.mp4",
+"duration": 30.6,
+"clips": [
+{
+"file": "clips/_review/TRADERS_1.mp4",
+"span": [
+0.62,
+3.65
+]
+},
+{
+"file": "clips/_review/TRADERS_2.mp4",
+"span": [
+6.62,
+8.92
+]
+}
+],
+"status": "pending"
+},
+"TRANSFORMER": {
+"source": "T/Transformer.mp4",
+"duration": 24.3,
+"status": "no-cut"
+},
+"TRANSMISSION": {
+"source": "T/Transmission.mp4",
+"duration": 9.7,
+"status": "no-cut"
+},
+"TRADING": {
+"source": "T/Trading.mp4",
+"duration": 31.6,
+"clips": [
+{
+"file": "clips/_review/TRADING_1.mp4",
+"span": [
+0.15,
+3.85
+]
+},
+{
+"file": "clips/_review/TRADING_2.mp4",
+"span": [
+9.68,
+13.32
+]
+}
+],
+"status": "pending"
+},
+"TRANSHUMANCE": {
+"source": "T/Transhumance.mp4",
+"duration": 32.8,
+"status": "no-cut"
+},
+"TRANSPIRATION": {
+"source": "T/Transpiration.mp4",
+"duration": 32.7,
+"status": "no-cut"
+},
+"TRANSPOSING": {
+"source": "T/Transposing.mp4",
+"duration": 21.5,
+"status": "no-cut"
+},
+"TRANSPARENCY": {
+"source": "T/Transparency.mp4",
+"duration": 28.5,
+"clips": [
+{
+"file": "clips/_review/TRANSPARENCY_1.mp4",
+"span": [
+8.95,
+11.25
+]
+}
+],
+"status": "pending"
+},
+"TRANSVERSAL": {
+"source": "T/Transversal.mp4",
+"duration": 8.6,
+"status": "no-cut"
+},
+"TRANSPLANTER": {
+"source": "T/Transplanter.mp4",
+"duration": 34.5,
+"status": "no-cut"
+},
+"TRAVELLING": {
+"source": "T/Travelling.mp4",
+"duration": 19.2,
+"status": "no-cut"
+},
+"TRAPEZOID": {
+"source": "T/Trapezoid.mp4",
+"duration": 19.0,
+"status": "no-cut"
+},
+"TREMOR": {
+"source": "T/Tremor.mp4",
+"duration": 15.3,
+"status": "no-cut"
+},
+"TREASON": {
+"source": "T/Treason.mp4",
+"duration": 35.1,
+"status": "no-cut"
+},
+"TREASURY": {
+"source": "T/Treasury.mp4",
+"duration": 27.3,
+"clips": [
+{
+"file": "clips/_review/TREASURY_1.mp4",
+"span": [
+1.48,
+3.72
+]
+}
+],
+"status": "pending"
+},
+"TRAVELOGUE": {
+"source": "T/Travelogue.mp4",
+"duration": 50.0,
+"status": "no-cut"
+},
+"TRENCHERS": {
+"source": "T/Trenchers.mp4",
+"duration": 22.6,
+"clips": [
+{
+"file": "clips/_review/TRENCHERS_1.mp4",
+"span": [
+0.39,
+1.61
+]
+}
+],
+"status": "pending"
+},
+"TRESPASS": {
+"source": "T/Trespass.mp4",
+"duration": 22.1,
+"status": "no-cut"
+},
+"TRIM": {
+"source": "T/Trim.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"TRIBALS": {
+"source": "T/Tribals.mp4",
+"duration": 26.9,
+"clips": [
+{
+"file": "clips/_review/TRIBALS_1.mp4",
+"span": [
+-0.17,
+1.75
+]
+},
+{
+"file": "clips/_review/TRIBALS_2.mp4",
+"span": [
+3.08,
+6.08
+]
+}
+],
+"status": "pending"
+},
+"TROLLEY": {
+"source": "T/Trolley.mp4",
+"duration": 13.5,
+"clips": [
+{
+"file": "clips/_review/TROLLEY_1.mp4",
+"span": [
+0.83,
+2.25
+]
+}
+],
+"status": "pending"
+},
+"TRIBUTARIES": {
+"source": "T/Tributaries.mp4",
+"duration": 34.4,
+"status": "no-cut"
+},
+"TSUNAMI": {
+"source": "T/Tsunami.mp4",
+"duration": 15.6,
+"status": "no-cut"
+},
+"TRUSSES": {
+"source": "T/Trusses.mp4",
+"duration": 23.0,
+"status": "no-cut"
+},
+"TWEENING": {
+"source": "T/Tweening.mp4",
+"duration": 19.0,
+"clips": [
+{
+"file": "clips/_review/TWEENING_1.mp4",
+"span": [
+0.83,
+2.92
+]
+},
+{
+"file": "clips/_review/TWEENING_2.mp4",
+"span": [
+2.83,
+5.0
+]
+}
+],
+"status": "pending"
+},
+"TURNOVER": {
+"source": "T/Turnover.mp4",
+"duration": 33.3,
+"status": "no-cut"
+},
+"TWEEZERS": {
+"source": "T/Tweezers.mp4",
+"duration": 17.3,
+"clips": [
+{
+"file": "clips/_review/TWEEZERS_1.mp4",
+"span": [
+10.87,
+12.57
+]
+}
+],
+"status": "pending"
+},
+"TYPOGRAPHY": {
+"source": "T/Typography.mp4",
+"duration": 15.2,
+"status": "no-cut"
+},
+"TYMPANOMETER": {
+"source": "T/Tympanometer.mp4",
+"duration": 20.9,
+"status": "no-cut"
+},
+"TYPHOON": {
+"source": "T/Typhoon.mp4",
+"duration": 18.7,
+"status": "no-cut"
+},
+"TWINKLING": {
+"source": "T/Twinkling.mp4",
+"duration": 42.8,
+"clips": [
+{
+"file": "clips/_review/TWINKLING_1.mp4",
+"span": [
+0.67,
+2.0
+]
+},
+{
+"file": "clips/_review/TWINKLING_2.mp4",
+"span": [
+0.67,
+3.75
+]
+}
+],
+"status": "pending"
+},
+"ULCERS": {
+"source": "U/Ulcers.mp4",
+"duration": 16.7,
+"status": "no-cut"
+},
+"UMIAK": {
+"source": "U/Umiak.mp4",
+"duration": 25.6,
+"status": "no-cut"
+},
+"UNAUTHORISED": {
+"source": "U/Unauthorised.mp4",
+"duration": 18.6,
+"clips": [
+{
+"file": "clips/_review/UNAUTHORISED_1.mp4",
+"span": [
+1.15,
+2.92
+]
+}
+],
+"status": "pending"
+},
+"TYRANNY": {
+"source": "T/Tyranny.mp4",
+"duration": 40.6,
+"clips": [
+{
+"file": "clips/_review/TYRANNY_1.mp4",
+"span": [
+1.03,
+4.65
+]
+}
+],
+"status": "pending"
+},
+"UNDERSIGNED": {
+"source": "U/Undersigned.mp4",
+"duration": 16.5,
+"status": "no-cut"
+},
+"UNDERLINE": {
+"source": "U/Underline.mp4",
+"duration": 23.0,
+"clips": [
+{
+"file": "clips/_review/UNDERLINE_1.mp4",
+"span": [
+2.31,
+4.49
+]
+}
+],
+"status": "pending"
+},
+"UNCRPD": {
+"source": "U/Uncrpd.mp4",
+"duration": 40.3,
+"status": "no-cut"
+},
+"UNIMODAL": {
+"source": "U/Unimodal.mp4",
+"duration": 9.6,
+"clips": [
+{
+"file": "clips/_review/UNIMODAL_1.mp4",
+"span": [
+5.5,
+7.83
+]
+}
+],
+"status": "pending"
+},
+"UNDO": {
+"source": "U/Undo.mp4",
+"duration": 39.4,
+"clips": [
+{
+"file": "clips/_review/UNDO_1.mp4",
+"span": [
+4.55,
+6.81
+]
+}
+],
+"status": "pending"
+},
+"UNPRECEDENTED": {
+"source": "U/Unprecedented.mp4",
+"duration": 21.8,
+"status": "no-cut"
+},
+"UNIVERSE": {
+"source": "U/Universe.mp4",
+"duration": 25.1,
+"clips": [
+{
+"file": "clips/_review/UNIVERSE_1.mp4",
+"span": [
+-0.09,
+1.05
+]
+}
+],
+"status": "pending"
+},
+"UNIT": {
+"source": "U/Unit.mp4",
+"duration": 26.4,
+"clips": [
+{
+"file": "clips/_review/UNIT_1.mp4",
+"span": [
+1.08,
+2.25
+]
+}
+],
+"status": "pending"
+},
+"URETER": {
+"source": "U/Ureter.mp4",
+"duration": 12.5,
+"status": "no-cut"
+},
+"URBANIZATION": {
+"source": "U/Urbanization.mp4",
+"duration": 26.1,
+"status": "no-cut"
+},
+"UNTOUCHABILITY": {
+"source": "U/Untouchability.mp4",
+"duration": 32.4,
+"clips": [
+{
+"file": "clips/_review/UNTOUCHABILITY_1.mp4",
+"span": [
+0.31,
+3.69
+]
+}
+],
+"status": "pending"
+},
+"URETHRA": {
+"source": "U/Urethra.mp4",
+"duration": 17.2,
+"clips": [
+{
+"file": "clips/_review/URETHRA_1.mp4",
+"span": [
+0.39,
+1.93
+]
+}
+],
+"status": "pending"
+},
+"URANUS": {
+"source": "U/Uranus.mp4",
+"duration": 35.7,
+"clips": [
+{
+"file": "clips/_review/URANUS_1.mp4",
+"span": [
+7.25,
+8.58
+]
+}
+],
+"status": "pending"
+},
+"UROLOGIST": {
+"source": "U/Urologist.mp4",
+"duration": 8.6,
+"status": "no-cut"
+},
+"URTICARIA": {
+"source": "U/Urticaria.mp4",
+"duration": 11.6,
+"clips": [
+{
+"file": "clips/_review/URTICARIA_1.mp4",
+"span": [
+1.11,
+2.89
+]
+}
+],
+"status": "pending"
+},
+"URL": {
+"source": "U/URL.mp4",
+"duration": 18.7,
+"clips": [
+{
+"file": "clips/_review/URL_1.mp4",
+"span": [
+2.31,
+5.05
+]
+}
+],
+"status": "pending"
+},
+"UTILISATION": {
+"source": "U/Utilisation.mp4",
+"duration": 9.0,
+"clips": [
+{
+"file": "clips/_review/UTILISATION_1.mp4",
+"span": [
+0.17,
+3.25
+]
+}
+],
+"status": "pending"
+},
+"UTERUS": {
+"source": "U/Uterus.mp4",
+"duration": 10.4,
+"clips": [
+{
+"file": "clips/_review/UTERUS_1.mp4",
+"span": [
+-0.01,
+1.77
+]
+}
+],
+"status": "pending"
+},
+"USURY": {
+"source": "U/Usury.mp4",
+"duration": 32.6,
+"status": "no-cut"
+},
+"VACCINATION": {
+"source": "V/Vaccination.mp4",
+"duration": 16.9,
+"status": "no-cut"
+},
+"VACATIONERS": {
+"source": "V/Vacationers.mp4",
+"duration": 20.6,
+"clips": [
+{
+"file": "clips/_review/VACATIONERS_1.mp4",
+"span": [
+0.67,
+2.83
+]
+}
+],
+"status": "pending"
+},
+"UTERINE": {
+"source": "U/Uterine.mp4",
+"duration": 38.7,
+"clips": [
+{
+"file": "clips/_review/UTERINE_1.mp4",
+"span": [
+1.27,
+2.65
+]
+},
+{
+"file": "clips/_review/UTERINE_2.mp4",
+"span": [
+1.27,
+3.53
+]
+}
+],
+"status": "pending"
+},
+"VACUOLE": {
+"source": "V/Vacuole.mp4",
+"duration": 30.9,
+"status": "no-cut"
+},
+"VARIABLE": {
+"source": "V/Variable.mp4",
+"duration": 9.0,
+"status": "no-cut"
+},
+"VAGARIES": {
+"source": "V/Vagaries.mp4",
+"duration": 29.0,
+"clips": [
+{
+"file": "clips/_review/VAGARIES_1.mp4",
+"span": [
+0.17,
+2.5
+]
+}
+],
+"status": "pending"
+},
+"VAKALATNAMA": {
+"source": "V/Vakalatnama.mp4",
+"duration": 19.6,
+"clips": [
+{
+"file": "clips/_review/VAKALATNAMA_1.mp4",
+"span": [
+0.55,
+4.09
+]
+},
+{
+"file": "clips/_review/VAKALATNAMA_2.mp4",
+"span": [
+4.71,
+7.93
+]
+}
+],
+"status": "pending"
+},
+"VALVE": {
+"source": "V/Valve.mp4",
+"duration": 21.1,
+"clips": [
+{
+"file": "clips/_review/VALVE_1.mp4",
+"span": [
+1.11,
+3.85
+]
+}
+],
+"status": "pending"
+},
+"VEIN": {
+"source": "V/Vein.mp4",
+"duration": 12.3,
+"clips": [
+{
+"file": "clips/_review/VEIN_1.mp4",
+"span": [
+0.31,
+3.93
+]
+},
+{
+"file": "clips/_review/VEIN_2.mp4",
+"span": [
+3.91,
+7.53
+]
+}
+],
+"status": "pending"
+},
+"VELOCITY": {
+"source": "V/Velocity.mp4",
+"duration": 28.9,
+"clips": [
+{
+"file": "clips/_review/VELOCITY_1.mp4",
+"span": [
+0.39,
+2.09
+]
+}
+],
+"status": "pending"
+},
+"VERIFICATION": {
+"source": "V/Verification.mp4",
+"duration": 28.3,
+"clips": [
+{
+"file": "clips/_review/VERIFICATION_1.mp4",
+"span": [
+1.22,
+3.52
+]
+}
+],
+"status": "pending"
+},
+"VENUS": {
+"source": "V/Venus.mp4",
+"duration": 39.8,
+"clips": [
+{
+"file": "clips/_review/VENUS_1.mp4",
+"span": [
+0.83,
+2.67
+]
+}
+],
+"status": "pending"
+},
+"VERMICOMPOSTING": {
+"source": "V/Vermicomposting.mp4",
+"duration": 28.8,
+"clips": [
+{
+"file": "clips/_review/VERMICOMPOSTING_1.mp4",
+"span": [
+10.55,
+12.89
+]
+}
+],
+"status": "pending"
+},
+"VERTEBRA": {
+"source": "V/Vertebra.mp4",
+"duration": 11.2,
+"status": "no-cut"
+},
+"VERTEBRATES": {
+"source": "V/Vertebrates.mp4",
+"duration": 16.3,
+"clips": [
+{
+"file": "clips/_review/VERTEBRATES_1.mp4",
+"span": [
+2.0,
+5.75
+]
+},
+{
+"file": "clips/_review/VERTEBRATES_2.mp4",
+"span": [
+6.92,
+8.83
+]
+}
+],
+"status": "pending"
+},
+"VERTIGO": {
+"source": "V/Vertigo.mp4",
+"duration": 12.8,
+"clips": [
+{
+"file": "clips/_review/VERTIGO_1.mp4",
+"span": [
+0.79,
+1.93
+]
+}
+],
+"status": "pending"
+},
+"VETERAN": {
+"source": "V/Veteran.mp4",
+"duration": 12.9,
+"status": "no-cut"
+},
+"VERTEX": {
+"source": "V/Vertex.mp4",
+"duration": 39.5,
+"status": "no-cut"
+},
+"VERSION": {
+"source": "V/Version.mp4",
+"duration": 50.7,
+"clips": [
+{
+"file": "clips/_review/VERSION_1.mp4",
+"span": [
+7.43,
+9.29
+]
+}
+],
+"status": "pending"
+},
+"VIRTUAL": {
+"source": "V/Virtual.mp4",
+"duration": 15.4,
+"status": "no-cut"
+},
+"VIBRATOR": {
+"source": "V/Vibrator.mp4",
+"duration": 26.8,
+"clips": [
+{
+"file": "clips/_review/VIBRATOR_1.mp4",
+"span": [
+10.15,
+11.29
+]
+}
+],
+"status": "pending"
+},
+"VITICULTURE": {
+"source": "V/Viticulture.mp4",
+"duration": 25.5,
+"status": "no-cut"
+},
+"VISCOSITY": {
+"source": "V/Viscosity.mp4",
+"duration": 33.9,
+"status": "no-cut"
+},
+"VISIBLE": {
+"source": "V/Visible.mp4",
+"duration": 50.8,
+"clips": [
+{
+"file": "clips/_review/VISIBLE_1.mp4",
+"span": [
+5.43,
+7.61
+]
+}
+],
+"status": "pending"
+},
+"VITAMINS": {
+"source": "V/Vitamins.mp4",
+"duration": 43.1,
+"clips": [
+{
+"file": "clips/_review/VITAMINS_1.mp4",
+"span": [
+4.87,
+6.09
+]
+}
+],
+"status": "pending"
+},
+"VOLCANO": {
+"source": "V/Volcano.mp4",
+"duration": 22.8,
+"status": "no-cut"
+},
+"VOLATILE": {
+"source": "V/Volatile.mp4",
+"duration": 24.7,
+"clips": [
+{
+"file": "clips/_review/VOLATILE_1.mp4",
+"span": [
+2.47,
+3.69
+]
+},
+{
+"file": "clips/_review/VOLATILE_2.mp4",
+"span": [
+3.91,
+5.37
+]
+}
+],
+"status": "pending"
+},
+"VOLTMETER": {
+"source": "V/Voltmeter.mp4",
+"duration": 13.0,
+"clips": [
+{
+"file": "clips/_review/VOLTMETER_1.mp4",
+"span": [
+1.75,
+2.97
+]
+},
+{
+"file": "clips/_review/VOLTMETER_2.mp4",
+"span": [
+4.23,
+6.25
+]
+}
+],
+"status": "pending"
+},
+"VOLT": {
+"source": "V/Volt.mp4",
+"duration": 32.6,
+"clips": [
+{
+"file": "clips/_review/VOLT_1.mp4",
+"span": [
+2.07,
+3.61
+]
+}
+],
+"status": "pending"
+},
+"VOYEURISM": {
+"source": "V/Voyeurism.mp4",
+"duration": 22.2,
+"status": "no-cut"
+},
+"VOLUNTARILY": {
+"source": "V/Voluntarily.mp4",
+"duration": 32.0,
+"clips": [
+{
+"file": "clips/_review/VOLUNTARILY_1.mp4",
+"span": [
+1.28,
+4.58
+]
+}
+],
+"status": "pending"
+},
+"YIELD": {
+"source": "Y/Yield.mp4",
+"duration": 22.1,
+"status": "no-cut"
+},
+"WEATHER": {
+"source": "W/Weather.mp4",
+"duration": 50.2,
+"clips": [
+{
+"file": "clips/_review/WEATHER_1.mp4",
+"span": [
+11.59,
+13.45
+]
+}
+],
+"status": "pending"
+},
+"YARN": {
+"source": "Y/Yarn.mp4",
+"duration": 42.3,
+"status": "no-cut"
+},
+"ZONE": {
+"source": "Z/Zone.mp4",
+"duration": 18.2,
+"status": "no-cut"
+},
+"ZIMLETS": {
+"source": "Z/Zimlets.mp4",
+"duration": 74.8,
 "status": "no-cut"
 }
 }
