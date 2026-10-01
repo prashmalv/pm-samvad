@@ -21,18 +21,20 @@ const Y = new THREE.Vector3(0, 1, 0);
 // Look tweaks applied at load (kept here so the .glb can be rebuilt without losing them).
 const LOOK = {
   shirt: { match: /t-shirt|shirt|top|sweater/i, color: 0x9a6440 },   // brown top (texture is light grey, so this sets the colour)
-  hair: { match: /hair/i, color: 0x3a2a22 },                           // dark brown, whatever colour the hair asset ships in
+  hair: { match: /hair|beard|moustache/i, color: 0x3a2a22 },          // dark brown, whatever colour the hair asset ships in
   pants: { match: /pants|trousers/i, color: 0x4a4a52 },
   skin: { match: /body/i, color: 0xf3e2d6 },                          // a touch warmer than the texture
-  clothes: /t-shirt|shirt|top|sweater|pants|trousers|shoes/i,
+  clothes: /t-shirt|shirt|top|sweater|pants|trousers|shoes|skirt|saree/i,
 };
 
 export class HumanSigner {
   /** @param {object} gltf result of GLTFLoader
-   *  @param {object} colors per-character colour overrides, e.g. { shirt: 0x3f5f7a } (defaults: LOOK) */
+   *  @param {object} colors per-character colour overrides, e.g. { shirt: 0x3f5f7a } (defaults: LOOK);
+   *    colors.plain lists parts drawn in their flat colour without the asset's texture, e.g. ["shirt"] */
   constructor(gltf, colors = {}) {
     this.root = gltf.scene;
     this.colors = { ...Object.fromEntries(["shirt", "pants", "skin", "hair"].map((k) => [k, LOOK[k].color])), ...colors };
+    this.plain = new Set(colors.plain || []);
     this.bones = {};
     this.faceMeshes = [];
     this.root.traverse((o) => {
@@ -65,7 +67,12 @@ export class HumanSigner {
       if (m.transparent) { m.transparent = false; m.alphaTest = 0.5; m.depthWrite = true; }  // hair, brows, lashes
       const name = `${m.name} ${mesh.name}`;
       if (LOOK.clothes.test(name)) { m.polygonOffset = true; m.polygonOffsetFactor = -1; m.polygonOffsetUnits = -2; } // skin never pokes through
-      for (const k of ["shirt", "pants", "skin", "hair"]) if (LOOK[k].match.test(name)) m.color.set(this.colors[k]);
+      if (/pallu/i.test(name)) { m.polygonOffsetFactor = -2; m.polygonOffsetUnits = -6; }  // drawn over the blouse it lies on
+      for (const k of ["shirt", "pants", "skin", "hair"]) {
+        if (!LOOK[k].match.test(name)) continue;
+        m.color.set(this.colors[k]);
+        if (this.plain.has(k)) { m.map = null; m.normalMap = null; m.needsUpdate = true; }  // e.g. kurta: no shirt print
+      }
     }
   }
 

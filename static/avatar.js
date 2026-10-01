@@ -11,8 +11,14 @@ import { HumanSigner } from "./avatar-human.js";
 // The selectable characters: same rig and motion, different body and colours. URLs are relative to this
 // script, not the page.
 export const CHARACTERS = {
-  woman: { url: new URL("./models/signer.glb", import.meta.url).href, colors: {} },
-  man: { url: new URL("./models/signer-male.glb", import.meta.url).href, colors: { shirt: 0x3f5f7a, hair: 0x1e1a18 } },
+  woman: {  // red silk saree with a gold border (colours set in the build), gold blouse
+    url: new URL("./models/signer.glb", import.meta.url).href,
+    colors: { shirt: 0xb8862f, plain: ["shirt"] },
+  },
+  man: {  // mustard kurta, off-white pyjama, warm brown skin
+    url: new URL("./models/signer-male.glb", import.meta.url).href,
+    colors: { shirt: 0xc8962e, pants: 0xe9e2d2, skin: 0xd9a77f, hair: 0x1a1412, plain: ["shirt", "pants"] },
+  },
 };
 
 const N = 52;

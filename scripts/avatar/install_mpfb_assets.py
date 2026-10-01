@@ -10,7 +10,10 @@ from bl_ext.user_default.mpfb.services.locationservice import LocationService
 
 ROOT = Path(__file__).resolve().parents[2]
 PACKS = ["makehuman_system_assets_cc0.zip", "skins01_cc0.zip", "skins02_cc0.zip", "hair01_cc0.zip",
-         "shirts01_cc0.zip", "pants01_cc0.zip", "faceunits01.zip"]
+         "shirts01_cc0.zip", "pants01_cc0.zip", "faceunits01.zip",
+         "shirts02_ccby.zip",      # long-sleeved shirts (CC-BY): the man's kurta is tailored from one
+         "bodyparts05_cc0.zip",    # beards and moustaches
+         "skirts01_cc0.zip"]       # the long skirt of the woman's saree
 
 target = LocationService.get_user_data()
 for name in PACKS:
